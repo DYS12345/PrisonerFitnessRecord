@@ -29,10 +29,15 @@
 		48276EE31F3628AB000817F1 /* UILable+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276ED41F3628AB000817F1 /* UILable+Frame.m */; };
 		48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276ED61F3628AB000817F1 /* UIView+FSExtension.m */; };
 		48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276ED81F3628AB000817F1 /* UIView+Size.m */; };
-		48276EEE1F36D539000817F1 /* UnfinishiedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276EED1F36D539000817F1 /* UnfinishiedViewController.m */; };
-		48276EF41F36D562000817F1 /* FinishiedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276EF31F36D562000817F1 /* FinishiedViewController.m */; };
 		48276EF81F36D5FD000817F1 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276EF71F36D5FD000817F1 /* UserModel.m */; };
 		48276EFC1F36D6DF000817F1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 48276EFB1F36D6DF000817F1 /* Podfile */; };
+		48276F001F36E1A8000817F1 /* FinishiedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276EFE1F36E1A8000817F1 /* FinishiedViewController.m */; };
+		48276F011F36E1A8000817F1 /* FinishiedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48276EFF1F36E1A8000817F1 /* FinishiedViewController.xib */; };
+		48276F051F36E215000817F1 /* UnfinishiedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276F031F36E215000817F1 /* UnfinishiedViewController.m */; };
+		48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48276F041F36E215000817F1 /* UnfinishiedViewController.xib */; };
+		48276F091F36EB37000817F1 /* TrainingProgramTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276F081F36EB37000817F1 /* TrainingProgramTableViewCell.m */; };
+		48276F0C1F371AD9000817F1 /* Model.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48276F0B1F371AD9000817F1 /* Model.plist */; };
+		48276F0F1F3735BF000817F1 /* TrainingProgramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */; };
 		C80AC8E5A89370A0A81C08B7 /* Pods_PrisonerFitnessRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,13 +87,20 @@
 		48276ED71F3628AB000817F1 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
 		48276ED81F3628AB000817F1 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
 		48276EE61F36D460000817F1 /* OtherMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherMacro.h; sourceTree = "<group>"; };
-		48276EEC1F36D539000817F1 /* UnfinishiedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnfinishiedViewController.h; sourceTree = "<group>"; };
-		48276EED1F36D539000817F1 /* UnfinishiedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnfinishiedViewController.m; sourceTree = "<group>"; };
-		48276EF21F36D562000817F1 /* FinishiedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishiedViewController.h; sourceTree = "<group>"; };
-		48276EF31F36D562000817F1 /* FinishiedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishiedViewController.m; sourceTree = "<group>"; };
 		48276EF61F36D5FD000817F1 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		48276EF71F36D5FD000817F1 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		48276EFB1F36D6DF000817F1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		48276EFD1F36E1A8000817F1 /* FinishiedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishiedViewController.h; sourceTree = "<group>"; };
+		48276EFE1F36E1A8000817F1 /* FinishiedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishiedViewController.m; sourceTree = "<group>"; };
+		48276EFF1F36E1A8000817F1 /* FinishiedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinishiedViewController.xib; sourceTree = "<group>"; };
+		48276F021F36E215000817F1 /* UnfinishiedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnfinishiedViewController.h; sourceTree = "<group>"; };
+		48276F031F36E215000817F1 /* UnfinishiedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnfinishiedViewController.m; sourceTree = "<group>"; };
+		48276F041F36E215000817F1 /* UnfinishiedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnfinishiedViewController.xib; sourceTree = "<group>"; };
+		48276F071F36EB37000817F1 /* TrainingProgramTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingProgramTableViewCell.h; sourceTree = "<group>"; };
+		48276F081F36EB37000817F1 /* TrainingProgramTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingProgramTableViewCell.m; sourceTree = "<group>"; };
+		48276F0B1F371AD9000817F1 /* Model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Model.plist; sourceTree = "<group>"; };
+		48276F0D1F3735BF000817F1 /* TrainingProgramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingProgramModel.h; sourceTree = "<group>"; };
+		48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingProgramModel.m; sourceTree = "<group>"; };
 		A8AF3FEC0C848404A18BC4B5 /* Pods-PrisonerFitnessRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrisonerFitnessRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrisonerFitnessRecord/Pods-PrisonerFitnessRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrisonerFitnessRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -199,6 +211,7 @@
 				48276E9B1F362613000817F1 /* Assets.xcassets */,
 				48276E9D1F362613000817F1 /* LaunchScreen.storyboard */,
 				48276EA01F362613000817F1 /* Info.plist */,
+				48276F0B1F371AD9000817F1 /* Model.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -288,8 +301,9 @@
 		48276EE91F36D511000817F1 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				48276EEC1F36D539000817F1 /* UnfinishiedViewController.h */,
-				48276EED1F36D539000817F1 /* UnfinishiedViewController.m */,
+				48276F021F36E215000817F1 /* UnfinishiedViewController.h */,
+				48276F031F36E215000817F1 /* UnfinishiedViewController.m */,
+				48276F041F36E215000817F1 /* UnfinishiedViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -297,6 +311,8 @@
 		48276EEA1F36D511000817F1 /* M */ = {
 			isa = PBXGroup;
 			children = (
+				48276F0D1F3735BF000817F1 /* TrainingProgramModel.h */,
+				48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -304,6 +320,8 @@
 		48276EEB1F36D511000817F1 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				48276F071F36EB37000817F1 /* TrainingProgramTableViewCell.h */,
+				48276F081F36EB37000817F1 /* TrainingProgramTableViewCell.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -311,8 +329,9 @@
 		48276EEF1F36D554000817F1 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				48276EF21F36D562000817F1 /* FinishiedViewController.h */,
-				48276EF31F36D562000817F1 /* FinishiedViewController.m */,
+				48276EFD1F36E1A8000817F1 /* FinishiedViewController.h */,
+				48276EFE1F36E1A8000817F1 /* FinishiedViewController.m */,
+				48276EFF1F36E1A8000817F1 /* FinishiedViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -410,8 +429,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48276F0C1F371AD9000817F1 /* Model.plist in Resources */,
+				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
 				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
+				48276F011F36E1A8000817F1 /* FinishiedViewController.xib in Resources */,
 				48276E9C1F362613000817F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48276F051F36E215000817F1 /* UnfinishiedViewController.m in Sources */,
 				48276EAF1F3627EF000817F1 /* AppDelegate+Guide.m in Sources */,
 				48276EBC1F362868000817F1 /* BaseViewController.m in Sources */,
 				48276EDA1F3628AB000817F1 /* NSString+Helper.m in Sources */,
@@ -478,13 +501,13 @@
 				48276EDF1F3628AB000817F1 /* UIColor+Extension.m in Sources */,
 				48276EE21F3628AB000817F1 /* UIImageView+SDWedImage.m in Sources */,
 				48276EE11F3628AB000817F1 /* UIImage+QRCode.m in Sources */,
+				48276F091F36EB37000817F1 /* TrainingProgramTableViewCell.m in Sources */,
 				48276E941F362613000817F1 /* AppDelegate.m in Sources */,
 				48276EBA1F362868000817F1 /* BaseNavController.m in Sources */,
-				48276EEE1F36D539000817F1 /* UnfinishiedViewController.m in Sources */,
+				48276F001F36E1A8000817F1 /* FinishiedViewController.m in Sources */,
 				48276EF81F36D5FD000817F1 /* UserModel.m in Sources */,
 				48276EDE1F3628AB000817F1 /* UIBarButtonItem+Helper.m in Sources */,
 				48276EDC1F3628AB000817F1 /* NSString+TimeDate.m in Sources */,
-				48276EF41F36D562000817F1 /* FinishiedViewController.m in Sources */,
 				48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */,
 				48276EDD1F3628AB000817F1 /* NSTimer+Addition.m in Sources */,
 				48276EDB1F3628AB000817F1 /* NSString+JSON.m in Sources */,
@@ -492,6 +515,7 @@
 				48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */,
 				48276EE31F3628AB000817F1 /* UILable+Frame.m in Sources */,
 				48276EBD1F362868000817F1 /* BaseTarBar.m in Sources */,
+				48276F0F1F3735BF000817F1 /* TrainingProgramModel.m in Sources */,
 				48276E911F362613000817F1 /* main.m in Sources */,
 				48276EBB1F362868000817F1 /* BaseTarBarViewController.m in Sources */,
 			);
@@ -647,6 +671,7 @@
 				48276EA51F362613000817F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
