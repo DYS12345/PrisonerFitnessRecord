@@ -1,0 +1,6 @@
+framework module JKDBModel_JDBR {
+  umbrella header "JKDBModel-JDBR-umbrella.h"
+
+  export *
+  module * { export * }
+}

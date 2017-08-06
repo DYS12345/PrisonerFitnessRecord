@@ -8,14 +8,10 @@
 
 #import "BaseTarBarViewController.h"
 #import "UIColor+Extension.h"
-#import "HomeViewController.h"
-#import "PostersViewController.h"
-#import "RepositoryViewController.h"
-#import "UserViewController.h"
+#import "UnfinishiedViewController.h"
+#import "FinishiedViewController.h"
 #import "BaseTarBar.h"
 #import "BaseNavController.h"
-#import "THNToolViewController.h"
-#import "LogInViewController.h"
 #import "UserModel.h"
 
 @interface BaseTarBarViewController () <UITabBarControllerDelegate>
@@ -54,13 +50,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 添加子控制器
-    [self setupChildVc:[[HomeViewController alloc] init] title:@"首页" image:@"home" selectedImage:@"home_selected"];
+    [self setupChildVc:[[UnfinishiedViewController alloc] init] title:@"训练任务" image:@"home" selectedImage:@"homeSelected"];
     
-    [self setupChildVc:[[RepositoryViewController alloc] init] title:@"产品库" image:@"library" selectedImage:@"library_selected"];
-    
-    [self setupChildVc:[[THNToolViewController alloc] init] title:@"工具" image:@"tool" selectedImage:@"tool_selected"];
-    
-    [self setupChildVc:[[UserViewController alloc] init] title:@"我的" image:@"main" selectedImage:@"main_selected"];
+    [self setupChildVc:[[FinishiedViewController alloc] init] title:@"完成的" image:@"finished" selectedImage:@"finishedSelected"];
     
     // 更换tabBar
     [self setValue:[[BaseTarBar alloc] init] forKeyPath:@"tabBar"];
@@ -85,19 +77,7 @@
 
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
 {
-    if ([viewController.tabBarItem.title isEqualToString:@"我的"]) {
-        UserModel *model = [[UserModel findAll] lastObject];
-        if (model.isLogin) {
-            return YES;
-        } else {
-            LogInViewController *vc = [[LogInViewController alloc] init];
-            BaseNavController *naviVc = [[BaseNavController alloc] initWithRootViewController:vc];
-            [self presentViewController:naviVc animated:YES completion:nil];
-            return NO;
-        }
-    }else {
-        return YES;
-    }
+    return YES;
 }
 
 @end

@@ -29,9 +29,15 @@
 		48276EE31F3628AB000817F1 /* UILable+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276ED41F3628AB000817F1 /* UILable+Frame.m */; };
 		48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276ED61F3628AB000817F1 /* UIView+FSExtension.m */; };
 		48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276ED81F3628AB000817F1 /* UIView+Size.m */; };
+		48276EEE1F36D539000817F1 /* UnfinishiedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276EED1F36D539000817F1 /* UnfinishiedViewController.m */; };
+		48276EF41F36D562000817F1 /* FinishiedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276EF31F36D562000817F1 /* FinishiedViewController.m */; };
+		48276EF81F36D5FD000817F1 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276EF71F36D5FD000817F1 /* UserModel.m */; };
+		48276EFC1F36D6DF000817F1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 48276EFB1F36D6DF000817F1 /* Podfile */; };
+		C80AC8E5A89370A0A81C08B7 /* Pods_PrisonerFitnessRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DBCD8EC553A78772C00983A /* Pods-PrisonerFitnessRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrisonerFitnessRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrisonerFitnessRecord/Pods-PrisonerFitnessRecord.release.xcconfig"; sourceTree = "<group>"; };
 		48276E8C1F362613000817F1 /* PrisonerFitnessRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrisonerFitnessRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48276E901F362613000817F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48276E921F362613000817F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PrisonerFitnessRecord/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -75,6 +81,16 @@
 		48276ED61F3628AB000817F1 /* UIView+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSExtension.m"; sourceTree = "<group>"; };
 		48276ED71F3628AB000817F1 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
 		48276ED81F3628AB000817F1 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		48276EE61F36D460000817F1 /* OtherMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherMacro.h; sourceTree = "<group>"; };
+		48276EEC1F36D539000817F1 /* UnfinishiedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnfinishiedViewController.h; sourceTree = "<group>"; };
+		48276EED1F36D539000817F1 /* UnfinishiedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnfinishiedViewController.m; sourceTree = "<group>"; };
+		48276EF21F36D562000817F1 /* FinishiedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishiedViewController.h; sourceTree = "<group>"; };
+		48276EF31F36D562000817F1 /* FinishiedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishiedViewController.m; sourceTree = "<group>"; };
+		48276EF61F36D5FD000817F1 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		48276EF71F36D5FD000817F1 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		48276EFB1F36D6DF000817F1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A8AF3FEC0C848404A18BC4B5 /* Pods-PrisonerFitnessRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrisonerFitnessRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrisonerFitnessRecord/Pods-PrisonerFitnessRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrisonerFitnessRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,17 +98,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80AC8E5A89370A0A81C08B7 /* Pods_PrisonerFitnessRecord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EAFB2C83A0B4740B0640C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48276E831F362613000817F1 = {
 			isa = PBXGroup;
 			children = (
+				48276EFB1F36D6DF000817F1 /* Podfile */,
 				48276E8E1F362613000817F1 /* PrisonerFitnessRecord */,
 				48276E8D1F362613000817F1 /* Products */,
+				F6778ED8544E24D261B94B40 /* Pods */,
+				3EAFB2C83A0B4740B0640C86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +168,7 @@
 		48276EA81F36276D000817F1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				48276EF51F36D5D1000817F1 /* M */,
 				48276EB01F362868000817F1 /* Controller */,
 				48276EB71F362868000817F1 /* View */,
 			);
@@ -149,6 +178,7 @@
 		48276EA91F36276D000817F1 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				48276EE61F36D460000817F1 /* OtherMacro.h */,
 				48276EBE1F3628AB000817F1 /* Tool */,
 			);
 			path = Expand;
@@ -157,6 +187,8 @@
 		48276EAA1F36276D000817F1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				48276EE71F36D511000817F1 /* Finished */,
+				48276EE81F36D511000817F1 /* Unfinished */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -233,6 +265,90 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		48276EE71F36D511000817F1 /* Finished */ = {
+			isa = PBXGroup;
+			children = (
+				48276EEF1F36D554000817F1 /* C */,
+				48276EF01F36D554000817F1 /* M */,
+				48276EF11F36D554000817F1 /* V */,
+			);
+			path = Finished;
+			sourceTree = "<group>";
+		};
+		48276EE81F36D511000817F1 /* Unfinished */ = {
+			isa = PBXGroup;
+			children = (
+				48276EE91F36D511000817F1 /* C */,
+				48276EEA1F36D511000817F1 /* M */,
+				48276EEB1F36D511000817F1 /* V */,
+			);
+			path = Unfinished;
+			sourceTree = "<group>";
+		};
+		48276EE91F36D511000817F1 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				48276EEC1F36D539000817F1 /* UnfinishiedViewController.h */,
+				48276EED1F36D539000817F1 /* UnfinishiedViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		48276EEA1F36D511000817F1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		48276EEB1F36D511000817F1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		48276EEF1F36D554000817F1 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				48276EF21F36D562000817F1 /* FinishiedViewController.h */,
+				48276EF31F36D562000817F1 /* FinishiedViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		48276EF01F36D554000817F1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		48276EF11F36D554000817F1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		48276EF51F36D5D1000817F1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				48276EF61F36D5FD000817F1 /* UserModel.h */,
+				48276EF71F36D5FD000817F1 /* UserModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		F6778ED8544E24D261B94B40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF3FEC0C848404A18BC4B5 /* Pods-PrisonerFitnessRecord.debug.xcconfig */,
+				0DBCD8EC553A78772C00983A /* Pods-PrisonerFitnessRecord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,9 +356,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48276EA31F362613000817F1 /* Build configuration list for PBXNativeTarget "PrisonerFitnessRecord" */;
 			buildPhases = (
+				6C28E14834B5893ACC544D11 /* [CP] Check Pods Manifest.lock */,
 				48276E881F362613000817F1 /* Sources */,
 				48276E891F362613000817F1 /* Frameworks */,
 				48276E8A1F362613000817F1 /* Resources */,
+				E469899B8497C867DA975345 /* [CP] Embed Pods Frameworks */,
+				92B5AB5D7970DDD8A024515B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,12 +410,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
 				48276E9C1F362613000817F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C28E14834B5893ACC544D11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92B5AB5D7970DDD8A024515B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrisonerFitnessRecord/Pods-PrisonerFitnessRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E469899B8497C867DA975345 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrisonerFitnessRecord/Pods-PrisonerFitnessRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48276E881F362613000817F1 /* Sources */ = {
@@ -312,8 +480,11 @@
 				48276EE11F3628AB000817F1 /* UIImage+QRCode.m in Sources */,
 				48276E941F362613000817F1 /* AppDelegate.m in Sources */,
 				48276EBA1F362868000817F1 /* BaseNavController.m in Sources */,
+				48276EEE1F36D539000817F1 /* UnfinishiedViewController.m in Sources */,
+				48276EF81F36D5FD000817F1 /* UserModel.m in Sources */,
 				48276EDE1F3628AB000817F1 /* UIBarButtonItem+Helper.m in Sources */,
 				48276EDC1F3628AB000817F1 /* NSString+TimeDate.m in Sources */,
+				48276EF41F36D562000817F1 /* FinishiedViewController.m in Sources */,
 				48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */,
 				48276EDD1F3628AB000817F1 /* NSTimer+Addition.m in Sources */,
 				48276EDB1F3628AB000817F1 /* NSString+JSON.m in Sources */,
@@ -435,6 +606,7 @@
 		};
 		48276EA41F362613000817F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8AF3FEC0C848404A18BC4B5 /* Pods-PrisonerFitnessRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PrisonerFitnessRecord/Info.plist;
@@ -446,6 +618,7 @@
 		};
 		48276EA51F362613000817F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBCD8EC553A78772C00983A /* Pods-PrisonerFitnessRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PrisonerFitnessRecord/Info.plist;
