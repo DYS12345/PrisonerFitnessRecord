@@ -11,5 +11,8 @@
 @interface TrainingProgramModel : NSObject
 
 @property (nonatomic, copy) NSString *tip;
+@property (nonatomic, strong) NSArray *data;
+
+-(void)getModel:(NSArray*)ary;
 
 @end

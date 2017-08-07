@@ -7,7 +7,12 @@
 //
 
 #import "TrainingProgramModel.h"
+#import "MJExtension.h"
 
 @implementation TrainingProgramModel
+
+-(void)getModel:(NSArray *)ary{
+    
+}
 
 @end
