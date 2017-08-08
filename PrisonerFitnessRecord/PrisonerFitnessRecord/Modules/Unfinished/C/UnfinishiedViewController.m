@@ -125,11 +125,24 @@
 
 
 -(void)addSection:(UIButton *)sender{
-    FinishedModel *model = [[FinishedModel alloc] init];
-    model.sectionCount ++;
-    model.itemName = sender.titleLabel.text;
-    [model saveOrUpdate];
-    [SVProgressHUD showSuccessWithStatus:@"添加一组"];
+    NSArray *modelAry = [FinishedModel findAll];
+    BOOL flag = NO;
+    for (int i = 0; i < modelAry.count; i++) {
+        FinishedModel *model = modelAry[i];
+        if ([model.itemName isEqualToString:sender.titleLabel.text]) {
+            flag = YES;
+            model.sectionCount ++;
+            [model saveOrUpdate];
+            [SVProgressHUD showSuccessWithStatus:@"添加一组"];
+        }
+    }
+    if (!flag) {
+        FinishedModel *model = [[FinishedModel alloc] init];
+        model.sectionCount ++;
+        model.itemName = sender.titleLabel.text;
+        [model saveOrUpdate];
+        [SVProgressHUD showSuccessWithStatus:@"添加一组"];
+    }
 }
 
 -(void)removeSection:(UIButton *)sender{
@@ -139,6 +152,7 @@
         if ([model.itemName isEqualToString:sender.titleLabel.text]) {
             if (model.sectionCount > 0) {
                 model.sectionCount --;
+                [model saveOrUpdate];
                 [SVProgressHUD showSuccessWithStatus:@"减去一组"];
             } else {
                 [SVProgressHUD showInfoWithStatus:@"已经为空了"];
