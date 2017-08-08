@@ -8,11 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol TrainingProgramModelDelegate <NSObject>
+
+-(void)trainingProgramModel:(NSArray *)ary;
+
+@end
+
 @interface TrainingProgramModel : NSObject
 
 @property (nonatomic, copy) NSString *tip;
 @property (nonatomic, strong) NSArray *data;
+@property (nonatomic, weak) id <TrainingProgramModelDelegate> delegate;
 
--(void)getModel:(NSArray*)ary;
+-(void)getModel;
 
 @end

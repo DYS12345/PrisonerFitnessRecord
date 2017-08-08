@@ -11,8 +11,13 @@
 
 @implementation TrainingProgramModel
 
--(void)getModel:(NSArray *)ary{
-    
+-(void)getModel{
+    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"Model" ofType:@"plist"];
+    NSArray *array = [[NSArray alloc] initWithContentsOfFile:plistPath];
+    NSArray *ary = [TrainingProgramModel mj_objectArrayWithKeyValuesArray:array];
+    if ([self.delegate respondsToSelector:@selector(trainingProgramModel:)]) {
+        [self.delegate trainingProgramModel:ary];
+    }
 }
 
 @end

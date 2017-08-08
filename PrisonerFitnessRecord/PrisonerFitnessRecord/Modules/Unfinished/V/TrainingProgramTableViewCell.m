@@ -24,26 +24,47 @@
             make.left.mas_equalTo(self.contentView.mas_left).mas_offset(15);
         }];
         
-        [self.contentView addSubview:self.addBtn];
-        [_addBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.mas_equalTo(self.contentView.mas_top).mas_offset(10);
-            make.left.mas_equalTo(self.nameLabel.mas_left).mas_offset(30);
+        [self.contentView addSubview:self.editBtn];
+        [_editBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.right.mas_equalTo(self.contentView.mas_right).mas_offset(-15);
+            make.centerY.mas_equalTo(self.contentView.mas_centerY).mas_offset(0);
         }];
         
         [self.contentView addSubview:self.removeBtn];
         [_removeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.mas_equalTo(self.addBtn.mas_bottom).mas_offset(10);
-            make.centerX.mas_equalTo(self.addBtn.mas_centerX).mas_offset(0);
+            make.centerY.mas_equalTo(self.contentView.centerY).mas_offset(0);
+            make.right.mas_equalTo(self.editBtn.mas_left).mas_offset(-30);
         }];
         
-        [self.contentView addSubview:self.editBtn];
-        [_editBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.right.mas_equalTo(self.contentView.mas_right).mas_offset(15);
-            make.centerY.mas_equalTo(self.contentView.mas_centerY).mas_offset(0);
+        [self.contentView addSubview:self.addBtn];
+        [_addBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerY.mas_equalTo(self.contentView.centerY).mas_offset(0);
+            make.right.mas_equalTo(self.removeBtn.mas_left).mas_offset(-30);
+        }];
+        
+        [self.contentView addSubview:self.lineView];
+        [_lineView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(self.nameLabel.mas_left).mas_offset(0);
+            make.right.mas_equalTo(self.editBtn.mas_right).mas_offset(0);
+            make.bottom.mas_equalTo(self.contentView.mas_bottom).mas_offset(0);
+            make.height.mas_equalTo(1);
         }];
         
     }
     return self;
+}
+
+-(UIView *)lineView{
+    if (!_lineView) {
+        _lineView = [[UIView alloc] init];
+        _lineView.backgroundColor = [UIColor colorWithHexString:@"#f7f7f7"];
+    }
+    return _lineView;
+}
+
+-(void)setNameStr:(NSString *)nameStr{
+    _nameStr = nameStr;
+    self.nameLabel.text = nameStr;
 }
 
 -(UILabel *)nameLabel{

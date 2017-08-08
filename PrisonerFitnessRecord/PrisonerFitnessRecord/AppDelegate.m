@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AppDelegate+Guide.h"
+#import "SVProgressHUD.h"
 
 @interface AppDelegate ()
 
@@ -18,9 +19,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self windowShow];
+    [self thn_initSVProgressHUDArgument];
     return YES;
 }
 
+- (void)thn_initSVProgressHUDArgument {
+    [SVProgressHUD setDefaultStyle:(SVProgressHUDStyleLight)];
+    [SVProgressHUD setMaximumDismissTimeInterval:2];
+    [SVProgressHUD setFont:[UIFont systemFontOfSize:14]];
+    [SVProgressHUD setCornerRadius:10];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

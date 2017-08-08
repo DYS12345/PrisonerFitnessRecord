@@ -39,6 +39,7 @@
 		48276F0C1F371AD9000817F1 /* Model.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48276F0B1F371AD9000817F1 /* Model.plist */; };
 		48276F0F1F3735BF000817F1 /* TrainingProgramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */; };
 		C80AC8E5A89370A0A81C08B7 /* Pods_PrisonerFitnessRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */; };
+		F58EBD7F1F39936F00146754 /* FinishedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EBD7E1F39936F00146754 /* FinishedModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +104,8 @@
 		48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingProgramModel.m; sourceTree = "<group>"; };
 		A8AF3FEC0C848404A18BC4B5 /* Pods-PrisonerFitnessRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrisonerFitnessRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrisonerFitnessRecord/Pods-PrisonerFitnessRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrisonerFitnessRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58EBD7D1F39936F00146754 /* FinishedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinishedModel.h; sourceTree = "<group>"; };
+		F58EBD7E1F39936F00146754 /* FinishedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinishedModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +316,8 @@
 			children = (
 				48276F0D1F3735BF000817F1 /* TrainingProgramModel.h */,
 				48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */,
+				F58EBD7D1F39936F00146754 /* FinishedModel.h */,
+				F58EBD7E1F39936F00146754 /* FinishedModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				TargetAttributes = {
 					48276E8B1F362613000817F1 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QNKEA2Q4R9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -494,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48276F051F36E215000817F1 /* UnfinishiedViewController.m in Sources */,
+				F58EBD7F1F39936F00146754 /* FinishedModel.m in Sources */,
 				48276EAF1F3627EF000817F1 /* AppDelegate+Guide.m in Sources */,
 				48276EBC1F362868000817F1 /* BaseViewController.m in Sources */,
 				48276EDA1F3628AB000817F1 /* NSString+Helper.m in Sources */,
@@ -633,6 +640,7 @@
 			baseConfigurationReference = A8AF3FEC0C848404A18BC4B5 /* Pods-PrisonerFitnessRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNKEA2Q4R9;
 				INFOPLIST_FILE = PrisonerFitnessRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.PrisonerFitnessRecord;
@@ -645,6 +653,7 @@
 			baseConfigurationReference = 0DBCD8EC553A78772C00983A /* Pods-PrisonerFitnessRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNKEA2Q4R9;
 				INFOPLIST_FILE = PrisonerFitnessRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.PrisonerFitnessRecord;

@@ -14,5 +14,7 @@
 @property (nonatomic, strong) UIButton *addBtn;
 @property (nonatomic, strong) UIButton *removeBtn;
 @property (nonatomic, strong) UIButton *editBtn;
+@property (nonatomic, copy) NSString *nameStr;
+@property (nonatomic, strong) UIView *lineView;
 
 @end
