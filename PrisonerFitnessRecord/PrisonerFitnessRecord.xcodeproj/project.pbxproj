@@ -38,6 +38,8 @@
 		48276F091F36EB37000817F1 /* TrainingProgramTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276F081F36EB37000817F1 /* TrainingProgramTableViewCell.m */; };
 		48276F0C1F371AD9000817F1 /* Model.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48276F0B1F371AD9000817F1 /* Model.plist */; };
 		48276F0F1F3735BF000817F1 /* TrainingProgramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */; };
+		48C0B6AA1F3A1201009930C5 /* FillInDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0B6A81F3A1201009930C5 /* FillInDetailsViewController.m */; };
+		48C0B6AB1F3A1201009930C5 /* FillInDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C0B6A91F3A1201009930C5 /* FillInDetailsViewController.xib */; };
 		C80AC8E5A89370A0A81C08B7 /* Pods_PrisonerFitnessRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */; };
 		F58EBD7F1F39936F00146754 /* FinishedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EBD7E1F39936F00146754 /* FinishedModel.m */; };
 /* End PBXBuildFile section */
@@ -102,6 +104,9 @@
 		48276F0B1F371AD9000817F1 /* Model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Model.plist; sourceTree = "<group>"; };
 		48276F0D1F3735BF000817F1 /* TrainingProgramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingProgramModel.h; sourceTree = "<group>"; };
 		48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingProgramModel.m; sourceTree = "<group>"; };
+		48C0B6A71F3A1201009930C5 /* FillInDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillInDetailsViewController.h; sourceTree = "<group>"; };
+		48C0B6A81F3A1201009930C5 /* FillInDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillInDetailsViewController.m; sourceTree = "<group>"; };
+		48C0B6A91F3A1201009930C5 /* FillInDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FillInDetailsViewController.xib; sourceTree = "<group>"; };
 		A8AF3FEC0C848404A18BC4B5 /* Pods-PrisonerFitnessRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrisonerFitnessRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrisonerFitnessRecord/Pods-PrisonerFitnessRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrisonerFitnessRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58EBD7D1F39936F00146754 /* FinishedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinishedModel.h; sourceTree = "<group>"; };
@@ -307,6 +312,9 @@
 				48276F021F36E215000817F1 /* UnfinishiedViewController.h */,
 				48276F031F36E215000817F1 /* UnfinishiedViewController.m */,
 				48276F041F36E215000817F1 /* UnfinishiedViewController.xib */,
+				48C0B6A71F3A1201009930C5 /* FillInDetailsViewController.h */,
+				48C0B6A81F3A1201009930C5 /* FillInDetailsViewController.m */,
+				48C0B6A91F3A1201009930C5 /* FillInDetailsViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -439,6 +447,7 @@
 				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
 				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
+				48C0B6AB1F3A1201009930C5 /* FillInDetailsViewController.xib in Resources */,
 				48276F011F36E1A8000817F1 /* FinishiedViewController.xib in Resources */,
 				48276E9C1F362613000817F1 /* Assets.xcassets in Resources */,
 			);
@@ -522,6 +531,7 @@
 				48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */,
 				48276EE31F3628AB000817F1 /* UILable+Frame.m in Sources */,
 				48276EBD1F362868000817F1 /* BaseTarBar.m in Sources */,
+				48C0B6AA1F3A1201009930C5 /* FillInDetailsViewController.m in Sources */,
 				48276F0F1F3735BF000817F1 /* TrainingProgramModel.m in Sources */,
 				48276E911F362613000817F1 /* main.m in Sources */,
 				48276EBB1F362868000817F1 /* BaseTarBarViewController.m in Sources */,

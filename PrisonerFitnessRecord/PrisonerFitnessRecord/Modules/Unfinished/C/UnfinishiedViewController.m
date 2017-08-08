@@ -164,7 +164,7 @@
 }
 
 -(void)editCount:(UIButton *)sender{
-    
+    NSLog(@"dsadasd");
 }
 
 @end
