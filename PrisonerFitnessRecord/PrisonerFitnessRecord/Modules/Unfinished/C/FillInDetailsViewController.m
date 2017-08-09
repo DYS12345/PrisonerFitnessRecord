@@ -7,8 +7,15 @@
 //
 
 #import "FillInDetailsViewController.h"
+#import "Masonry.h"
+#import "OtherMacro.h"
+#import "SVProgressHUD.h"
 
-@interface FillInDetailsViewController ()
+@interface FillInDetailsViewController () <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UIView *wordView;
+@property (weak, nonatomic) IBOutlet UIButton *cancelBtn;
+@property (weak, nonatomic) IBOutlet UITextField *tf;
 
 @end
 
@@ -16,22 +23,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.wordView.layer.masksToBounds = YES;
+    self.wordView.layer.cornerRadius = 3;
+    self.tf.delegate = self;
+    
+    UIBlurEffect *effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+    UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:effect];
+    effectView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+    [self.view insertSubview:effectView belowSubview:self.wordView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)setModel:(FinishedModel *)model{
+    _model = model;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [self.view endEditing:YES];
+    return YES;
 }
-*/
+
+- (IBAction)cancel:(id)sender {
+    if (self.tf.text.length == 0) {
+        
+    } else {
+        [self.model.countAry addObject:self.tf.text];
+        [self.model saveOrUpdate];
+    }
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end

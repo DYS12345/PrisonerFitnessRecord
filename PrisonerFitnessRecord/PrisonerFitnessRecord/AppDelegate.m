@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "AppDelegate+Guide.h"
 #import "SVProgressHUD.h"
+#import "IQKeyboardManager.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self windowShow];
     [self thn_initSVProgressHUDArgument];
+    [self setKeyBoard];
     return YES;
 }
 
@@ -28,6 +30,15 @@
     [SVProgressHUD setMaximumDismissTimeInterval:2];
     [SVProgressHUD setFont:[UIFont systemFontOfSize:14]];
     [SVProgressHUD setCornerRadius:10];
+}
+
+-(void)setKeyBoard{
+    //  键盘事件
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    manager.enableAutoToolbar = NO;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

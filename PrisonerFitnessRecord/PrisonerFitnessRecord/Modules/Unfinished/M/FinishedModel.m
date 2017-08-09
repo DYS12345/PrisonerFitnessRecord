@@ -10,4 +10,11 @@
 
 @implementation FinishedModel
 
+-(NSMutableArray *)countAry{
+    if (!_countAry) {
+        _countAry = [NSMutableArray array];
+    }
+    return _countAry;
+}
+
 @end

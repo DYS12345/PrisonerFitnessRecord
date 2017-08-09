@@ -11,7 +11,7 @@
 @interface FinishedModel : JKDBModel
 
 @property (nonatomic, assign) NSInteger sectionCount;
-@property (nonatomic, strong) NSArray *countAry;
+@property (nonatomic, strong) NSMutableArray *countAry;
 @property (nonatomic, copy) NSString *itemName;
 
 @end

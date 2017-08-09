@@ -12,6 +12,7 @@
 #import "UIColor+Extension.h"
 #import "SVProgressHUD.h"
 #import "FinishedModel.h"
+#import "FillInDetailsViewController.h"
 
 @interface UnfinishiedViewController () <UITableViewDelegate, UITableViewDataSource, TrainingProgramModelDelegate>
 
@@ -97,6 +98,7 @@
     cell.nameStr = model.data[indexPath.row];
     cell.addBtn.titleLabel.text = model.data[indexPath.row];
     cell.removeBtn.titleLabel.text = model.data[indexPath.row];
+    cell.editBtn.titleLabel.text = model.data[indexPath.row];
     [cell.addBtn addTarget:self action:@selector(addSection:) forControlEvents:(UIControlEventTouchUpInside)];
     [cell.removeBtn addTarget:self action:@selector(removeSection:) forControlEvents:(UIControlEventTouchUpInside)];
     [cell.editBtn addTarget:self action:@selector(editCount:) forControlEvents:(UIControlEventTouchUpInside)];
@@ -164,7 +166,22 @@
 }
 
 -(void)editCount:(UIButton *)sender{
-    NSLog(@"dsadasd");
+    NSArray *modelAry = [FinishedModel findAll];
+    BOOL flag = NO;
+    for (int i = 0; i < modelAry.count; i++) {
+        FinishedModel *model = modelAry[i];
+        if ([model.itemName isEqualToString:sender.titleLabel.text]) {
+            FillInDetailsViewController *vc = [[FillInDetailsViewController alloc] init];
+            vc.modalPresentationStyle = UIModalPresentationOverFullScreen;
+            vc.model = model;
+            flag = YES;
+            self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+            [self presentViewController:vc animated:YES completion:nil];
+        }
+    }
+    if (!flag){
+        [SVProgressHUD showErrorWithStatus:@"组数为0，请先增加组数"];
+    }
 }
 
 @end

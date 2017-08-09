@@ -1,20 +1,65 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FillInDetailsViewController">
             <connections>
+                <outlet property="cancelBtn" destination="H9x-sb-kLP" id="kuL-OL-CNe"/>
+                <outlet property="tf" destination="I46-fP-XTl" id="ma5-pM-Hxb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wordView" destination="S2t-9g-C6h" id="XSW-Fq-62c"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2t-9g-C6h">
+                    <rect key="frame" x="30" y="220.5" width="315" height="50"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I46-fP-XTl">
+                            <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="I46-fP-XTl" secondAttribute="trailing" id="FP9-pV-AwV"/>
+                        <constraint firstAttribute="height" constant="50" id="GlI-Fw-VcO"/>
+                        <constraint firstItem="I46-fP-XTl" firstAttribute="top" secondItem="S2t-9g-C6h" secondAttribute="top" id="RZX-y4-WcM"/>
+                        <constraint firstItem="I46-fP-XTl" firstAttribute="leading" secondItem="S2t-9g-C6h" secondAttribute="leading" id="c9k-FT-wXU"/>
+                        <constraint firstAttribute="bottom" secondItem="I46-fP-XTl" secondAttribute="bottom" id="y1N-iv-9HN"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9x-sb-kLP">
+                    <rect key="frame" x="174" y="320.5" width="26" height="26"/>
+                    <state key="normal" image="Close"/>
+                    <connections>
+                        <action selector="cancel:" destination="-1" eventType="touchUpInside" id="66A-8j-y32"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="H9x-sb-kLP" firstAttribute="top" secondItem="S2t-9g-C6h" secondAttribute="bottom" constant="50" id="BUn-k1-o1C"/>
+                <constraint firstItem="H9x-sb-kLP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bfV-bd-v6v"/>
+                <constraint firstItem="H9x-sb-kLP" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="gt3-6W-Wze"/>
+                <constraint firstAttribute="trailing" secondItem="S2t-9g-C6h" secondAttribute="trailing" constant="30" id="nTD-6f-FlF"/>
+                <constraint firstItem="S2t-9g-C6h" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="uBc-AD-c9X"/>
+            </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="Close" width="26" height="26"/>
+    </resources>
 </document>
