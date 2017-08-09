@@ -18,6 +18,19 @@
 			<string>杠杆俯卧撑</string>
 			<string>单臂俯卧撑</string>
 		</array>
+		<key>countAry</key>
+		<array>
+			<string>0</string>
+			<string>0</string>
+			<string>0</string>
+			<string>0</string>
+			<string>0</string>
+			<string>0</string>
+			<string>0</string>
+			<string>0</string>
+			<string>0</string>
+			<string>0</string>
+		</array>
 	</dict>
 	<dict>
 		<key>tip</key>

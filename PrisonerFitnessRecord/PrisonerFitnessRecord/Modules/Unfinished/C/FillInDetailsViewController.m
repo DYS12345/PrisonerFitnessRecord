@@ -46,6 +46,9 @@
     if (self.tf.text.length == 0) {
         
     } else {
+        if (![[self.model.countAry class] isKindOfClass:[NSMutableArray class]]) {
+            self.model.countAry = [NSMutableArray array];
+        }
         [self.model.countAry addObject:self.tf.text];
         [self.model saveOrUpdate];
     }

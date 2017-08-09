@@ -96,6 +96,12 @@
     TrainingProgramModel *model = self.modelAry[indexPath.section];
     TrainingProgramTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TrainingProgramTableViewCell"];
     cell.nameStr = model.data[indexPath.row];
+    cell.sectionCountLabel.text = [NSString stringWithFormat:@"%@组", model.countAry[indexPath.row]];
+    if ([model.countAry[indexPath.row] integerValue] == 0) {
+        cell.backgroundColor = [UIColor whiteColor];
+    } else {
+        cell.backgroundColor = [UIColor colorWithRed:196/255.0 green:255/255.0 blue:243/255.0 alpha:1];
+    }
     cell.addBtn.titleLabel.text = model.data[indexPath.row];
     cell.removeBtn.titleLabel.text = model.data[indexPath.row];
     cell.editBtn.titleLabel.text = model.data[indexPath.row];
@@ -154,6 +160,10 @@
         if ([model.itemName isEqualToString:sender.titleLabel.text]) {
             if (model.sectionCount > 0) {
                 model.sectionCount --;
+                if (![[model.countAry class] isKindOfClass:[NSMutableArray class]]) {
+                    model.countAry = [NSMutableArray array];
+                }
+                [model.countAry removeLastObject];
                 [model saveOrUpdate];
                 [SVProgressHUD showSuccessWithStatus:@"减去一组"];
             } else {

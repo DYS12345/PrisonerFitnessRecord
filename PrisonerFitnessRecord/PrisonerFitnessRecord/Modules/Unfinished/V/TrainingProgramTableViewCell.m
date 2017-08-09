@@ -24,22 +24,29 @@
             make.left.mas_equalTo(self.contentView.mas_left).mas_offset(15);
         }];
         
+        
         [self.contentView addSubview:self.editBtn];
         [_editBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.mas_equalTo(self.contentView.mas_right).mas_offset(-15);
             make.centerY.mas_equalTo(self.contentView.mas_centerY).mas_offset(0);
+            make.width.mas_equalTo(self.contentView.height);
+            make.height.mas_equalTo(self.contentView.height);
         }];
         
         [self.contentView addSubview:self.removeBtn];
         [_removeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerY.mas_equalTo(self.contentView.centerY).mas_offset(0);
-            make.right.mas_equalTo(self.editBtn.mas_left).mas_offset(-30);
+            make.right.mas_equalTo(self.editBtn.mas_left).mas_offset(-10);
+            make.width.mas_equalTo(self.contentView.height);
+            make.height.mas_equalTo(self.contentView.height);
         }];
         
         [self.contentView addSubview:self.addBtn];
         [_addBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerY.mas_equalTo(self.contentView.centerY).mas_offset(0);
-            make.right.mas_equalTo(self.removeBtn.mas_left).mas_offset(-30);
+            make.right.mas_equalTo(self.removeBtn.mas_left).mas_offset(-10);
+            make.width.mas_equalTo(self.contentView.height);
+            make.height.mas_equalTo(self.contentView.height);
         }];
         
         [self.contentView addSubview:self.lineView];
@@ -48,6 +55,12 @@
             make.right.mas_equalTo(self.editBtn.mas_right).mas_offset(0);
             make.bottom.mas_equalTo(self.contentView.mas_bottom).mas_offset(0);
             make.height.mas_equalTo(1);
+        }];
+        
+        [self.contentView addSubview:self.sectionCountLabel];
+        [_sectionCountLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerY.mas_equalTo(self.contentView.centerY).mas_offset(0);
+            make.right.mas_equalTo(self.addBtn.mas_left).mas_offset(-25);
         }];
         
     }
@@ -75,6 +88,16 @@
     }
     return _nameLabel;
 }
+
+-(UILabel *)sectionCountLabel{
+    if (!_sectionCountLabel) {
+        _sectionCountLabel = [[UILabel alloc] init];
+        _sectionCountLabel.font = [UIFont systemFontOfSize:14];
+        _sectionCountLabel.textColor = [UIColor colorWithHexString:@"#222222"];
+    }
+    return _sectionCountLabel;
+}
+
 
 -(UIButton *)editBtn{
     if (!_editBtn) {

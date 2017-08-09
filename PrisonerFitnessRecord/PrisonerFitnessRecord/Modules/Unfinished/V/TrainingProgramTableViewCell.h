@@ -16,5 +16,6 @@
 @property (nonatomic, strong) UIButton *editBtn;
 @property (nonatomic, copy) NSString *nameStr;
 @property (nonatomic, strong) UIView *lineView;
+@property (nonatomic, strong) UILabel *sectionCountLabel;
 
 @end

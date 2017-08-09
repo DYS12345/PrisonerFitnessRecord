@@ -18,6 +18,7 @@
 
 @property (nonatomic, copy) NSString *tip;
 @property (nonatomic, strong) NSArray *data;
+@property (nonatomic, strong) NSArray *countAry;
 @property (nonatomic, weak) id <TrainingProgramModelDelegate> delegate;
 
 -(void)getModel;

@@ -23,13 +23,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2t-9g-C6h">
-                    <rect key="frame" x="30" y="220.5" width="315" height="50"/>
+                    <rect key="frame" x="30" y="208.5" width="315" height="50"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I46-fP-XTl">
                             <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                         </textField>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,7 +42,11 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9x-sb-kLP">
-                    <rect key="frame" x="174" y="320.5" width="26" height="26"/>
+                    <rect key="frame" x="162" y="308.5" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="03z-7z-yS2"/>
+                        <constraint firstAttribute="width" constant="50" id="Las-vf-jkV"/>
+                    </constraints>
                     <state key="normal" image="Close"/>
                     <connections>
                         <action selector="cancel:" destination="-1" eventType="touchUpInside" id="66A-8j-y32"/>
