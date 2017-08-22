@@ -26,6 +26,7 @@
     self.wordView.layer.masksToBounds = YES;
     self.wordView.layer.cornerRadius = 3;
     self.tf.delegate = self;
+    [self.tf becomeFirstResponder];
     
     UIBlurEffect *effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
     UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:effect];
