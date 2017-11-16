@@ -13,6 +13,7 @@
 #import "BaseTarBar.h"
 #import "BaseNavController.h"
 #import "UserModel.h"
+#import "OtherMacro.h"
 
 @interface BaseTarBarViewController () <UITabBarControllerDelegate>
 
@@ -40,7 +41,7 @@
     
     NSMutableDictionary *selectedAttrs = [NSMutableDictionary dictionary];
     selectedAttrs[NSFontAttributeName] = attrs[NSFontAttributeName];
-    selectedAttrs[NSForegroundColorAttributeName] = [UIColor colorWithHexString:@"#ff5a5f"];
+    selectedAttrs[NSForegroundColorAttributeName] = MASS_TONE_ATTUNE;
     
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
@@ -50,9 +51,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 添加子控制器
-    [self setupChildVc:[[UnfinishiedViewController alloc] init] title:@"训练任务" image:@"home" selectedImage:@"homeSelected"];
+    [self setupChildVc:[[UnfinishiedViewController alloc] init] title:@"目标集" image:@"home" selectedImage:@"homeSelected"];
     
-    [self setupChildVc:[[FinishiedViewController alloc] init] title:@"完成的" image:@"finished" selectedImage:@"finishedSelected"];
+    [self setupChildVc:[[FinishiedViewController alloc] init] title:@"档案" image:@"finished" selectedImage:@"finishedSelected"];
     
     // 更换tabBar
     [self setValue:[[BaseTarBar alloc] init] forKeyPath:@"tabBar"];

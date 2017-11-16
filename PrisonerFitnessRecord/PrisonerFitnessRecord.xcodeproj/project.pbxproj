@@ -35,13 +35,15 @@
 		48276F011F36E1A8000817F1 /* FinishiedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48276EFF1F36E1A8000817F1 /* FinishiedViewController.xib */; };
 		48276F051F36E215000817F1 /* UnfinishiedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276F031F36E215000817F1 /* UnfinishiedViewController.m */; };
 		48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48276F041F36E215000817F1 /* UnfinishiedViewController.xib */; };
-		48276F091F36EB37000817F1 /* TrainingProgramTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276F081F36EB37000817F1 /* TrainingProgramTableViewCell.m */; };
-		48276F0C1F371AD9000817F1 /* Model.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48276F0B1F371AD9000817F1 /* Model.plist */; };
-		48276F0F1F3735BF000817F1 /* TrainingProgramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */; };
-		48C0B6AA1F3A1201009930C5 /* FillInDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0B6A81F3A1201009930C5 /* FillInDetailsViewController.m */; };
-		48C0B6AB1F3A1201009930C5 /* FillInDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C0B6A91F3A1201009930C5 /* FillInDetailsViewController.xib */; };
 		C80AC8E5A89370A0A81C08B7 /* Pods_PrisonerFitnessRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */; };
-		F58EBD7F1F39936F00146754 /* FinishedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EBD7E1F39936F00146754 /* FinishedModel.m */; };
+		F51D473F1FBD6C5000718399 /* CreatItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D473D1FBD6C5000718399 /* CreatItemViewController.m */; };
+		F51D47401FBD6C5000718399 /* CreatItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D473E1FBD6C5000718399 /* CreatItemViewController.xib */; };
+		F51D47441FBD6FC000718399 /* NameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D47421FBD6FC000718399 /* NameTableViewCell.m */; };
+		F51D47451FBD6FC000718399 /* NameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47431FBD6FC000718399 /* NameTableViewCell.xib */; };
+		F51D474A1FBD75C400718399 /* CategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D47481FBD75C400718399 /* CategoryTableViewCell.m */; };
+		F51D474B1FBD75C400718399 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47491FBD75C400718399 /* CategoryTableViewCell.xib */; };
+		F51D474F1FBD7F7600718399 /* CategorySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D474D1FBD7F7600718399 /* CategorySelectViewController.m */; };
+		F51D47501FBD7F7600718399 /* CategorySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D474E1FBD7F7600718399 /* CategorySelectViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,18 +101,20 @@
 		48276F021F36E215000817F1 /* UnfinishiedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnfinishiedViewController.h; sourceTree = "<group>"; };
 		48276F031F36E215000817F1 /* UnfinishiedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnfinishiedViewController.m; sourceTree = "<group>"; };
 		48276F041F36E215000817F1 /* UnfinishiedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnfinishiedViewController.xib; sourceTree = "<group>"; };
-		48276F071F36EB37000817F1 /* TrainingProgramTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingProgramTableViewCell.h; sourceTree = "<group>"; };
-		48276F081F36EB37000817F1 /* TrainingProgramTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingProgramTableViewCell.m; sourceTree = "<group>"; };
-		48276F0B1F371AD9000817F1 /* Model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Model.plist; sourceTree = "<group>"; };
-		48276F0D1F3735BF000817F1 /* TrainingProgramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingProgramModel.h; sourceTree = "<group>"; };
-		48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingProgramModel.m; sourceTree = "<group>"; };
-		48C0B6A71F3A1201009930C5 /* FillInDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillInDetailsViewController.h; sourceTree = "<group>"; };
-		48C0B6A81F3A1201009930C5 /* FillInDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillInDetailsViewController.m; sourceTree = "<group>"; };
-		48C0B6A91F3A1201009930C5 /* FillInDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FillInDetailsViewController.xib; sourceTree = "<group>"; };
 		A8AF3FEC0C848404A18BC4B5 /* Pods-PrisonerFitnessRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrisonerFitnessRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrisonerFitnessRecord/Pods-PrisonerFitnessRecord.debug.xcconfig"; sourceTree = "<group>"; };
 		F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrisonerFitnessRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F58EBD7D1F39936F00146754 /* FinishedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinishedModel.h; sourceTree = "<group>"; };
-		F58EBD7E1F39936F00146754 /* FinishedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinishedModel.m; sourceTree = "<group>"; };
+		F51D473C1FBD6C5000718399 /* CreatItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatItemViewController.h; sourceTree = "<group>"; };
+		F51D473D1FBD6C5000718399 /* CreatItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatItemViewController.m; sourceTree = "<group>"; };
+		F51D473E1FBD6C5000718399 /* CreatItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatItemViewController.xib; sourceTree = "<group>"; };
+		F51D47411FBD6FC000718399 /* NameTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameTableViewCell.h; sourceTree = "<group>"; };
+		F51D47421FBD6FC000718399 /* NameTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameTableViewCell.m; sourceTree = "<group>"; };
+		F51D47431FBD6FC000718399 /* NameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameTableViewCell.xib; sourceTree = "<group>"; };
+		F51D47471FBD75C400718399 /* CategoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewCell.h; sourceTree = "<group>"; };
+		F51D47481FBD75C400718399 /* CategoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewCell.m; sourceTree = "<group>"; };
+		F51D47491FBD75C400718399 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		F51D474C1FBD7F7600718399 /* CategorySelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategorySelectViewController.h; sourceTree = "<group>"; };
+		F51D474D1FBD7F7600718399 /* CategorySelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategorySelectViewController.m; sourceTree = "<group>"; };
+		F51D474E1FBD7F7600718399 /* CategorySelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategorySelectViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +164,6 @@
 				48276EA91F36276D000817F1 /* Expand */,
 				48276EAA1F36276D000817F1 /* Modules */,
 				48276EAB1F36276D000817F1 /* Resource */,
-				48276EAC1F36276D000817F1 /* Vendors */,
 				48276E8F1F362613000817F1 /* Supporting Files */,
 			);
 			path = PrisonerFitnessRecord;
@@ -219,16 +222,8 @@
 				48276E9B1F362613000817F1 /* Assets.xcassets */,
 				48276E9D1F362613000817F1 /* LaunchScreen.storyboard */,
 				48276EA01F362613000817F1 /* Info.plist */,
-				48276F0B1F371AD9000817F1 /* Model.plist */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		48276EAC1F36276D000817F1 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendors;
 			sourceTree = "<group>";
 		};
 		48276EB01F362868000817F1 /* Controller */ = {
@@ -290,8 +285,6 @@
 			isa = PBXGroup;
 			children = (
 				48276EEF1F36D554000817F1 /* C */,
-				48276EF01F36D554000817F1 /* M */,
-				48276EF11F36D554000817F1 /* V */,
 			);
 			path = Finished;
 			sourceTree = "<group>";
@@ -312,9 +305,12 @@
 				48276F021F36E215000817F1 /* UnfinishiedViewController.h */,
 				48276F031F36E215000817F1 /* UnfinishiedViewController.m */,
 				48276F041F36E215000817F1 /* UnfinishiedViewController.xib */,
-				48C0B6A71F3A1201009930C5 /* FillInDetailsViewController.h */,
-				48C0B6A81F3A1201009930C5 /* FillInDetailsViewController.m */,
-				48C0B6A91F3A1201009930C5 /* FillInDetailsViewController.xib */,
+				F51D473C1FBD6C5000718399 /* CreatItemViewController.h */,
+				F51D473D1FBD6C5000718399 /* CreatItemViewController.m */,
+				F51D473E1FBD6C5000718399 /* CreatItemViewController.xib */,
+				F51D474C1FBD7F7600718399 /* CategorySelectViewController.h */,
+				F51D474D1FBD7F7600718399 /* CategorySelectViewController.m */,
+				F51D474E1FBD7F7600718399 /* CategorySelectViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -322,10 +318,12 @@
 		48276EEA1F36D511000817F1 /* M */ = {
 			isa = PBXGroup;
 			children = (
-				48276F0D1F3735BF000817F1 /* TrainingProgramModel.h */,
-				48276F0E1F3735BF000817F1 /* TrainingProgramModel.m */,
-				F58EBD7D1F39936F00146754 /* FinishedModel.h */,
-				F58EBD7E1F39936F00146754 /* FinishedModel.m */,
+				F51D47411FBD6FC000718399 /* NameTableViewCell.h */,
+				F51D47421FBD6FC000718399 /* NameTableViewCell.m */,
+				F51D47431FBD6FC000718399 /* NameTableViewCell.xib */,
+				F51D47471FBD75C400718399 /* CategoryTableViewCell.h */,
+				F51D47481FBD75C400718399 /* CategoryTableViewCell.m */,
+				F51D47491FBD75C400718399 /* CategoryTableViewCell.xib */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -333,8 +331,6 @@
 		48276EEB1F36D511000817F1 /* V */ = {
 			isa = PBXGroup;
 			children = (
-				48276F071F36EB37000817F1 /* TrainingProgramTableViewCell.h */,
-				48276F081F36EB37000817F1 /* TrainingProgramTableViewCell.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -347,20 +343,6 @@
 				48276EFF1F36E1A8000817F1 /* FinishiedViewController.xib */,
 			);
 			path = C;
-			sourceTree = "<group>";
-		};
-		48276EF01F36D554000817F1 /* M */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = M;
-			sourceTree = "<group>";
-		};
-		48276EF11F36D554000817F1 /* V */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = V;
 			sourceTree = "<group>";
 		};
 		48276EF51F36D5D1000817F1 /* M */ = {
@@ -443,13 +425,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48276F0C1F371AD9000817F1 /* Model.plist in Resources */,
 				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
 				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
-				48C0B6AB1F3A1201009930C5 /* FillInDetailsViewController.xib in Resources */,
+				F51D474B1FBD75C400718399 /* CategoryTableViewCell.xib in Resources */,
 				48276F011F36E1A8000817F1 /* FinishiedViewController.xib in Resources */,
 				48276E9C1F362613000817F1 /* Assets.xcassets in Resources */,
+				F51D47401FBD6C5000718399 /* CreatItemViewController.xib in Resources */,
+				F51D47451FBD6FC000718399 /* NameTableViewCell.xib in Resources */,
+				F51D47501FBD7F7600718399 /* CategorySelectViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +493,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48276F051F36E215000817F1 /* UnfinishiedViewController.m in Sources */,
-				F58EBD7F1F39936F00146754 /* FinishedModel.m in Sources */,
 				48276EAF1F3627EF000817F1 /* AppDelegate+Guide.m in Sources */,
 				48276EBC1F362868000817F1 /* BaseViewController.m in Sources */,
 				48276EDA1F3628AB000817F1 /* NSString+Helper.m in Sources */,
@@ -517,22 +500,23 @@
 				48276EDF1F3628AB000817F1 /* UIColor+Extension.m in Sources */,
 				48276EE21F3628AB000817F1 /* UIImageView+SDWedImage.m in Sources */,
 				48276EE11F3628AB000817F1 /* UIImage+QRCode.m in Sources */,
-				48276F091F36EB37000817F1 /* TrainingProgramTableViewCell.m in Sources */,
 				48276E941F362613000817F1 /* AppDelegate.m in Sources */,
 				48276EBA1F362868000817F1 /* BaseNavController.m in Sources */,
 				48276F001F36E1A8000817F1 /* FinishiedViewController.m in Sources */,
 				48276EF81F36D5FD000817F1 /* UserModel.m in Sources */,
+				F51D474F1FBD7F7600718399 /* CategorySelectViewController.m in Sources */,
+				F51D47441FBD6FC000718399 /* NameTableViewCell.m in Sources */,
 				48276EDE1F3628AB000817F1 /* UIBarButtonItem+Helper.m in Sources */,
 				48276EDC1F3628AB000817F1 /* NSString+TimeDate.m in Sources */,
 				48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */,
 				48276EDD1F3628AB000817F1 /* NSTimer+Addition.m in Sources */,
 				48276EDB1F3628AB000817F1 /* NSString+JSON.m in Sources */,
+				F51D473F1FBD6C5000718399 /* CreatItemViewController.m in Sources */,
+				F51D474A1FBD75C400718399 /* CategoryTableViewCell.m in Sources */,
 				48276ED91F3628AB000817F1 /* NSString+FBMD5.m in Sources */,
 				48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */,
 				48276EE31F3628AB000817F1 /* UILable+Frame.m in Sources */,
 				48276EBD1F362868000817F1 /* BaseTarBar.m in Sources */,
-				48C0B6AA1F3A1201009930C5 /* FillInDetailsViewController.m in Sources */,
-				48276F0F1F3735BF000817F1 /* TrainingProgramModel.m in Sources */,
 				48276E911F362613000817F1 /* main.m in Sources */,
 				48276EBB1F362868000817F1 /* BaseTarBarViewController.m in Sources */,
 			);
