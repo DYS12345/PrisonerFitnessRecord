@@ -10,4 +10,6 @@
 
 @interface NameTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UITextField *itemNameTF;
+
 @end

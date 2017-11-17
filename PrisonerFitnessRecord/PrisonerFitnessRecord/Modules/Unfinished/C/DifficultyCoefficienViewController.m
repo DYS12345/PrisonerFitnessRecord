@@ -1,41 +1,44 @@
 //
-//  CategorySelectViewController.m
+//  DifficultyCoefficienViewController.m
 //  PrisonerFitnessRecord
 //
-//  Created by dong on 2017/11/16.
+//  Created by dong on 2017/11/17.
 //  Copyright © 2017年 董永胜. All rights reserved.
 //
 
-#import "CategorySelectViewController.h"
+#import "DifficultyCoefficienViewController.h"
 
-@interface CategorySelectViewController () <UIPickerViewDelegate, UIPickerViewDataSource>
+@interface DifficultyCoefficienViewController () <UIPickerViewDelegate, UIPickerViewDataSource>
 
-@property (weak, nonatomic) IBOutlet UIButton *otherCancelBtn;
 @property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
 @property (nonatomic, strong) NSArray *ary;
+@property (nonatomic, assign) NSInteger selectNum;
 
 @end
 
-@implementation CategorySelectViewController
+@implementation DifficultyCoefficienViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.otherCancelBtn addTarget:self action:@selector(otherCancel) forControlEvents:UIControlEventTouchUpInside];
+    self.ary = @[@"0.2", @"0.4", @"0.6", @"0.8", @"1.0"];
     self.pickerView.delegate = self;
     self.pickerView.dataSource = self;
     
-    self.ary = @[@"读一本书", @"看完视频教程"];
     self.selectedItemStr = self.ary[0];
 }
 
--(void)otherCancel{
+- (IBAction)done:(id)sender {
+    self.selectItemBlock(self.selectedItemStr, self.selectNum);
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (IBAction)done:(id)sender {
-    self.selectItemBlock(self.selectedItemStr, self.selectNumId);
+- (IBAction)otherCancel:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
+    return 1;
 }
 
 -(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
@@ -46,13 +49,9 @@
     return self.ary[row];
 }
 
--(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
-    return 1;
-}
-
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
     self.selectedItemStr = self.ary[row];
-    self.selectNumId = row;
+    self.selectNum = row;
 }
 
 @end

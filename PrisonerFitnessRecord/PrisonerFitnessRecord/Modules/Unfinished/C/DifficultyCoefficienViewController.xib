@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DifficultyCoefficienViewController">
+            <connections>
+                <outlet property="pickerView" destination="0ip-se-4LZ" id="dTo-N7-pQn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ip-se-4LZ">
+                    <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="216" id="Sqo-hP-30E"/>
+                    </constraints>
+                </pickerView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UTc-GB-qRP">
+                    <rect key="frame" x="0.0" y="411" width="375" height="40"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rV1-gt-Pmn">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="完成"/>
+                            <connections>
+                                <action selector="done:" destination="-1" eventType="touchUpInside" id="Rfd-zx-ESw"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="rV1-gt-Pmn" firstAttribute="top" secondItem="UTc-GB-qRP" secondAttribute="top" id="40H-96-AoX"/>
+                        <constraint firstItem="rV1-gt-Pmn" firstAttribute="leading" secondItem="UTc-GB-qRP" secondAttribute="leading" id="8SF-Ie-zqq"/>
+                        <constraint firstAttribute="trailing" secondItem="rV1-gt-Pmn" secondAttribute="trailing" id="e6N-2T-Wmf"/>
+                        <constraint firstAttribute="bottom" secondItem="rV1-gt-Pmn" secondAttribute="bottom" id="odj-oH-5Y0"/>
+                        <constraint firstAttribute="height" constant="40" id="xkP-A0-7uQ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nH7-Mv-11f">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="411"/>
+                    <connections>
+                        <action selector="otherCancel:" destination="-1" eventType="touchUpInside" id="kqM-oX-GqU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="UTc-GB-qRP" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="8N9-3h-0lP"/>
+                <constraint firstItem="UTc-GB-qRP" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="8o0-SH-2tQ"/>
+                <constraint firstItem="nH7-Mv-11f" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9Iz-JR-YPS"/>
+                <constraint firstItem="0ip-se-4LZ" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="IMv-1c-CKa"/>
+                <constraint firstItem="nH7-Mv-11f" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Rns-d1-Yey"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="nH7-Mv-11f" secondAttribute="trailing" id="VmC-fH-Mdq"/>
+                <constraint firstItem="0ip-se-4LZ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Z3e-GH-Zz9"/>
+                <constraint firstItem="UTc-GB-qRP" firstAttribute="top" secondItem="nH7-Mv-11f" secondAttribute="bottom" id="cS8-8T-UyV"/>
+                <constraint firstItem="0ip-se-4LZ" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="fzV-0e-taS"/>
+                <constraint firstItem="0ip-se-4LZ" firstAttribute="top" secondItem="UTc-GB-qRP" secondAttribute="bottom" id="lnG-5D-1G7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

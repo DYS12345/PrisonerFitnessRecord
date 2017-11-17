@@ -44,6 +44,14 @@
 		F51D474B1FBD75C400718399 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47491FBD75C400718399 /* CategoryTableViewCell.xib */; };
 		F51D474F1FBD7F7600718399 /* CategorySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D474D1FBD7F7600718399 /* CategorySelectViewController.m */; };
 		F51D47501FBD7F7600718399 /* CategorySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D474E1FBD7F7600718399 /* CategorySelectViewController.xib */; };
+		F51D47541FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D47521FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m */; };
+		F51D47551FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47531FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib */; };
+		F51D47591FBE817500718399 /* DifficultyCoefficienViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D47571FBE817500718399 /* DifficultyCoefficienViewController.m */; };
+		F51D475A1FBE817500718399 /* DifficultyCoefficienViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47581FBE817500718399 /* DifficultyCoefficienViewController.xib */; };
+		F5F280C01FBEB6CF0098B3B7 /* DateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F280BE1FBEB6CF0098B3B7 /* DateTableViewCell.m */; };
+		F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F280BF1FBEB6CF0098B3B7 /* DateTableViewCell.xib */; };
+		F5F280C51FBEB8470098B3B7 /* DateSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F280C31FBEB8470098B3B7 /* DateSelectViewController.m */; };
+		F5F280C61FBEB8470098B3B7 /* DateSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F280C41FBEB8470098B3B7 /* DateSelectViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +123,18 @@
 		F51D474C1FBD7F7600718399 /* CategorySelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategorySelectViewController.h; sourceTree = "<group>"; };
 		F51D474D1FBD7F7600718399 /* CategorySelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategorySelectViewController.m; sourceTree = "<group>"; };
 		F51D474E1FBD7F7600718399 /* CategorySelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategorySelectViewController.xib; sourceTree = "<group>"; };
+		F51D47511FBE7B7100718399 /* DifficultyCoefficienTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifficultyCoefficienTableViewCell.h; sourceTree = "<group>"; };
+		F51D47521FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifficultyCoefficienTableViewCell.m; sourceTree = "<group>"; };
+		F51D47531FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DifficultyCoefficienTableViewCell.xib; sourceTree = "<group>"; };
+		F51D47561FBE817500718399 /* DifficultyCoefficienViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifficultyCoefficienViewController.h; sourceTree = "<group>"; };
+		F51D47571FBE817500718399 /* DifficultyCoefficienViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifficultyCoefficienViewController.m; sourceTree = "<group>"; };
+		F51D47581FBE817500718399 /* DifficultyCoefficienViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DifficultyCoefficienViewController.xib; sourceTree = "<group>"; };
+		F5F280BD1FBEB6CF0098B3B7 /* DateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateTableViewCell.h; sourceTree = "<group>"; };
+		F5F280BE1FBEB6CF0098B3B7 /* DateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateTableViewCell.m; sourceTree = "<group>"; };
+		F5F280BF1FBEB6CF0098B3B7 /* DateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateTableViewCell.xib; sourceTree = "<group>"; };
+		F5F280C21FBEB8470098B3B7 /* DateSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateSelectViewController.h; sourceTree = "<group>"; };
+		F5F280C31FBEB8470098B3B7 /* DateSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateSelectViewController.m; sourceTree = "<group>"; };
+		F5F280C41FBEB8470098B3B7 /* DateSelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateSelectViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +331,12 @@
 				F51D474C1FBD7F7600718399 /* CategorySelectViewController.h */,
 				F51D474D1FBD7F7600718399 /* CategorySelectViewController.m */,
 				F51D474E1FBD7F7600718399 /* CategorySelectViewController.xib */,
+				F51D47561FBE817500718399 /* DifficultyCoefficienViewController.h */,
+				F51D47571FBE817500718399 /* DifficultyCoefficienViewController.m */,
+				F51D47581FBE817500718399 /* DifficultyCoefficienViewController.xib */,
+				F5F280C21FBEB8470098B3B7 /* DateSelectViewController.h */,
+				F5F280C31FBEB8470098B3B7 /* DateSelectViewController.m */,
+				F5F280C41FBEB8470098B3B7 /* DateSelectViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -324,6 +350,12 @@
 				F51D47471FBD75C400718399 /* CategoryTableViewCell.h */,
 				F51D47481FBD75C400718399 /* CategoryTableViewCell.m */,
 				F51D47491FBD75C400718399 /* CategoryTableViewCell.xib */,
+				F51D47511FBE7B7100718399 /* DifficultyCoefficienTableViewCell.h */,
+				F51D47521FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m */,
+				F51D47531FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib */,
+				F5F280BD1FBEB6CF0098B3B7 /* DateTableViewCell.h */,
+				F5F280BE1FBEB6CF0098B3B7 /* DateTableViewCell.m */,
+				F5F280BF1FBEB6CF0098B3B7 /* DateTableViewCell.xib */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -428,12 +460,16 @@
 				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
 				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
+				F5F280C61FBEB8470098B3B7 /* DateSelectViewController.xib in Resources */,
 				F51D474B1FBD75C400718399 /* CategoryTableViewCell.xib in Resources */,
 				48276F011F36E1A8000817F1 /* FinishiedViewController.xib in Resources */,
 				48276E9C1F362613000817F1 /* Assets.xcassets in Resources */,
 				F51D47401FBD6C5000718399 /* CreatItemViewController.xib in Resources */,
+				F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */,
 				F51D47451FBD6FC000718399 /* NameTableViewCell.xib in Resources */,
 				F51D47501FBD7F7600718399 /* CategorySelectViewController.xib in Resources */,
+				F51D47551FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib in Resources */,
+				F51D475A1FBE817500718399 /* DifficultyCoefficienViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,12 +529,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				48276F051F36E215000817F1 /* UnfinishiedViewController.m in Sources */,
+				F5F280C01FBEB6CF0098B3B7 /* DateTableViewCell.m in Sources */,
 				48276EAF1F3627EF000817F1 /* AppDelegate+Guide.m in Sources */,
 				48276EBC1F362868000817F1 /* BaseViewController.m in Sources */,
 				48276EDA1F3628AB000817F1 /* NSString+Helper.m in Sources */,
 				48276EE01F3628AB000817F1 /* UIImage+Helper.m in Sources */,
 				48276EDF1F3628AB000817F1 /* UIColor+Extension.m in Sources */,
 				48276EE21F3628AB000817F1 /* UIImageView+SDWedImage.m in Sources */,
+				F51D47591FBE817500718399 /* DifficultyCoefficienViewController.m in Sources */,
 				48276EE11F3628AB000817F1 /* UIImage+QRCode.m in Sources */,
 				48276E941F362613000817F1 /* AppDelegate.m in Sources */,
 				48276EBA1F362868000817F1 /* BaseNavController.m in Sources */,
@@ -507,11 +545,13 @@
 				F51D474F1FBD7F7600718399 /* CategorySelectViewController.m in Sources */,
 				F51D47441FBD6FC000718399 /* NameTableViewCell.m in Sources */,
 				48276EDE1F3628AB000817F1 /* UIBarButtonItem+Helper.m in Sources */,
+				F51D47541FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m in Sources */,
 				48276EDC1F3628AB000817F1 /* NSString+TimeDate.m in Sources */,
 				48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */,
 				48276EDD1F3628AB000817F1 /* NSTimer+Addition.m in Sources */,
 				48276EDB1F3628AB000817F1 /* NSString+JSON.m in Sources */,
 				F51D473F1FBD6C5000718399 /* CreatItemViewController.m in Sources */,
+				F5F280C51FBEB8470098B3B7 /* DateSelectViewController.m in Sources */,
 				F51D474A1FBD75C400718399 /* CategoryTableViewCell.m in Sources */,
 				48276ED91F3628AB000817F1 /* NSString+FBMD5.m in Sources */,
 				48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */,
