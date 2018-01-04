@@ -10,6 +10,10 @@
 #import "UIColor+Extension.h"
 #import "SVProgressHUD.h"
 #import "CreatItemViewController.h"
+#import "TargetMuscleTableViewCell.h"
+#import "ActionShowViewController.h"
+#import "QiXieXunLianJiRouViewController.h"
+#import "ReLiangDuiZhaoViewController.h"
 
 @interface UnfinishiedViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -35,9 +39,9 @@
     UIBarButtonItem *menuBtnItem = [[UIBarButtonItem alloc] initWithCustomView:menuBtn];
     self.navigationItem.leftBarButtonItem = menuBtnItem;
     
+    self.modelAry = @[@"器械训练肌肉训练", @"囚徒自重训练", @"自重训练动作", @"肌肉拉伸", @"泡沫轴放松肌肉", @"对照食物查看热量"];
     
-    self.tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
-    self.tableview.rowHeight = 80;
+    [self.tableview registerClass:[TargetMuscleTableViewCell class] forCellReuseIdentifier:@"TargetMuscleTableViewCell"];
 }
 
 -(void)add{
@@ -54,12 +58,26 @@
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = [UITableViewCell new];
+    TargetMuscleTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TargetMuscleTableViewCell"];
+    cell.textLabel.text = self.modelAry[indexPath.item];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    return self.modelAry.count;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 5) {
+        ReLiangDuiZhaoViewController *vc = [ReLiangDuiZhaoViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else {
+        QiXieXunLianJiRouViewController *vc = [QiXieXunLianJiRouViewController new];
+        vc.numFlag = indexPath.item;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 @end

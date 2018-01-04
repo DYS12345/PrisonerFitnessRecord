@@ -7,8 +7,14 @@
 //
 
 #import "FinishiedViewController.h"
+#import "JiHuaHeaderView.h"
+#import "FinishiedTableViewCell.h"
 
-@interface FinishiedViewController ()
+@interface FinishiedViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) NSArray *modelAry;
+@property (nonatomic, strong) NSArray *modelTitleAry;
 
 @end
 
@@ -16,22 +22,46 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    NSArray *oneAry = @[@"胸", @"背", @"手臂", @"腿", @"胸", @"背", @"肩", @"手臂", @"腿"];
+    NSArray *twoAry = @[@"胸", @"背", @"肩", @"胸", @"背", @"手臂", @"肩"];
+    NSArray *threeAry = @[@"胸", @"背", @"手臂", @"腿", @"胸", @"背", @"肩"];
+    NSArray *fourAry = @[@"胸", @"背", @"手臂", @"腿", @"胸", @"背", @"肩", @"手臂"];
+    NSArray *fiveAry = @[@"胸", @"背", @"肩", @"腿", @"胸", @"背", @"手臂"];
+    
+    self.modelAry = @[oneAry, twoAry, threeAry, fourAry, fiveAry];
+    self.modelTitleAry = @[@"第一周", @"第二周", @"第三周", @"第四周", @"第五周"];
+    
+    [self.tableView registerClass:[FinishiedTableViewCell class] forCellReuseIdentifier:@"FinishiedTableViewCell"];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 5;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 1;
 }
-*/
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    FinishiedTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FinishiedTableViewCell"];
+    NSArray *ary = self.modelAry[indexPath.section];
+    cell.modelAry = ary;
+    return cell;
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    JiHuaHeaderView *view = [[JiHuaHeaderView alloc] init];
+    view.titleLabel.text = self.modelTitleAry[section];
+    return view;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    return 0.001;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 50;
+}
 
 @end

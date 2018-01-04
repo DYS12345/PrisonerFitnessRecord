@@ -48,6 +48,21 @@
 		F51D47551FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47531FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib */; };
 		F51D47591FBE817500718399 /* DifficultyCoefficienViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D47571FBE817500718399 /* DifficultyCoefficienViewController.m */; };
 		F51D475A1FBE817500718399 /* DifficultyCoefficienViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47581FBE817500718399 /* DifficultyCoefficienViewController.xib */; };
+		F5A15A861FFCAFD400E22C88 /* TargetMuscleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */; };
+		F5A15A8A1FFCBC9200E22C88 /* ActionShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A881FFCBC9200E22C88 /* ActionShowViewController.m */; };
+		F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A891FFCBC9200E22C88 /* ActionShowViewController.xib */; };
+		F5A15A8F1FFCC03B00E22C88 /* ActionShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A8D1FFCC03B00E22C88 /* ActionShowTableViewCell.m */; };
+		F5A15A901FFCC03B00E22C88 /* ActionShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A8E1FFCC03B00E22C88 /* ActionShowTableViewCell.xib */; };
+		F5A15A971FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A951FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m */; };
+		F5A15A981FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A961FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib */; };
+		F5A15A9C1FFDDAC300E22C88 /* QiuTuActionShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A9A1FFDDAC300E22C88 /* QiuTuActionShowViewController.m */; };
+		F5A15A9D1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A9B1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib */; };
+		F5A15A9F1FFE0DEC00E22C88 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A9E1FFE0DEC00E22C88 /* MobileNet.mlmodel */; };
+		F5A15AA81FFE106800E22C88 /* ReLiangDuiZhaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15AA61FFE106800E22C88 /* ReLiangDuiZhaoViewController.m */; };
+		F5A15AA91FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15AA71FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib */; };
+		F5A15AAE1FFE27E400E22C88 /* JiHuaHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15AAD1FFE27E400E22C88 /* JiHuaHeaderView.m */; };
+		F5A15AB21FFE373800E22C88 /* FinishiedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15AB01FFE373800E22C88 /* FinishiedTableViewCell.m */; };
+		F5A15AB31FFE373800E22C88 /* FinishiedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15AB11FFE373800E22C88 /* FinishiedTableViewCell.xib */; };
 		F5F280C01FBEB6CF0098B3B7 /* DateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F280BE1FBEB6CF0098B3B7 /* DateTableViewCell.m */; };
 		F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F280BF1FBEB6CF0098B3B7 /* DateTableViewCell.xib */; };
 		F5F280C51FBEB8470098B3B7 /* DateSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F280C31FBEB8470098B3B7 /* DateSelectViewController.m */; };
@@ -129,6 +144,29 @@
 		F51D47561FBE817500718399 /* DifficultyCoefficienViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifficultyCoefficienViewController.h; sourceTree = "<group>"; };
 		F51D47571FBE817500718399 /* DifficultyCoefficienViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifficultyCoefficienViewController.m; sourceTree = "<group>"; };
 		F51D47581FBE817500718399 /* DifficultyCoefficienViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DifficultyCoefficienViewController.xib; sourceTree = "<group>"; };
+		F5A15A841FFCAFD400E22C88 /* TargetMuscleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetMuscleTableViewCell.h; sourceTree = "<group>"; };
+		F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetMuscleTableViewCell.m; sourceTree = "<group>"; };
+		F5A15A871FFCBC9200E22C88 /* ActionShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionShowViewController.h; sourceTree = "<group>"; };
+		F5A15A881FFCBC9200E22C88 /* ActionShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionShowViewController.m; sourceTree = "<group>"; };
+		F5A15A891FFCBC9200E22C88 /* ActionShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionShowViewController.xib; sourceTree = "<group>"; };
+		F5A15A8C1FFCC03B00E22C88 /* ActionShowTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionShowTableViewCell.h; sourceTree = "<group>"; };
+		F5A15A8D1FFCC03B00E22C88 /* ActionShowTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionShowTableViewCell.m; sourceTree = "<group>"; };
+		F5A15A8E1FFCC03B00E22C88 /* ActionShowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionShowTableViewCell.xib; sourceTree = "<group>"; };
+		F5A15A941FFDC35000E22C88 /* QiXieXunLianJiRouViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiXieXunLianJiRouViewController.h; sourceTree = "<group>"; };
+		F5A15A951FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiXieXunLianJiRouViewController.m; sourceTree = "<group>"; };
+		F5A15A961FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QiXieXunLianJiRouViewController.xib; sourceTree = "<group>"; };
+		F5A15A991FFDDAC300E22C88 /* QiuTuActionShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiuTuActionShowViewController.h; sourceTree = "<group>"; };
+		F5A15A9A1FFDDAC300E22C88 /* QiuTuActionShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiuTuActionShowViewController.m; sourceTree = "<group>"; };
+		F5A15A9B1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QiuTuActionShowViewController.xib; sourceTree = "<group>"; };
+		F5A15A9E1FFE0DEC00E22C88 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		F5A15AA51FFE106800E22C88 /* ReLiangDuiZhaoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReLiangDuiZhaoViewController.h; sourceTree = "<group>"; };
+		F5A15AA61FFE106800E22C88 /* ReLiangDuiZhaoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReLiangDuiZhaoViewController.m; sourceTree = "<group>"; };
+		F5A15AA71FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReLiangDuiZhaoViewController.xib; sourceTree = "<group>"; };
+		F5A15AAC1FFE27E400E22C88 /* JiHuaHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiHuaHeaderView.h; sourceTree = "<group>"; };
+		F5A15AAD1FFE27E400E22C88 /* JiHuaHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiHuaHeaderView.m; sourceTree = "<group>"; };
+		F5A15AAF1FFE373800E22C88 /* FinishiedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinishiedTableViewCell.h; sourceTree = "<group>"; };
+		F5A15AB01FFE373800E22C88 /* FinishiedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinishiedTableViewCell.m; sourceTree = "<group>"; };
+		F5A15AB11FFE373800E22C88 /* FinishiedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinishiedTableViewCell.xib; sourceTree = "<group>"; };
 		F5F280BD1FBEB6CF0098B3B7 /* DateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateTableViewCell.h; sourceTree = "<group>"; };
 		F5F280BE1FBEB6CF0098B3B7 /* DateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateTableViewCell.m; sourceTree = "<group>"; };
 		F5F280BF1FBEB6CF0098B3B7 /* DateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateTableViewCell.xib; sourceTree = "<group>"; };
@@ -239,6 +277,7 @@
 		48276EAB1F36276D000817F1 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F5A15A9E1FFE0DEC00E22C88 /* MobileNet.mlmodel */,
 				48276E9B1F362613000817F1 /* Assets.xcassets */,
 				48276E9D1F362613000817F1 /* LaunchScreen.storyboard */,
 				48276EA01F362613000817F1 /* Info.plist */,
@@ -304,6 +343,8 @@
 		48276EE71F36D511000817F1 /* Finished */ = {
 			isa = PBXGroup;
 			children = (
+				F5A15AAA1FFE275200E22C88 /* M */,
+				F5A15AAB1FFE275200E22C88 /* V */,
 				48276EEF1F36D554000817F1 /* C */,
 			);
 			path = Finished;
@@ -337,6 +378,18 @@
 				F5F280C21FBEB8470098B3B7 /* DateSelectViewController.h */,
 				F5F280C31FBEB8470098B3B7 /* DateSelectViewController.m */,
 				F5F280C41FBEB8470098B3B7 /* DateSelectViewController.xib */,
+				F5A15A871FFCBC9200E22C88 /* ActionShowViewController.h */,
+				F5A15A881FFCBC9200E22C88 /* ActionShowViewController.m */,
+				F5A15A891FFCBC9200E22C88 /* ActionShowViewController.xib */,
+				F5A15A941FFDC35000E22C88 /* QiXieXunLianJiRouViewController.h */,
+				F5A15A951FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m */,
+				F5A15A961FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib */,
+				F5A15A991FFDDAC300E22C88 /* QiuTuActionShowViewController.h */,
+				F5A15A9A1FFDDAC300E22C88 /* QiuTuActionShowViewController.m */,
+				F5A15A9B1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib */,
+				F5A15AA51FFE106800E22C88 /* ReLiangDuiZhaoViewController.h */,
+				F5A15AA61FFE106800E22C88 /* ReLiangDuiZhaoViewController.m */,
+				F5A15AA71FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -363,6 +416,11 @@
 		48276EEB1F36D511000817F1 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				F5A15A841FFCAFD400E22C88 /* TargetMuscleTableViewCell.h */,
+				F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */,
+				F5A15A8C1FFCC03B00E22C88 /* ActionShowTableViewCell.h */,
+				F5A15A8D1FFCC03B00E22C88 /* ActionShowTableViewCell.m */,
+				F5A15A8E1FFCC03B00E22C88 /* ActionShowTableViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -384,6 +442,25 @@
 				48276EF71F36D5FD000817F1 /* UserModel.m */,
 			);
 			path = M;
+			sourceTree = "<group>";
+		};
+		F5A15AAA1FFE275200E22C88 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				F5A15AAC1FFE27E400E22C88 /* JiHuaHeaderView.h */,
+				F5A15AAD1FFE27E400E22C88 /* JiHuaHeaderView.m */,
+				F5A15AAF1FFE373800E22C88 /* FinishiedTableViewCell.h */,
+				F5A15AB01FFE373800E22C88 /* FinishiedTableViewCell.m */,
+				F5A15AB11FFE373800E22C88 /* FinishiedTableViewCell.xib */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		F5A15AAB1FFE275200E22C88 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 		F6778ED8544E24D261B94B40 /* Pods */ = {
@@ -457,16 +534,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A15A9D1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib in Resources */,
 				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
+				F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */,
 				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
+				F5A15A981FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
 				F5F280C61FBEB8470098B3B7 /* DateSelectViewController.xib in Resources */,
 				F51D474B1FBD75C400718399 /* CategoryTableViewCell.xib in Resources */,
+				F5A15AA91FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib in Resources */,
 				48276F011F36E1A8000817F1 /* FinishiedViewController.xib in Resources */,
+				F5A15AB31FFE373800E22C88 /* FinishiedTableViewCell.xib in Resources */,
 				48276E9C1F362613000817F1 /* Assets.xcassets in Resources */,
 				F51D47401FBD6C5000718399 /* CreatItemViewController.xib in Resources */,
 				F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */,
 				F51D47451FBD6FC000718399 /* NameTableViewCell.xib in Resources */,
+				F5A15A901FFCC03B00E22C88 /* ActionShowTableViewCell.xib in Resources */,
 				F51D47501FBD7F7600718399 /* CategorySelectViewController.xib in Resources */,
 				F51D47551FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib in Resources */,
 				F51D475A1FBE817500718399 /* DifficultyCoefficienViewController.xib in Resources */,
@@ -532,26 +615,35 @@
 				F5F280C01FBEB6CF0098B3B7 /* DateTableViewCell.m in Sources */,
 				48276EAF1F3627EF000817F1 /* AppDelegate+Guide.m in Sources */,
 				48276EBC1F362868000817F1 /* BaseViewController.m in Sources */,
+				F5A15AAE1FFE27E400E22C88 /* JiHuaHeaderView.m in Sources */,
 				48276EDA1F3628AB000817F1 /* NSString+Helper.m in Sources */,
 				48276EE01F3628AB000817F1 /* UIImage+Helper.m in Sources */,
 				48276EDF1F3628AB000817F1 /* UIColor+Extension.m in Sources */,
+				F5A15A8A1FFCBC9200E22C88 /* ActionShowViewController.m in Sources */,
+				F5A15AB21FFE373800E22C88 /* FinishiedTableViewCell.m in Sources */,
+				F5A15A9C1FFDDAC300E22C88 /* QiuTuActionShowViewController.m in Sources */,
 				48276EE21F3628AB000817F1 /* UIImageView+SDWedImage.m in Sources */,
 				F51D47591FBE817500718399 /* DifficultyCoefficienViewController.m in Sources */,
+				F5A15A861FFCAFD400E22C88 /* TargetMuscleTableViewCell.m in Sources */,
 				48276EE11F3628AB000817F1 /* UIImage+QRCode.m in Sources */,
+				F5A15A9F1FFE0DEC00E22C88 /* MobileNet.mlmodel in Sources */,
 				48276E941F362613000817F1 /* AppDelegate.m in Sources */,
 				48276EBA1F362868000817F1 /* BaseNavController.m in Sources */,
 				48276F001F36E1A8000817F1 /* FinishiedViewController.m in Sources */,
 				48276EF81F36D5FD000817F1 /* UserModel.m in Sources */,
 				F51D474F1FBD7F7600718399 /* CategorySelectViewController.m in Sources */,
 				F51D47441FBD6FC000718399 /* NameTableViewCell.m in Sources */,
+				F5A15A8F1FFCC03B00E22C88 /* ActionShowTableViewCell.m in Sources */,
 				48276EDE1F3628AB000817F1 /* UIBarButtonItem+Helper.m in Sources */,
 				F51D47541FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m in Sources */,
 				48276EDC1F3628AB000817F1 /* NSString+TimeDate.m in Sources */,
+				F5A15A971FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m in Sources */,
 				48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */,
 				48276EDD1F3628AB000817F1 /* NSTimer+Addition.m in Sources */,
 				48276EDB1F3628AB000817F1 /* NSString+JSON.m in Sources */,
 				F51D473F1FBD6C5000718399 /* CreatItemViewController.m in Sources */,
 				F5F280C51FBEB8470098B3B7 /* DateSelectViewController.m in Sources */,
+				F5A15AA81FFE106800E22C88 /* ReLiangDuiZhaoViewController.m in Sources */,
 				F51D474A1FBD75C400718399 /* CategoryTableViewCell.m in Sources */,
 				48276ED91F3628AB000817F1 /* NSString+FBMD5.m in Sources */,
 				48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */,
@@ -679,6 +771,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.PrisonerFitnessRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -692,6 +785,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.PrisonerFitnessRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
