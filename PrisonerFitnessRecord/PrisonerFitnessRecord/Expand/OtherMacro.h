@@ -16,7 +16,8 @@
 #define BOUNDS_WIDTH        self.bounds.size.width
 #define BOUNDS_HEIGHT       self.bounds.size.height
 
-#define MASS_TONE_ATTUNE    [UIColor colorWithRed:40/255.0 green:193/255.0 blue:236/255.0 alpha:1]
+#define BLUE_COLOR   @"#3aa4c2"
+#define PURPLE_COLOR    @"#BA397C"
 
 typedef enum {
     product = 0,

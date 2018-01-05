@@ -9,6 +9,7 @@
 #import "JiHuaHeaderView.h"
 #import "Masonry.h"
 #import "UIColor+Extension.h"
+#import "OtherMacro.h"
 
 @implementation JiHuaHeaderView
 
@@ -35,7 +36,7 @@
 -(UILabel *)titleLabel{
     if (!_titleLabel) {
         _titleLabel = [UILabel new];
-        _titleLabel.textColor = [UIColor colorWithHexString:@"#BA397C"];
+        _titleLabel.textColor = [UIColor colorWithHexString:BLUE_COLOR];
     }
     return _titleLabel;
 }

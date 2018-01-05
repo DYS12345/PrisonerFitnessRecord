@@ -63,6 +63,9 @@
 		F5A15AAE1FFE27E400E22C88 /* JiHuaHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15AAD1FFE27E400E22C88 /* JiHuaHeaderView.m */; };
 		F5A15AB21FFE373800E22C88 /* FinishiedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15AB01FFE373800E22C88 /* FinishiedTableViewCell.m */; };
 		F5A15AB31FFE373800E22C88 /* FinishiedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15AB11FFE373800E22C88 /* FinishiedTableViewCell.xib */; };
+		F5A15AB71FFF260E00E22C88 /* JiHuaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15AB51FFF260E00E22C88 /* JiHuaCollectionViewCell.m */; };
+		F5A15AB81FFF260E00E22C88 /* JiHuaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15AB61FFF260E00E22C88 /* JiHuaCollectionViewCell.xib */; };
+		F5A15ABE1FFF6F0000E22C88 /* JiHuaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15ABD1FFF6F0000E22C88 /* JiHuaModel.m */; };
 		F5F280C01FBEB6CF0098B3B7 /* DateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F280BE1FBEB6CF0098B3B7 /* DateTableViewCell.m */; };
 		F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F280BF1FBEB6CF0098B3B7 /* DateTableViewCell.xib */; };
 		F5F280C51FBEB8470098B3B7 /* DateSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F280C31FBEB8470098B3B7 /* DateSelectViewController.m */; };
@@ -167,6 +170,11 @@
 		F5A15AAF1FFE373800E22C88 /* FinishiedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinishiedTableViewCell.h; sourceTree = "<group>"; };
 		F5A15AB01FFE373800E22C88 /* FinishiedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinishiedTableViewCell.m; sourceTree = "<group>"; };
 		F5A15AB11FFE373800E22C88 /* FinishiedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinishiedTableViewCell.xib; sourceTree = "<group>"; };
+		F5A15AB41FFF260E00E22C88 /* JiHuaCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiHuaCollectionViewCell.h; sourceTree = "<group>"; };
+		F5A15AB51FFF260E00E22C88 /* JiHuaCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiHuaCollectionViewCell.m; sourceTree = "<group>"; };
+		F5A15AB61FFF260E00E22C88 /* JiHuaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiHuaCollectionViewCell.xib; sourceTree = "<group>"; };
+		F5A15ABC1FFF6F0000E22C88 /* JiHuaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiHuaModel.h; sourceTree = "<group>"; };
+		F5A15ABD1FFF6F0000E22C88 /* JiHuaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiHuaModel.m; sourceTree = "<group>"; };
 		F5F280BD1FBEB6CF0098B3B7 /* DateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateTableViewCell.h; sourceTree = "<group>"; };
 		F5F280BE1FBEB6CF0098B3B7 /* DateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateTableViewCell.m; sourceTree = "<group>"; };
 		F5F280BF1FBEB6CF0098B3B7 /* DateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateTableViewCell.xib; sourceTree = "<group>"; };
@@ -447,11 +455,8 @@
 		F5A15AAA1FFE275200E22C88 /* M */ = {
 			isa = PBXGroup;
 			children = (
-				F5A15AAC1FFE27E400E22C88 /* JiHuaHeaderView.h */,
-				F5A15AAD1FFE27E400E22C88 /* JiHuaHeaderView.m */,
-				F5A15AAF1FFE373800E22C88 /* FinishiedTableViewCell.h */,
-				F5A15AB01FFE373800E22C88 /* FinishiedTableViewCell.m */,
-				F5A15AB11FFE373800E22C88 /* FinishiedTableViewCell.xib */,
+				F5A15ABC1FFF6F0000E22C88 /* JiHuaModel.h */,
+				F5A15ABD1FFF6F0000E22C88 /* JiHuaModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -459,6 +464,14 @@
 		F5A15AAB1FFE275200E22C88 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				F5A15AAC1FFE27E400E22C88 /* JiHuaHeaderView.h */,
+				F5A15AAD1FFE27E400E22C88 /* JiHuaHeaderView.m */,
+				F5A15AAF1FFE373800E22C88 /* FinishiedTableViewCell.h */,
+				F5A15AB01FFE373800E22C88 /* FinishiedTableViewCell.m */,
+				F5A15AB11FFE373800E22C88 /* FinishiedTableViewCell.xib */,
+				F5A15AB41FFF260E00E22C88 /* JiHuaCollectionViewCell.h */,
+				F5A15AB51FFF260E00E22C88 /* JiHuaCollectionViewCell.m */,
+				F5A15AB61FFF260E00E22C88 /* JiHuaCollectionViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -534,6 +547,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A15AB81FFF260E00E22C88 /* JiHuaCollectionViewCell.xib in Resources */,
 				F5A15A9D1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib in Resources */,
 				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
 				F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */,
@@ -636,6 +650,7 @@
 				F5A15A8F1FFCC03B00E22C88 /* ActionShowTableViewCell.m in Sources */,
 				48276EDE1F3628AB000817F1 /* UIBarButtonItem+Helper.m in Sources */,
 				F51D47541FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m in Sources */,
+				F5A15ABE1FFF6F0000E22C88 /* JiHuaModel.m in Sources */,
 				48276EDC1F3628AB000817F1 /* NSString+TimeDate.m in Sources */,
 				F5A15A971FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m in Sources */,
 				48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */,
@@ -651,6 +666,7 @@
 				48276EBD1F362868000817F1 /* BaseTarBar.m in Sources */,
 				48276E911F362613000817F1 /* main.m in Sources */,
 				48276EBB1F362868000817F1 /* BaseTarBarViewController.m in Sources */,
+				F5A15AB71FFF260E00E22C88 /* JiHuaCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

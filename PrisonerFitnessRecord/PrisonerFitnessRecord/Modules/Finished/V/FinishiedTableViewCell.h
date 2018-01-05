@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@class JiHuaModel;
 
 @interface FinishiedTableViewCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (strong, nonatomic) UICollectionView *collectionView;
 @property(nonatomic, strong) NSArray *modelAry;
+@property(nonatomic, strong) JiHuaModel *jiHuaModel;
+@property(nonatomic, strong) UIViewController *vc;
+@property(nonatomic, assign) NSInteger numFlag;
 
 @end

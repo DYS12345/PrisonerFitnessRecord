@@ -41,7 +41,7 @@
     
     NSMutableDictionary *selectedAttrs = [NSMutableDictionary dictionary];
     selectedAttrs[NSFontAttributeName] = attrs[NSFontAttributeName];
-    selectedAttrs[NSForegroundColorAttributeName] = MASS_TONE_ATTUNE;
+    selectedAttrs[NSForegroundColorAttributeName] = [UIColor colorWithHexString:BLUE_COLOR];
     
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
