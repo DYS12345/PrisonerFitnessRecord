@@ -52,7 +52,7 @@
 //            [model save];
 //        }
 //    } else {
-//        self.JiHuaModelAry = [JiHuaModel findAll];
+//        self.JiHuaModelAry = ary1;
 //    }
     self.JiHuaModelAry = [JiHuaModel mj_objectArrayWithKeyValuesArray:ary];
     

@@ -124,7 +124,8 @@
     JiHuaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"JiHuaCollectionViewCell" forIndexPath:indexPath];
     cell.titleLabel.text = self.modelAry[indexPath.item];
     
-    NSString *str = self.jiHuaModel.days[indexPath.row];
+    NSString *str = ((NSArray*)self.jiHuaModel.days)[indexPath.row];
+    NSLog(@"asdsadasdsa%@", str);
     if ([str isEqualToString:@"0"]) {
         cell.tipImageView.image = [UIImage imageNamed:@"love"];
         cell.oneLine.backgroundColor = [UIColor colorWithHexString:BLUE_COLOR];
