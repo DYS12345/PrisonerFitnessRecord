@@ -22,6 +22,7 @@
     [self windowShow];
     [self thn_initSVProgressHUDArgument];
     [self setKeyBoard];
+    
     return YES;
 }
 

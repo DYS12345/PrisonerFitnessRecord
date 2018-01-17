@@ -14,6 +14,7 @@
 #import "ActionShowViewController.h"
 #import "QiXieXunLianJiRouViewController.h"
 #import "ReLiangDuiZhaoViewController.h"
+#import "TabataJiShiViewController.h"
 
 @interface UnfinishiedViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -39,7 +40,7 @@
     UIBarButtonItem *menuBtnItem = [[UIBarButtonItem alloc] initWithCustomView:menuBtn];
     self.navigationItem.leftBarButtonItem = menuBtnItem;
     
-    self.modelAry = @[@"器械训练肌肉训练", @"囚徒自重训练", @"自重训练动作", @"肌肉拉伸", @"泡沫轴放松肌肉", @"对照食物查看热量"];
+    self.modelAry = @[@"器械训练肌肉训练", @"囚徒自重训练", @"自重训练动作", @"肌肉拉伸", @"泡沫轴放松肌肉", @"对照食物查看热量", @"tabata计时"];
     
     [self.tableview registerClass:[TargetMuscleTableViewCell class] forCellReuseIdentifier:@"TargetMuscleTableViewCell"];
 }
@@ -72,6 +73,9 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 5) {
         ReLiangDuiZhaoViewController *vc = [ReLiangDuiZhaoViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 6) {
+        TabataJiShiViewController *vc = [TabataJiShiViewController new];
         [self.navigationController pushViewController:vc animated:YES];
     } else {
         QiXieXunLianJiRouViewController *vc = [QiXieXunLianJiRouViewController new];

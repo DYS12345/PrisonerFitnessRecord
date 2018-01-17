@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		48276E911F362613000817F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276E901F362613000817F1 /* main.m */; };
-		48276E941F362613000817F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276E931F362613000817F1 /* AppDelegate.m */; };
+		48276E941F362613000817F1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 48276E931F362613000817F1 /* AppDelegate.mm */; };
 		48276E9C1F362613000817F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48276E9B1F362613000817F1 /* Assets.xcassets */; };
 		48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48276E9D1F362613000817F1 /* LaunchScreen.storyboard */; };
 		48276EAF1F3627EF000817F1 /* AppDelegate+Guide.m in Sources */ = {isa = PBXBuildFile; fileRef = 48276EAE1F3627EF000817F1 /* AppDelegate+Guide.m */; };
@@ -48,6 +48,18 @@
 		F51D47551FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47531FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib */; };
 		F51D47591FBE817500718399 /* DifficultyCoefficienViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D47571FBE817500718399 /* DifficultyCoefficienViewController.m */; };
 		F51D475A1FBE817500718399 /* DifficultyCoefficienViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47581FBE817500718399 /* DifficultyCoefficienViewController.xib */; };
+		F53956C6200C5B9700E1E1FF /* TabataJiShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53956C4200C5B9700E1E1FF /* TabataJiShiViewController.m */; };
+		F53956C7200C5B9700E1E1FF /* TabataJiShiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53956C5200C5B9700E1E1FF /* TabataJiShiViewController.xib */; };
+		F53956CA200C802500E1E1FF /* ZRMultipleWaveLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53956C8200C802500E1E1FF /* ZRMultipleWaveLoadingView.m */; };
+		F53956CE200C808500E1E1FF /* ZRMultipleWavePathMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F53956CD200C808400E1E1FF /* ZRMultipleWavePathMaker.m */; };
+		F53956D1200C80C800E1E1FF /* UIView+GKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F53956D0200C80C800E1E1FF /* UIView+GKExtension.m */; };
+		F53956D9200CBCEF00E1E1FF /* XiuXiView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53956D8200CBCEF00E1E1FF /* XiuXiView.m */; };
+		F53956DB200DDD7500E1E1FF /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53956DA200DDD7500E1E1FF /* CoreML.framework */; };
+		F53956EE200EEF8000E1E1FF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53956ED200EEF8000E1E1FF /* CoreTelephony.framework */; };
+		F53956F0200EEF8F00E1E1FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53956EF200EEF8F00E1E1FF /* SystemConfiguration.framework */; };
+		F53956F2200EEF9D00E1E1FF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F53956F1200EEF9D00E1E1FF /* libz.tbd */; };
+		F53956F4200EEFAE00E1E1FF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F53956F3200EEFAE00E1E1FF /* libsqlite3.tbd */; };
+		F5395717200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5395716200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd */; };
 		F5A15A861FFCAFD400E22C88 /* TargetMuscleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */; };
 		F5A15A8A1FFCBC9200E22C88 /* ActionShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A881FFCBC9200E22C88 /* ActionShowViewController.m */; };
 		F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A891FFCBC9200E22C88 /* ActionShowViewController.xib */; };
@@ -77,7 +89,7 @@
 		48276E8C1F362613000817F1 /* PrisonerFitnessRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrisonerFitnessRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48276E901F362613000817F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48276E921F362613000817F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PrisonerFitnessRecord/AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		48276E931F362613000817F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PrisonerFitnessRecord/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		48276E931F362613000817F1 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = PrisonerFitnessRecord/AppDelegate.mm; sourceTree = SOURCE_ROOT; };
 		48276E9B1F362613000817F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		48276E9E1F362613000817F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48276EA01F362613000817F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
@@ -147,6 +159,24 @@
 		F51D47561FBE817500718399 /* DifficultyCoefficienViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifficultyCoefficienViewController.h; sourceTree = "<group>"; };
 		F51D47571FBE817500718399 /* DifficultyCoefficienViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifficultyCoefficienViewController.m; sourceTree = "<group>"; };
 		F51D47581FBE817500718399 /* DifficultyCoefficienViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DifficultyCoefficienViewController.xib; sourceTree = "<group>"; };
+		F53956C3200C5B9700E1E1FF /* TabataJiShiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabataJiShiViewController.h; sourceTree = "<group>"; };
+		F53956C4200C5B9700E1E1FF /* TabataJiShiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabataJiShiViewController.m; sourceTree = "<group>"; };
+		F53956C5200C5B9700E1E1FF /* TabataJiShiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabataJiShiViewController.xib; sourceTree = "<group>"; };
+		F53956C8200C802500E1E1FF /* ZRMultipleWaveLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRMultipleWaveLoadingView.m; sourceTree = "<group>"; };
+		F53956C9200C802500E1E1FF /* ZRMultipleWaveLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRMultipleWaveLoadingView.h; sourceTree = "<group>"; };
+		F53956CC200C808400E1E1FF /* ZRMultipleWavePathMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRMultipleWavePathMaker.h; sourceTree = "<group>"; };
+		F53956CD200C808400E1E1FF /* ZRMultipleWavePathMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRMultipleWavePathMaker.m; sourceTree = "<group>"; };
+		F53956CF200C80C700E1E1FF /* UIView+GKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GKExtension.h"; sourceTree = "<group>"; };
+		F53956D0200C80C800E1E1FF /* UIView+GKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GKExtension.m"; sourceTree = "<group>"; };
+		F53956D7200CBCEF00E1E1FF /* XiuXiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiuXiView.h; sourceTree = "<group>"; };
+		F53956D8200CBCEF00E1E1FF /* XiuXiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiuXiView.m; sourceTree = "<group>"; };
+		F53956DA200DDD7500E1E1FF /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		F53956EB200EEF4800E1E1FF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F53956ED200EEF8000E1E1FF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F53956EF200EEF8F00E1E1FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F53956F1200EEF9D00E1E1FF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F53956F3200EEFAE00E1E1FF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F5395716200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		F5A15A841FFCAFD400E22C88 /* TargetMuscleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetMuscleTableViewCell.h; sourceTree = "<group>"; };
 		F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetMuscleTableViewCell.m; sourceTree = "<group>"; };
 		F5A15A871FFCBC9200E22C88 /* ActionShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionShowViewController.h; sourceTree = "<group>"; };
@@ -188,6 +218,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5395717200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd in Frameworks */,
+				F53956F4200EEFAE00E1E1FF /* libsqlite3.tbd in Frameworks */,
+				F53956F2200EEF9D00E1E1FF /* libz.tbd in Frameworks */,
+				F53956F0200EEF8F00E1E1FF /* SystemConfiguration.framework in Frameworks */,
+				F53956EE200EEF8000E1E1FF /* CoreTelephony.framework in Frameworks */,
+				F53956DB200DDD7500E1E1FF /* CoreML.framework in Frameworks */,
 				C80AC8E5A89370A0A81C08B7 /* Pods_PrisonerFitnessRecord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +234,13 @@
 		3EAFB2C83A0B4740B0640C86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5395716200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd */,
+				F53956F3200EEFAE00E1E1FF /* libsqlite3.tbd */,
+				F53956F1200EEF9D00E1E1FF /* libz.tbd */,
+				F53956EF200EEF8F00E1E1FF /* SystemConfiguration.framework */,
+				F53956ED200EEF8000E1E1FF /* CoreTelephony.framework */,
+				F53956EB200EEF4800E1E1FF /* AdSupport.framework */,
+				F53956DA200DDD7500E1E1FF /* CoreML.framework */,
 				F43D3598C40C5C67198E984A /* Pods_PrisonerFitnessRecord.framework */,
 			);
 			name = Frameworks;
@@ -225,6 +268,7 @@
 		48276E8E1F362613000817F1 /* PrisonerFitnessRecord */ = {
 			isa = PBXGroup;
 			children = (
+				F53956DE200EEE4E00E1E1FF /* ThirdPart */,
 				48276EA71F36276D000817F1 /* AppDelegate */,
 				48276EA81F36276D000817F1 /* Base */,
 				48276EA91F36276D000817F1 /* Expand */,
@@ -249,7 +293,7 @@
 				48276EAD1F3627EF000817F1 /* AppDelegate+Guide.h */,
 				48276EAE1F3627EF000817F1 /* AppDelegate+Guide.m */,
 				48276E921F362613000817F1 /* AppDelegate.h */,
-				48276E931F362613000817F1 /* AppDelegate.m */,
+				48276E931F362613000817F1 /* AppDelegate.mm */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -318,6 +362,8 @@
 		48276EBE1F3628AB000817F1 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				F53956CF200C80C700E1E1FF /* UIView+GKExtension.h */,
+				F53956D0200C80C800E1E1FF /* UIView+GKExtension.m */,
 				48276EBF1F3628AB000817F1 /* NSString+FBMD5.h */,
 				48276EC01F3628AB000817F1 /* NSString+FBMD5.m */,
 				48276EC11F3628AB000817F1 /* NSString+Helper.h */,
@@ -361,6 +407,7 @@
 		48276EE81F36D511000817F1 /* Unfinished */ = {
 			isa = PBXGroup;
 			children = (
+				F53956CB200C807D00E1E1FF /* Other */,
 				48276EE91F36D511000817F1 /* C */,
 				48276EEA1F36D511000817F1 /* M */,
 				48276EEB1F36D511000817F1 /* V */,
@@ -398,6 +445,9 @@
 				F5A15AA51FFE106800E22C88 /* ReLiangDuiZhaoViewController.h */,
 				F5A15AA61FFE106800E22C88 /* ReLiangDuiZhaoViewController.m */,
 				F5A15AA71FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib */,
+				F53956C3200C5B9700E1E1FF /* TabataJiShiViewController.h */,
+				F53956C4200C5B9700E1E1FF /* TabataJiShiViewController.m */,
+				F53956C5200C5B9700E1E1FF /* TabataJiShiViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -424,11 +474,15 @@
 		48276EEB1F36D511000817F1 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				F53956C9200C802500E1E1FF /* ZRMultipleWaveLoadingView.h */,
+				F53956C8200C802500E1E1FF /* ZRMultipleWaveLoadingView.m */,
 				F5A15A841FFCAFD400E22C88 /* TargetMuscleTableViewCell.h */,
 				F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */,
 				F5A15A8C1FFCC03B00E22C88 /* ActionShowTableViewCell.h */,
 				F5A15A8D1FFCC03B00E22C88 /* ActionShowTableViewCell.m */,
 				F5A15A8E1FFCC03B00E22C88 /* ActionShowTableViewCell.xib */,
+				F53956D7200CBCEF00E1E1FF /* XiuXiView.h */,
+				F53956D8200CBCEF00E1E1FF /* XiuXiView.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -450,6 +504,22 @@
 				48276EF71F36D5FD000817F1 /* UserModel.m */,
 			);
 			path = M;
+			sourceTree = "<group>";
+		};
+		F53956CB200C807D00E1E1FF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F53956CC200C808400E1E1FF /* ZRMultipleWavePathMaker.h */,
+				F53956CD200C808400E1E1FF /* ZRMultipleWavePathMaker.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F53956DE200EEE4E00E1E1FF /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPart;
 			sourceTree = "<group>";
 		};
 		F5A15AAA1FFE275200E22C88 /* M */ = {
@@ -559,6 +629,7 @@
 				F5A15AA91FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib in Resources */,
 				48276F011F36E1A8000817F1 /* FinishiedViewController.xib in Resources */,
 				F5A15AB31FFE373800E22C88 /* FinishiedTableViewCell.xib in Resources */,
+				F53956C7200C5B9700E1E1FF /* TabataJiShiViewController.xib in Resources */,
 				48276E9C1F362613000817F1 /* Assets.xcassets in Resources */,
 				F51D47401FBD6C5000718399 /* CreatItemViewController.xib in Resources */,
 				F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */,
@@ -630,6 +701,7 @@
 				48276EAF1F3627EF000817F1 /* AppDelegate+Guide.m in Sources */,
 				48276EBC1F362868000817F1 /* BaseViewController.m in Sources */,
 				F5A15AAE1FFE27E400E22C88 /* JiHuaHeaderView.m in Sources */,
+				F53956C6200C5B9700E1E1FF /* TabataJiShiViewController.m in Sources */,
 				48276EDA1F3628AB000817F1 /* NSString+Helper.m in Sources */,
 				48276EE01F3628AB000817F1 /* UIImage+Helper.m in Sources */,
 				48276EDF1F3628AB000817F1 /* UIColor+Extension.m in Sources */,
@@ -638,16 +710,20 @@
 				F5A15A9C1FFDDAC300E22C88 /* QiuTuActionShowViewController.m in Sources */,
 				48276EE21F3628AB000817F1 /* UIImageView+SDWedImage.m in Sources */,
 				F51D47591FBE817500718399 /* DifficultyCoefficienViewController.m in Sources */,
+				F53956CA200C802500E1E1FF /* ZRMultipleWaveLoadingView.m in Sources */,
 				F5A15A861FFCAFD400E22C88 /* TargetMuscleTableViewCell.m in Sources */,
 				48276EE11F3628AB000817F1 /* UIImage+QRCode.m in Sources */,
 				F5A15A9F1FFE0DEC00E22C88 /* MobileNet.mlmodel in Sources */,
-				48276E941F362613000817F1 /* AppDelegate.m in Sources */,
+				48276E941F362613000817F1 /* AppDelegate.mm in Sources */,
+				F53956CE200C808500E1E1FF /* ZRMultipleWavePathMaker.m in Sources */,
 				48276EBA1F362868000817F1 /* BaseNavController.m in Sources */,
 				48276F001F36E1A8000817F1 /* FinishiedViewController.m in Sources */,
+				F53956D1200C80C800E1E1FF /* UIView+GKExtension.m in Sources */,
 				48276EF81F36D5FD000817F1 /* UserModel.m in Sources */,
 				F51D474F1FBD7F7600718399 /* CategorySelectViewController.m in Sources */,
 				F51D47441FBD6FC000718399 /* NameTableViewCell.m in Sources */,
 				F5A15A8F1FFCC03B00E22C88 /* ActionShowTableViewCell.m in Sources */,
+				F53956D9200CBCEF00E1E1FF /* XiuXiView.m in Sources */,
 				48276EDE1F3628AB000817F1 /* UIBarButtonItem+Helper.m in Sources */,
 				F51D47541FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m in Sources */,
 				F5A15ABE1FFF6F0000E22C88 /* JiHuaModel.m in Sources */,
@@ -784,7 +860,37 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QNKEA2Q4R9;
 				INFOPLIST_FILE = PrisonerFitnessRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PrisonerFitnessRecord/ThirdPart/ai-translate-ios-sdk-v1.4.0",
+					"$(PROJECT_DIR)/PrisonerFitnessRecord/ThirdPart/translateSDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JKDBModel_JDBR\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"pop\"",
+					"-Objc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.PrisonerFitnessRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -798,7 +904,37 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QNKEA2Q4R9;
 				INFOPLIST_FILE = PrisonerFitnessRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PrisonerFitnessRecord/ThirdPart/ai-translate-ios-sdk-v1.4.0",
+					"$(PROJECT_DIR)/PrisonerFitnessRecord/ThirdPart/translateSDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JKDBModel_JDBR\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"pop\"",
+					"-Objc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.PrisonerFitnessRecord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
