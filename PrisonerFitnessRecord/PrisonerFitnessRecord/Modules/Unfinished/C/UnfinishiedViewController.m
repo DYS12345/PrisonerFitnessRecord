@@ -15,6 +15,7 @@
 #import "QiXieXunLianJiRouViewController.h"
 #import "ReLiangDuiZhaoViewController.h"
 #import "TabataJiShiViewController.h"
+#import "ZiZhongViewController.h"
 
 @interface UnfinishiedViewController () <UITableViewDelegate, UITableViewDataSource>
 

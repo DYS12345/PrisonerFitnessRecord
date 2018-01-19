@@ -13,6 +13,7 @@
 #import "TargetMuscleTableViewCell.h"
 #import "ActionShowViewController.h"
 #import "QiuTuActionShowViewController.h"
+#import "ZiZhongViewController.h"
 
 @interface QiXieXunLianJiRouViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -30,7 +31,7 @@
     
     NSArray *qiuTuAry = @[@"胸和三头", @"升降机般的大腿", @"背和二头", @"腹", @"严阵以待的脊柱", @"肩膀"];
     
-    NSArray *ziZhongAry = @[@"胸和三头", @"升降机般的大腿", @"背和二头", @"腹", @"严阵以待的脊柱", @"肩膀"];
+    NSArray *ziZhongAry = @[@"当下流行的无器械健身套路", @"升降机般的大腿", @"背和二头", @"腹", @"严阵以待的脊柱", @"肩膀"];
     
     NSArray *jiRouLaShenAry = @[@"胸和三头", @"升降机般的大腿", @"背和二头", @"腹", @"严阵以待的脊柱", @"肩膀"];
     
@@ -66,6 +67,9 @@
     } else if (self.numFlag == 1) {
         QiuTuActionShowViewController *vc = [QiuTuActionShowViewController new];
         vc.numFlag = indexPath.item;
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (self.numFlag == 2) {
+        ZiZhongViewController *vc = [ZiZhongViewController new];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

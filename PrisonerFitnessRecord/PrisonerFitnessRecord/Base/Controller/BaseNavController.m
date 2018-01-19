@@ -7,6 +7,7 @@
 //
 
 #import "BaseNavController.h"
+#import "UIView+Size.h"
 
 @interface BaseNavController () <UIGestureRecognizerDelegate>
 
@@ -48,7 +49,7 @@
         //        [button setTitle:@"返回" forState:UIControlStateNormal];
         [self.backBtn setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
         //        [button setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
-        //        button.size = CGSizeMake(70, 30);
+        self.backBtn.size = CGSizeMake(70, 30);
         // 让按钮内部的所有内容左对齐
         //        button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         [self.backBtn sizeToFit];

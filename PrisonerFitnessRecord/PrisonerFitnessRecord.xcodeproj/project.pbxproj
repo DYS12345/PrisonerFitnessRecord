@@ -60,6 +60,10 @@
 		F53956F2200EEF9D00E1E1FF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F53956F1200EEF9D00E1E1FF /* libz.tbd */; };
 		F53956F4200EEFAE00E1E1FF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F53956F3200EEFAE00E1E1FF /* libsqlite3.tbd */; };
 		F5395717200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5395716200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd */; };
+		F56AAA682010765D00FD7207 /* ZiZhongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA662010765D00FD7207 /* ZiZhongViewController.m */; };
+		F56AAA692010765D00FD7207 /* ZiZhongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA672010765D00FD7207 /* ZiZhongViewController.xib */; };
+		F56AAA6D201078A400FD7207 /* ZiZhongTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA6B201078A400FD7207 /* ZiZhongTableViewCell.m */; };
+		F56AAA6E201078A400FD7207 /* ZiZhongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA6C201078A400FD7207 /* ZiZhongTableViewCell.xib */; };
 		F5A15A861FFCAFD400E22C88 /* TargetMuscleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */; };
 		F5A15A8A1FFCBC9200E22C88 /* ActionShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A881FFCBC9200E22C88 /* ActionShowViewController.m */; };
 		F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A891FFCBC9200E22C88 /* ActionShowViewController.xib */; };
@@ -177,6 +181,12 @@
 		F53956F1200EEF9D00E1E1FF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F53956F3200EEFAE00E1E1FF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F5395716200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		F56AAA652010765D00FD7207 /* ZiZhongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiZhongViewController.h; sourceTree = "<group>"; };
+		F56AAA662010765D00FD7207 /* ZiZhongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiZhongViewController.m; sourceTree = "<group>"; };
+		F56AAA672010765D00FD7207 /* ZiZhongViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZiZhongViewController.xib; sourceTree = "<group>"; };
+		F56AAA6A201078A400FD7207 /* ZiZhongTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiZhongTableViewCell.h; sourceTree = "<group>"; };
+		F56AAA6B201078A400FD7207 /* ZiZhongTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiZhongTableViewCell.m; sourceTree = "<group>"; };
+		F56AAA6C201078A400FD7207 /* ZiZhongTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZiZhongTableViewCell.xib; sourceTree = "<group>"; };
 		F5A15A841FFCAFD400E22C88 /* TargetMuscleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetMuscleTableViewCell.h; sourceTree = "<group>"; };
 		F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetMuscleTableViewCell.m; sourceTree = "<group>"; };
 		F5A15A871FFCBC9200E22C88 /* ActionShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionShowViewController.h; sourceTree = "<group>"; };
@@ -448,6 +458,9 @@
 				F53956C3200C5B9700E1E1FF /* TabataJiShiViewController.h */,
 				F53956C4200C5B9700E1E1FF /* TabataJiShiViewController.m */,
 				F53956C5200C5B9700E1E1FF /* TabataJiShiViewController.xib */,
+				F56AAA652010765D00FD7207 /* ZiZhongViewController.h */,
+				F56AAA662010765D00FD7207 /* ZiZhongViewController.m */,
+				F56AAA672010765D00FD7207 /* ZiZhongViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -483,6 +496,9 @@
 				F5A15A8E1FFCC03B00E22C88 /* ActionShowTableViewCell.xib */,
 				F53956D7200CBCEF00E1E1FF /* XiuXiView.h */,
 				F53956D8200CBCEF00E1E1FF /* XiuXiView.m */,
+				F56AAA6A201078A400FD7207 /* ZiZhongTableViewCell.h */,
+				F56AAA6B201078A400FD7207 /* ZiZhongTableViewCell.m */,
+				F56AAA6C201078A400FD7207 /* ZiZhongTableViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -621,6 +637,7 @@
 				F5A15A9D1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib in Resources */,
 				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
 				F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */,
+				F56AAA6E201078A400FD7207 /* ZiZhongTableViewCell.xib in Resources */,
 				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
 				F5A15A981FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
@@ -635,6 +652,7 @@
 				F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */,
 				F51D47451FBD6FC000718399 /* NameTableViewCell.xib in Resources */,
 				F5A15A901FFCC03B00E22C88 /* ActionShowTableViewCell.xib in Resources */,
+				F56AAA692010765D00FD7207 /* ZiZhongViewController.xib in Resources */,
 				F51D47501FBD7F7600718399 /* CategorySelectViewController.xib in Resources */,
 				F51D47551FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib in Resources */,
 				F51D475A1FBE817500718399 /* DifficultyCoefficienViewController.xib in Resources */,
@@ -725,6 +743,7 @@
 				F5A15A8F1FFCC03B00E22C88 /* ActionShowTableViewCell.m in Sources */,
 				F53956D9200CBCEF00E1E1FF /* XiuXiView.m in Sources */,
 				48276EDE1F3628AB000817F1 /* UIBarButtonItem+Helper.m in Sources */,
+				F56AAA6D201078A400FD7207 /* ZiZhongTableViewCell.m in Sources */,
 				F51D47541FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m in Sources */,
 				F5A15ABE1FFF6F0000E22C88 /* JiHuaModel.m in Sources */,
 				48276EDC1F3628AB000817F1 /* NSString+TimeDate.m in Sources */,
@@ -738,6 +757,7 @@
 				F51D474A1FBD75C400718399 /* CategoryTableViewCell.m in Sources */,
 				48276ED91F3628AB000817F1 /* NSString+FBMD5.m in Sources */,
 				48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */,
+				F56AAA682010765D00FD7207 /* ZiZhongViewController.m in Sources */,
 				48276EE31F3628AB000817F1 /* UILable+Frame.m in Sources */,
 				48276EBD1F362868000817F1 /* BaseTarBar.m in Sources */,
 				48276E911F362613000817F1 /* main.m in Sources */,
