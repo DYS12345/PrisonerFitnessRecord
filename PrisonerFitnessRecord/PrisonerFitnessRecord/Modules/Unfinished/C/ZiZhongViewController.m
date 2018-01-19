@@ -15,6 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *imageAry;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *selectViewTop;
 
 @end
 
@@ -39,7 +40,7 @@
 }
 
 -(void)select{
-    
+    UIView animateWithDuration:<#(NSTimeInterval)#> animations:<#^(void)animations#>
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
