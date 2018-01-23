@@ -30,7 +30,7 @@
                     </connections>
                 </tableView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H3y-vu-bJv" userLabel="tab">
-                    <rect key="frame" x="67" y="134" width="240" height="399"/>
+                    <rect key="frame" x="67" y="734" width="240" height="399"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqM-qv-e4X">
                             <rect key="frame" x="0.0" y="0.0" width="240" height="80"/>
@@ -116,7 +116,7 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="H3y-vu-bJv" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="EQt-V5-vxb"/>
+                <constraint firstItem="H3y-vu-bJv" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="600" id="EQt-V5-vxb"/>
                 <constraint firstItem="3a0-kp-Xra" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HhI-th-QPP"/>
                 <constraint firstItem="3a0-kp-Xra" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="Kag-ce-1Dl"/>
                 <constraint firstItem="3a0-kp-Xra" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="Wmj-H6-8Mi"/>

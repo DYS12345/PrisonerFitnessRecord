@@ -40,7 +40,10 @@
 }
 
 -(void)select{
-    UIView animateWithDuration:<#(NSTimeInterval)#> animations:<#^(void)animations#>
+    [UIView animateWithDuration:0.25 animations:^{
+        self.selectViewTop.constant = 0; // 600
+        [self.view layoutIfNeeded];
+    }];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
