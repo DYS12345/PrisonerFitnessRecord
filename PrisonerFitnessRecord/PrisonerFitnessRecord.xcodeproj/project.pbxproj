@@ -64,6 +64,8 @@
 		F56AAA692010765D00FD7207 /* ZiZhongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA672010765D00FD7207 /* ZiZhongViewController.xib */; };
 		F56AAA6D201078A400FD7207 /* ZiZhongTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA6B201078A400FD7207 /* ZiZhongTableViewCell.m */; };
 		F56AAA6E201078A400FD7207 /* ZiZhongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA6C201078A400FD7207 /* ZiZhongTableViewCell.xib */; };
+		F56AAA952019E3C700FD7207 /* ZiZhongJiShuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA932019E3C700FD7207 /* ZiZhongJiShuTableViewCell.m */; };
+		F56AAA962019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA942019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib */; };
 		F5A15A861FFCAFD400E22C88 /* TargetMuscleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */; };
 		F5A15A8A1FFCBC9200E22C88 /* ActionShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A881FFCBC9200E22C88 /* ActionShowViewController.m */; };
 		F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A891FFCBC9200E22C88 /* ActionShowViewController.xib */; };
@@ -187,6 +189,9 @@
 		F56AAA6A201078A400FD7207 /* ZiZhongTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiZhongTableViewCell.h; sourceTree = "<group>"; };
 		F56AAA6B201078A400FD7207 /* ZiZhongTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiZhongTableViewCell.m; sourceTree = "<group>"; };
 		F56AAA6C201078A400FD7207 /* ZiZhongTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZiZhongTableViewCell.xib; sourceTree = "<group>"; };
+		F56AAA922019E3C700FD7207 /* ZiZhongJiShuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiZhongJiShuTableViewCell.h; sourceTree = "<group>"; };
+		F56AAA932019E3C700FD7207 /* ZiZhongJiShuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiZhongJiShuTableViewCell.m; sourceTree = "<group>"; };
+		F56AAA942019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZiZhongJiShuTableViewCell.xib; sourceTree = "<group>"; };
 		F5A15A841FFCAFD400E22C88 /* TargetMuscleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetMuscleTableViewCell.h; sourceTree = "<group>"; };
 		F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetMuscleTableViewCell.m; sourceTree = "<group>"; };
 		F5A15A871FFCBC9200E22C88 /* ActionShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionShowViewController.h; sourceTree = "<group>"; };
@@ -499,6 +504,9 @@
 				F56AAA6A201078A400FD7207 /* ZiZhongTableViewCell.h */,
 				F56AAA6B201078A400FD7207 /* ZiZhongTableViewCell.m */,
 				F56AAA6C201078A400FD7207 /* ZiZhongTableViewCell.xib */,
+				F56AAA922019E3C700FD7207 /* ZiZhongJiShuTableViewCell.h */,
+				F56AAA932019E3C700FD7207 /* ZiZhongJiShuTableViewCell.m */,
+				F56AAA942019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -638,6 +646,7 @@
 				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
 				F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */,
 				F56AAA6E201078A400FD7207 /* ZiZhongTableViewCell.xib in Resources */,
+				F56AAA962019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib in Resources */,
 				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
 				F5A15A981FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
@@ -737,6 +746,7 @@
 				48276EBA1F362868000817F1 /* BaseNavController.m in Sources */,
 				48276F001F36E1A8000817F1 /* FinishiedViewController.m in Sources */,
 				F53956D1200C80C800E1E1FF /* UIView+GKExtension.m in Sources */,
+				F56AAA952019E3C700FD7207 /* ZiZhongJiShuTableViewCell.m in Sources */,
 				48276EF81F36D5FD000817F1 /* UserModel.m in Sources */,
 				F51D474F1FBD7F7600718399 /* CategorySelectViewController.m in Sources */,
 				F51D47441FBD6FC000718399 /* NameTableViewCell.m in Sources */,

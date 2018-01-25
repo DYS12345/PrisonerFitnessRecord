@@ -38,6 +38,9 @@
                             <state key="normal" title="第一组">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="firstBtn:" destination="-1" eventType="touchUpInside" id="XV9-8x-tdD"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Se-yX-Vcu">
                             <rect key="frame" x="0.0" y="80" width="240" height="79.5"/>
@@ -45,6 +48,9 @@
                             <state key="normal" title="第二组">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="secondbtn:" destination="-1" eventType="touchUpInside" id="88g-pA-R6b"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKb-d9-0h2">
                             <rect key="frame" x="0.0" y="159.5" width="240" height="80"/>
@@ -52,6 +58,9 @@
                             <state key="normal" title="第三组">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="thirdBtn:" destination="-1" eventType="touchUpInside" id="IiN-7j-DyU"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXi-2z-35W">
                             <rect key="frame" x="0.0" y="239.5" width="240" height="79.5"/>
@@ -59,6 +68,9 @@
                             <state key="normal" title="第四组">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="fourBtn:" destination="-1" eventType="touchUpInside" id="e4b-1e-nLj"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DF9-hO-riR">
                             <rect key="frame" x="0.0" y="319" width="240" height="80"/>
@@ -66,6 +78,9 @@
                             <state key="normal" title="虐腹">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="fuBtn:" destination="-1" eventType="touchUpInside" id="Cpx-fg-BhI"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaT-gT-ktG">
                             <rect key="frame" x="210" y="0.0" width="30" height="30"/>
@@ -74,6 +89,9 @@
                                 <constraint firstAttribute="height" constant="30" id="V6N-pO-hdQ"/>
                             </constraints>
                             <state key="normal" image="cancel"/>
+                            <connections>
+                                <action selector="selectViewCancel:" destination="-1" eventType="touchUpInside" id="Pln-iD-IRZ"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" red="0.2274509804" green="0.64313725489999995" blue="0.76078431369999999" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
