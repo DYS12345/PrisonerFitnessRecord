@@ -66,6 +66,10 @@
 		F56AAA6E201078A400FD7207 /* ZiZhongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA6C201078A400FD7207 /* ZiZhongTableViewCell.xib */; };
 		F56AAA952019E3C700FD7207 /* ZiZhongJiShuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA932019E3C700FD7207 /* ZiZhongJiShuTableViewCell.m */; };
 		F56AAA962019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA942019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib */; };
+		F56AAA9F201B287E00FD7207 /* FullStretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA9D201B287E00FD7207 /* FullStretchViewController.m */; };
+		F56AAAA0201B287E00FD7207 /* FullStretchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA9E201B287E00FD7207 /* FullStretchViewController.xib */; };
+		F56AAAA4201B2C1800FD7207 /* FullStretchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAAA2201B2C1800FD7207 /* FullStretchTableViewCell.m */; };
+		F56AAAA5201B2C1800FD7207 /* FullStretchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAAA3201B2C1800FD7207 /* FullStretchTableViewCell.xib */; };
 		F5A15A861FFCAFD400E22C88 /* TargetMuscleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */; };
 		F5A15A8A1FFCBC9200E22C88 /* ActionShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A881FFCBC9200E22C88 /* ActionShowViewController.m */; };
 		F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A891FFCBC9200E22C88 /* ActionShowViewController.xib */; };
@@ -192,6 +196,12 @@
 		F56AAA922019E3C700FD7207 /* ZiZhongJiShuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiZhongJiShuTableViewCell.h; sourceTree = "<group>"; };
 		F56AAA932019E3C700FD7207 /* ZiZhongJiShuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiZhongJiShuTableViewCell.m; sourceTree = "<group>"; };
 		F56AAA942019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZiZhongJiShuTableViewCell.xib; sourceTree = "<group>"; };
+		F56AAA9C201B287E00FD7207 /* FullStretchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullStretchViewController.h; sourceTree = "<group>"; };
+		F56AAA9D201B287E00FD7207 /* FullStretchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullStretchViewController.m; sourceTree = "<group>"; };
+		F56AAA9E201B287E00FD7207 /* FullStretchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullStretchViewController.xib; sourceTree = "<group>"; };
+		F56AAAA1201B2C1800FD7207 /* FullStretchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullStretchTableViewCell.h; sourceTree = "<group>"; };
+		F56AAAA2201B2C1800FD7207 /* FullStretchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullStretchTableViewCell.m; sourceTree = "<group>"; };
+		F56AAAA3201B2C1800FD7207 /* FullStretchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullStretchTableViewCell.xib; sourceTree = "<group>"; };
 		F5A15A841FFCAFD400E22C88 /* TargetMuscleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetMuscleTableViewCell.h; sourceTree = "<group>"; };
 		F5A15A851FFCAFD400E22C88 /* TargetMuscleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetMuscleTableViewCell.m; sourceTree = "<group>"; };
 		F5A15A871FFCBC9200E22C88 /* ActionShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionShowViewController.h; sourceTree = "<group>"; };
@@ -466,6 +476,9 @@
 				F56AAA652010765D00FD7207 /* ZiZhongViewController.h */,
 				F56AAA662010765D00FD7207 /* ZiZhongViewController.m */,
 				F56AAA672010765D00FD7207 /* ZiZhongViewController.xib */,
+				F56AAA9C201B287E00FD7207 /* FullStretchViewController.h */,
+				F56AAA9D201B287E00FD7207 /* FullStretchViewController.m */,
+				F56AAA9E201B287E00FD7207 /* FullStretchViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -507,6 +520,9 @@
 				F56AAA922019E3C700FD7207 /* ZiZhongJiShuTableViewCell.h */,
 				F56AAA932019E3C700FD7207 /* ZiZhongJiShuTableViewCell.m */,
 				F56AAA942019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib */,
+				F56AAAA1201B2C1800FD7207 /* FullStretchTableViewCell.h */,
+				F56AAAA2201B2C1800FD7207 /* FullStretchTableViewCell.m */,
+				F56AAAA3201B2C1800FD7207 /* FullStretchTableViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -657,7 +673,9 @@
 				F5A15AB31FFE373800E22C88 /* FinishiedTableViewCell.xib in Resources */,
 				F53956C7200C5B9700E1E1FF /* TabataJiShiViewController.xib in Resources */,
 				48276E9C1F362613000817F1 /* Assets.xcassets in Resources */,
+				F56AAAA0201B287E00FD7207 /* FullStretchViewController.xib in Resources */,
 				F51D47401FBD6C5000718399 /* CreatItemViewController.xib in Resources */,
+				F56AAAA5201B2C1800FD7207 /* FullStretchTableViewCell.xib in Resources */,
 				F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */,
 				F51D47451FBD6FC000718399 /* NameTableViewCell.xib in Resources */,
 				F5A15A901FFCC03B00E22C88 /* ActionShowTableViewCell.xib in Resources */,
@@ -767,9 +785,11 @@
 				F51D474A1FBD75C400718399 /* CategoryTableViewCell.m in Sources */,
 				48276ED91F3628AB000817F1 /* NSString+FBMD5.m in Sources */,
 				48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */,
+				F56AAAA4201B2C1800FD7207 /* FullStretchTableViewCell.m in Sources */,
 				F56AAA682010765D00FD7207 /* ZiZhongViewController.m in Sources */,
 				48276EE31F3628AB000817F1 /* UILable+Frame.m in Sources */,
 				48276EBD1F362868000817F1 /* BaseTarBar.m in Sources */,
+				F56AAA9F201B287E00FD7207 /* FullStretchViewController.m in Sources */,
 				48276E911F362613000817F1 /* main.m in Sources */,
 				48276EBB1F362868000817F1 /* BaseTarBarViewController.m in Sources */,
 				F5A15AB71FFF260E00E22C88 /* JiHuaCollectionViewCell.m in Sources */,

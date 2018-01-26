@@ -14,6 +14,7 @@
 #import "ActionShowViewController.h"
 #import "QiuTuActionShowViewController.h"
 #import "ZiZhongViewController.h"
+#import "FullStretchViewController.h"
 
 @interface QiXieXunLianJiRouViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -33,7 +34,7 @@
     
     NSArray *ziZhongAry = @[@"当下流行的无器械健身套路", @"升降机般的大腿", @"背和二头", @"腹", @"严阵以待的脊柱", @"肩膀"];
     
-    NSArray *jiRouLaShenAry = @[@"胸和三头", @"升降机般的大腿", @"背和二头", @"腹", @"严阵以待的脊柱", @"肩膀"];
+    NSArray *jiRouLaShenAry = @[@"全面拉伸", @"腿部拉伸"];
     
     NSArray *paoMoZhouFangSongAry = @[@"胸和三头", @"升降机般的大腿", @"背和二头", @"腹", @"严阵以待的脊柱", @"肩膀"];
     
@@ -71,6 +72,13 @@
     } else if (self.numFlag == 2) {
         ZiZhongViewController *vc = [ZiZhongViewController new];
         [self.navigationController pushViewController:vc animated:YES];
+    } else if (self.numFlag == 3) {
+        if (indexPath.row == 0) {
+            FullStretchViewController *vc = [FullStretchViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+        } else if (indexPath.row == 1) {
+            
+        }
     }
 }
 
