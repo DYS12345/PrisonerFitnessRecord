@@ -10,4 +10,6 @@
 
 @interface FullStretchTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 @end

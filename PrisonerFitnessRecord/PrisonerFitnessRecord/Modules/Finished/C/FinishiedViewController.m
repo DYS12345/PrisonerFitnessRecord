@@ -28,22 +28,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *oneAry = @[@"胸", @"背", @"手臂", @"腿", @"胸", @"背", @"肩", @"手臂", @"腿"];
-    NSArray *twoAry = @[@"胸", @"背", @"肩", @"胸", @"背", @"手臂", @"肩"];
-    NSArray *threeAry = @[@"胸", @"背", @"手臂", @"腿", @"胸", @"背", @"肩"];
-    NSArray *fourAry = @[@"胸", @"背", @"手臂", @"腿", @"胸", @"背", @"肩", @"手臂"];
-    NSArray *fiveAry = @[@"胸", @"背", @"肩", @"腿", @"胸", @"背", @"手臂"];
+    NSArray *oneAry = @[@"胸", @"背", @"肩", @"腿", @"胸", @"背", @"手臂", @"腿"];
+    NSArray *twoAry = @[@"胸", @"背", @"肩", @"腿", @"胸", @"背", @"手臂", @"腿"];
     
-    self.modelAry = @[oneAry, twoAry, threeAry, fourAry, fiveAry];
-    self.modelTitleAry = @[@"第一周", @"第二周", @"第三周", @"第四周", @"第五周"];
+    self.modelAry = @[oneAry, twoAry];
+    self.modelTitleAry = @[@"第一周", @"第二周"];
     
     [self.tableView registerNib:[UINib nibWithNibName:@"FinishiedTableViewCell" bundle:nil] forCellReuseIdentifier:@"FinishiedTableViewCell"];
     
-    NSArray *ary = @[@{@"zhou":@"0", @"days":@[@"0",@"0",@"0",@"0",@"0",@"0",@"0",@"0",@"0"]},
-                     @{@"zhou":@"0", @"days":@[@"0",@"0",@"0",@"0",@"0",@"0",@"0"]},
-                     @{@"zhou":@"0", @"days":@[@"0",@"0",@"0",@"0",@"0",@"0",@"0"]},
-                     @{@"zhou":@"0", @"days":@[@"0",@"0",@"0",@"0",@"0",@"0",@"0",@"0"]},
-                     @{@"zhou":@"0", @"days":@[@"0",@"0",@"0",@"0",@"0",@"0",@"0"]}];
+    NSArray *ary = @[@{@"zhou":@"0", @"days":@[@"0",@"0",@"0",@"0",@"0",@"0",@"0", @"0"]},
+                     @{@"zhou":@"0", @"days":@[@"0",@"0",@"0",@"0",@"0",@"0",@"0", @"0"]}];
     
 //    NSArray *ary1 = [JiHuaModel findAll];
 //    if (ary1.count == 0) {
@@ -72,7 +66,7 @@
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 5;
+    return 2;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
