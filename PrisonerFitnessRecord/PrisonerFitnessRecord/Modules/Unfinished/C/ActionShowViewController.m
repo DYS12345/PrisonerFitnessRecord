@@ -8,6 +8,7 @@
 
 #import "ActionShowViewController.h"
 #import "ActionShowTableViewCell.h"
+#import "UIImage+GIF.h"
 
 @interface ActionShowViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -33,9 +34,9 @@
         [self.imageAry addObject:str];
     }
     
-    NSArray *bTitleAry = @[@"引体向上", @"器械下拉", @"杠铃划船", @"坐姿划船", @"哑铃划船", @"直臂下压", @"T字划船"];
+    NSArray *bTitleAry = @[@"引体向上", @"器械下拉", @"杠铃划船", @"坐姿划船", @"哑铃划船", @"直臂下压", @"T字划船", @"屈腿硬拉", @"", @"", @"", @"", @"", @"", @"", @"", @"", @""];
     NSMutableArray *bImageAry = [NSMutableArray array];
-    for (int i=1; i<bTitleAry.count+1; i++) {
+    for (int i=1; i<=18; i++) {
         NSString *str = [NSString stringWithFormat:@"b%d",i];
         [bImageAry addObject:str];
     }
@@ -61,9 +62,9 @@
         [sImageAry addObject:str];
     }
     
-    NSArray *tTitleAry = @[@"杠铃深蹲", @"史密斯深蹲", @"颈前史密斯深蹲", @"直腿硬拉", @"屈腿硬拉", @"坐姿蹬腿", @"俯立挺身", @"哑铃弓箭步", @"杠铃弓箭步", @"附身腿弯举", @"哈克深蹲", @"坐姿提踵", @"坐姿腿弯举", @"坐姿腿屈伸"];
+    NSArray *tTitleAry = @[@"杠铃深蹲", @"史密斯深蹲", @"颈前史密斯深蹲", @"直腿硬拉", @"坐姿蹬腿", @"俯立挺身", @"哑铃弓箭步", @"杠铃弓箭步", @"附身腿弯举", @"哈克深蹲", @"坐姿提踵", @"坐姿腿弯举", @"坐姿腿屈伸", @"", @"", @"", @"", @"", @"", @"", @""];
     NSMutableArray *tImageAry = [NSMutableArray array];
-    for (int i=1; i<tTitleAry.count+1; i++) {
+    for (int i=1; i<=21; i++) {
         NSString *str = [NSString stringWithFormat:@"t%d",i];
         [tImageAry addObject:str];
     }
@@ -82,7 +83,21 @@
     NSArray *ary = self.modelTitleAry[self.numFlag];
     NSArray *imageAry = self.modelImageAry[self.numFlag];
     cell.label.text = ary[indexPath.item];
-    cell.showImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@", imageAry[indexPath.item]]];
+    if (self.numFlag == 1) {
+        if (indexPath.row >= 8) {
+            cell.showImageView.image = [UIImage sd_animatedGIFNamed:imageAry[indexPath.row]];
+        } else {
+           cell.showImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@", imageAry[indexPath.row]]];
+        }
+    } else if (self.numFlag == 5) {
+        if (indexPath.row >= 13) {
+            cell.showImageView.image = [UIImage sd_animatedGIFNamed:imageAry[indexPath.row]];
+        } else {
+            cell.showImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@", imageAry[indexPath.row]]];
+        }
+    } else {
+        cell.showImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@", imageAry[indexPath.item]]];
+    }
     return cell;
 }
 

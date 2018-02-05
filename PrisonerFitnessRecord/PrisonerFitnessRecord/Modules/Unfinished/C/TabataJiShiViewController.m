@@ -13,6 +13,9 @@
 @interface TabataJiShiViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *t2;
+@property (weak, nonatomic) IBOutlet UILabel *t3;
+@property (weak, nonatomic) IBOutlet UILabel *t4;
 
 @end
 
@@ -34,6 +37,9 @@
     NSArray *titleAry = @[@"高抬腿", @"波比跳", @"箭步蹲跳", @"登山"];
     
     self.titleLabel.text = titleAry[0];
+    self.t2.text = titleAry[1];
+    self.t3.text = titleAry[2];
+    self.t4.text = titleAry[3];
 }
 
 @end
