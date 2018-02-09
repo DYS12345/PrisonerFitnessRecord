@@ -77,8 +77,6 @@
 		F5A15A901FFCC03B00E22C88 /* ActionShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A8E1FFCC03B00E22C88 /* ActionShowTableViewCell.xib */; };
 		F5A15A971FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A951FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m */; };
 		F5A15A981FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A961FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib */; };
-		F5A15A9C1FFDDAC300E22C88 /* QiuTuActionShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A9A1FFDDAC300E22C88 /* QiuTuActionShowViewController.m */; };
-		F5A15A9D1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15A9B1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib */; };
 		F5A15A9F1FFE0DEC00E22C88 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5A15A9E1FFE0DEC00E22C88 /* MobileNet.mlmodel */; };
 		F5A15AA81FFE106800E22C88 /* ReLiangDuiZhaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15AA61FFE106800E22C88 /* ReLiangDuiZhaoViewController.m */; };
 		F5A15AA91FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15AA71FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib */; };
@@ -106,6 +104,9 @@
 		F5C9E71520284D1400DB1652 /* t17.gif in Resources */ = {isa = PBXBuildFile; fileRef = F5C9E70D20284D1400DB1652 /* t17.gif */; };
 		F5C9E71620284D1400DB1652 /* t19.gif in Resources */ = {isa = PBXBuildFile; fileRef = F5C9E70E20284D1400DB1652 /* t19.gif */; };
 		F5C9E71720284D1400DB1652 /* t14.gif in Resources */ = {isa = PBXBuildFile; fileRef = F5C9E70F20284D1400DB1652 /* t14.gif */; };
+		F5C9E73D202D78DD00DB1652 /* QiuTuZiZhongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C9E73B202D78DD00DB1652 /* QiuTuZiZhongViewController.m */; };
+		F5C9E73E202D78DD00DB1652 /* QiuTuZiZhongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C9E73C202D78DD00DB1652 /* QiuTuZiZhongViewController.xib */; };
+		F5C9E741202D7D9400DB1652 /* 1.xls in Resources */ = {isa = PBXBuildFile; fileRef = F5C9E740202D7D9400DB1652 /* 1.xls */; };
 		F5F280C01FBEB6CF0098B3B7 /* DateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F280BE1FBEB6CF0098B3B7 /* DateTableViewCell.m */; };
 		F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F280BF1FBEB6CF0098B3B7 /* DateTableViewCell.xib */; };
 		F5F280C51FBEB8470098B3B7 /* DateSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F280C31FBEB8470098B3B7 /* DateSelectViewController.m */; };
@@ -231,9 +232,6 @@
 		F5A15A941FFDC35000E22C88 /* QiXieXunLianJiRouViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiXieXunLianJiRouViewController.h; sourceTree = "<group>"; };
 		F5A15A951FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiXieXunLianJiRouViewController.m; sourceTree = "<group>"; };
 		F5A15A961FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QiXieXunLianJiRouViewController.xib; sourceTree = "<group>"; };
-		F5A15A991FFDDAC300E22C88 /* QiuTuActionShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiuTuActionShowViewController.h; sourceTree = "<group>"; };
-		F5A15A9A1FFDDAC300E22C88 /* QiuTuActionShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiuTuActionShowViewController.m; sourceTree = "<group>"; };
-		F5A15A9B1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QiuTuActionShowViewController.xib; sourceTree = "<group>"; };
 		F5A15A9E1FFE0DEC00E22C88 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		F5A15AA51FFE106800E22C88 /* ReLiangDuiZhaoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReLiangDuiZhaoViewController.h; sourceTree = "<group>"; };
 		F5A15AA61FFE106800E22C88 /* ReLiangDuiZhaoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReLiangDuiZhaoViewController.m; sourceTree = "<group>"; };
@@ -248,7 +246,6 @@
 		F5A15AB61FFF260E00E22C88 /* JiHuaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiHuaCollectionViewCell.xib; sourceTree = "<group>"; };
 		F5A15ABC1FFF6F0000E22C88 /* JiHuaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiHuaModel.h; sourceTree = "<group>"; };
 		F5A15ABD1FFF6F0000E22C88 /* JiHuaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiHuaModel.m; sourceTree = "<group>"; };
-		F5C9E6F02028005200DB1652 /* biceps.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = biceps.html; sourceTree = "<group>"; };
 		F5C9E6F420284A4100DB1652 /* b12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b12.gif; sourceTree = "<group>"; };
 		F5C9E6F520284A4200DB1652 /* b10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b10.gif; sourceTree = "<group>"; };
 		F5C9E6F620284A4200DB1652 /* b18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b18.gif; sourceTree = "<group>"; };
@@ -267,6 +264,10 @@
 		F5C9E70D20284D1400DB1652 /* t17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = t17.gif; sourceTree = "<group>"; };
 		F5C9E70E20284D1400DB1652 /* t19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = t19.gif; sourceTree = "<group>"; };
 		F5C9E70F20284D1400DB1652 /* t14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = t14.gif; sourceTree = "<group>"; };
+		F5C9E73A202D78DD00DB1652 /* QiuTuZiZhongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiuTuZiZhongViewController.h; sourceTree = "<group>"; };
+		F5C9E73B202D78DD00DB1652 /* QiuTuZiZhongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiuTuZiZhongViewController.m; sourceTree = "<group>"; };
+		F5C9E73C202D78DD00DB1652 /* QiuTuZiZhongViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QiuTuZiZhongViewController.xib; sourceTree = "<group>"; };
+		F5C9E740202D7D9400DB1652 /* 1.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.xls; sourceTree = "<group>"; };
 		F5F280BD1FBEB6CF0098B3B7 /* DateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateTableViewCell.h; sourceTree = "<group>"; };
 		F5F280BE1FBEB6CF0098B3B7 /* DateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateTableViewCell.m; sourceTree = "<group>"; };
 		F5F280BF1FBEB6CF0098B3B7 /* DateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateTableViewCell.xib; sourceTree = "<group>"; };
@@ -391,12 +392,12 @@
 		48276EAB1F36276D000817F1 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F5C9E740202D7D9400DB1652 /* 1.xls */,
 				F5C9E6F320284A3800DB1652 /* showImageG */,
 				F5A15A9E1FFE0DEC00E22C88 /* MobileNet.mlmodel */,
 				48276E9B1F362613000817F1 /* Assets.xcassets */,
 				48276E9D1F362613000817F1 /* LaunchScreen.storyboard */,
 				48276EA01F362613000817F1 /* Info.plist */,
-				F5C9E6F02028005200DB1652 /* biceps.html */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -503,9 +504,6 @@
 				F5A15A941FFDC35000E22C88 /* QiXieXunLianJiRouViewController.h */,
 				F5A15A951FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m */,
 				F5A15A961FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib */,
-				F5A15A991FFDDAC300E22C88 /* QiuTuActionShowViewController.h */,
-				F5A15A9A1FFDDAC300E22C88 /* QiuTuActionShowViewController.m */,
-				F5A15A9B1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib */,
 				F5A15AA51FFE106800E22C88 /* ReLiangDuiZhaoViewController.h */,
 				F5A15AA61FFE106800E22C88 /* ReLiangDuiZhaoViewController.m */,
 				F5A15AA71FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib */,
@@ -518,6 +516,9 @@
 				F56AAA9C201B287E00FD7207 /* FullStretchViewController.h */,
 				F56AAA9D201B287E00FD7207 /* FullStretchViewController.m */,
 				F56AAA9E201B287E00FD7207 /* FullStretchViewController.xib */,
+				F5C9E73A202D78DD00DB1652 /* QiuTuZiZhongViewController.h */,
+				F5C9E73B202D78DD00DB1652 /* QiuTuZiZhongViewController.m */,
+				F5C9E73C202D78DD00DB1652 /* QiuTuZiZhongViewController.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -725,7 +726,6 @@
 				F5A15AB81FFF260E00E22C88 /* JiHuaCollectionViewCell.xib in Resources */,
 				F5C9E71220284D1400DB1652 /* t20.gif in Resources */,
 				F5C9E70520284A4300DB1652 /* b14.gif in Resources */,
-				F5A15A9D1FFDDAC300E22C88 /* QiuTuActionShowViewController.xib in Resources */,
 				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
 				F5C9E6FF20284A4300DB1652 /* b10.gif in Resources */,
 				F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */,
@@ -737,6 +737,7 @@
 				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
 				F5A15A981FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
+				F5C9E741202D7D9400DB1652 /* 1.xls in Resources */,
 				F5F280C61FBEB8470098B3B7 /* DateSelectViewController.xib in Resources */,
 				F5C9E71020284D1400DB1652 /* t21.gif in Resources */,
 				F5C9E70120284A4300DB1652 /* b11.gif in Resources */,
@@ -757,6 +758,7 @@
 				F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */,
 				F5C9E70620284A4300DB1652 /* b15.gif in Resources */,
 				F5C9E71420284D1400DB1652 /* t15.gif in Resources */,
+				F5C9E73E202D78DD00DB1652 /* QiuTuZiZhongViewController.xib in Resources */,
 				F51D47451FBD6FC000718399 /* NameTableViewCell.xib in Resources */,
 				F5A15A901FFCC03B00E22C88 /* ActionShowTableViewCell.xib in Resources */,
 				F5C9E70320284A4300DB1652 /* b13.gif in Resources */,
@@ -827,6 +829,7 @@
 				F5F280C01FBEB6CF0098B3B7 /* DateTableViewCell.m in Sources */,
 				48276EAF1F3627EF000817F1 /* AppDelegate+Guide.m in Sources */,
 				48276EBC1F362868000817F1 /* BaseViewController.m in Sources */,
+				F5C9E73D202D78DD00DB1652 /* QiuTuZiZhongViewController.m in Sources */,
 				F5A15AAE1FFE27E400E22C88 /* JiHuaHeaderView.m in Sources */,
 				F53956C6200C5B9700E1E1FF /* TabataJiShiViewController.m in Sources */,
 				48276EDA1F3628AB000817F1 /* NSString+Helper.m in Sources */,
@@ -834,7 +837,6 @@
 				48276EDF1F3628AB000817F1 /* UIColor+Extension.m in Sources */,
 				F5A15A8A1FFCBC9200E22C88 /* ActionShowViewController.m in Sources */,
 				F5A15AB21FFE373800E22C88 /* FinishiedTableViewCell.m in Sources */,
-				F5A15A9C1FFDDAC300E22C88 /* QiuTuActionShowViewController.m in Sources */,
 				48276EE21F3628AB000817F1 /* UIImageView+SDWedImage.m in Sources */,
 				F51D47591FBE817500718399 /* DifficultyCoefficienViewController.m in Sources */,
 				F53956CA200C802500E1E1FF /* ZRMultipleWaveLoadingView.m in Sources */,
@@ -994,7 +996,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RMQMXATCCW;
 				INFOPLIST_FILE = PrisonerFitnessRecord/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1025,8 +1027,9 @@
 					"\"pop\"",
 					"-Objc",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dong.P;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taihuoniao.p;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1041,7 +1044,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RMQMXATCCW;
 				INFOPLIST_FILE = PrisonerFitnessRecord/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1072,8 +1075,9 @@
 					"\"pop\"",
 					"-Objc",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dong.P;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taihuoniao.p;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

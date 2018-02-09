@@ -12,7 +12,6 @@
 #import "CreatItemViewController.h"
 #import "TargetMuscleTableViewCell.h"
 #import "ActionShowViewController.h"
-#import "QiuTuActionShowViewController.h"
 #import "ZiZhongViewController.h"
 #import "FullStretchViewController.h"
 
@@ -63,10 +62,6 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (self.numFlag == 0) {
         ActionShowViewController *vc = [ActionShowViewController new];
-        vc.numFlag = indexPath.item;
-        [self.navigationController pushViewController:vc animated:YES];
-    } else if (self.numFlag == 1) {
-        QiuTuActionShowViewController *vc = [QiuTuActionShowViewController new];
         vc.numFlag = indexPath.item;
         [self.navigationController pushViewController:vc animated:YES];
     } else if (self.numFlag == 2) {

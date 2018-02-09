@@ -16,6 +16,7 @@
 #import "ReLiangDuiZhaoViewController.h"
 #import "TabataJiShiViewController.h"
 #import "ZiZhongViewController.h"
+#import "QiuTuZiZhongViewController.h"
 
 @interface UnfinishiedViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -77,6 +78,9 @@
         [self.navigationController pushViewController:vc animated:YES];
     } else if (indexPath.row == 6) {
         TabataJiShiViewController *vc = [TabataJiShiViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 1) {
+        QiuTuZiZhongViewController *vc = [QiuTuZiZhongViewController new];
         [self.navigationController pushViewController:vc animated:YES];
     } else {
         QiXieXunLianJiRouViewController *vc = [QiXieXunLianJiRouViewController new];
