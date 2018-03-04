@@ -10,12 +10,10 @@
 #import "ZRMultipleWaveLoadingView.h"
 #import "Masonry.h"
 
-@interface TabataJiShiViewController ()
-
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *t2;
-@property (weak, nonatomic) IBOutlet UILabel *t3;
-@property (weak, nonatomic) IBOutlet UILabel *t4;
+@interface TabataJiShiViewController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+{
+    UICollectionView *mainCollectionView;
+}
 
 @end
 
@@ -24,22 +22,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    ZRMultipleWaveLoadingView *loadingView = [[ZRMultipleWaveLoadingView alloc]init];
-    loadingView.progress = 1;
-    [self.view addSubview:loadingView];
-    [loadingView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.mas_equalTo(self.view.mas_centerX).mas_offset(0);
-        make.top.mas_equalTo(self.view.mas_top).mas_offset(280);
-        make.width.mas_equalTo(150);
-        make.height.mas_equalTo(150);
-    }];
+//    ZRMultipleWaveLoadingView *loadingView = [[ZRMultipleWaveLoadingView alloc]init];
+//    loadingView.progress = 1;
+//    [self.view addSubview:loadingView];
+//    [loadingView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.centerX.mas_equalTo(self.view.mas_centerX).mas_offset(0);
+//        make.top.mas_equalTo(self.view.mas_top).mas_offset(280);
+//        make.width.mas_equalTo(150);
+//        make.height.mas_equalTo(150);
+//    }];
     
     NSArray *titleAry = @[@"高抬腿", @"波比跳", @"箭步蹲跳", @"登山"];
     
-    self.titleLabel.text = titleAry[0];
-    self.t2.text = titleAry[1];
-    self.t3.text = titleAry[2];
-    self.t4.text = titleAry[3];
+    self.view.backgroundColor = [UIColor whiteColor];
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+    layout.itemSize =CGSizeMake(110, 150);
+    mainCollectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+    [self.view addSubview:mainCollectionView];
+    mainCollectionView.backgroundColor = [UIColor clearColor];
 }
+
+
 
 @end

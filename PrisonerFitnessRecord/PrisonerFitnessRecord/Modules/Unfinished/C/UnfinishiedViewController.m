@@ -42,7 +42,7 @@
     UIBarButtonItem *menuBtnItem = [[UIBarButtonItem alloc] initWithCustomView:menuBtn];
     self.navigationItem.leftBarButtonItem = menuBtnItem;
     
-    self.modelAry = @[@"器械训练肌肉训练", @"囚徒自重训练", @"自重训练动作", @"肌肉拉伸", @"泡沫轴放松肌肉", @"对照食物查看热量", @"tabata计时"];
+    self.modelAry = @[@"器械训练肌肉训练", @"囚徒自重训练", @"自重训练动作", @"肌肉拉伸", @"泡沫轴放松肌肉", @"对照食物查看热量", @"tabata"];
     
     [self.tableview registerClass:[TargetMuscleTableViewCell class] forCellReuseIdentifier:@"TargetMuscleTableViewCell"];
 }

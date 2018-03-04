@@ -86,6 +86,8 @@
 		F5A15AB71FFF260E00E22C88 /* JiHuaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15AB51FFF260E00E22C88 /* JiHuaCollectionViewCell.m */; };
 		F5A15AB81FFF260E00E22C88 /* JiHuaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A15AB61FFF260E00E22C88 /* JiHuaCollectionViewCell.xib */; };
 		F5A15ABE1FFF6F0000E22C88 /* JiHuaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A15ABD1FFF6F0000E22C88 /* JiHuaModel.m */; };
+		F5A2C9E72049228400F38448 /* TabataCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2C9E52049228400F38448 /* TabataCollectionViewCell.m */; };
+		F5A2C9E82049228400F38448 /* TabataCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A2C9E62049228400F38448 /* TabataCollectionViewCell.xib */; };
 		F5C9E6FE20284A4300DB1652 /* b12.gif in Resources */ = {isa = PBXBuildFile; fileRef = F5C9E6F420284A4100DB1652 /* b12.gif */; };
 		F5C9E6FF20284A4300DB1652 /* b10.gif in Resources */ = {isa = PBXBuildFile; fileRef = F5C9E6F520284A4200DB1652 /* b10.gif */; };
 		F5C9E70020284A4300DB1652 /* b18.gif in Resources */ = {isa = PBXBuildFile; fileRef = F5C9E6F620284A4200DB1652 /* b18.gif */; };
@@ -246,6 +248,9 @@
 		F5A15AB61FFF260E00E22C88 /* JiHuaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiHuaCollectionViewCell.xib; sourceTree = "<group>"; };
 		F5A15ABC1FFF6F0000E22C88 /* JiHuaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiHuaModel.h; sourceTree = "<group>"; };
 		F5A15ABD1FFF6F0000E22C88 /* JiHuaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiHuaModel.m; sourceTree = "<group>"; };
+		F5A2C9E42049228400F38448 /* TabataCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabataCollectionViewCell.h; sourceTree = "<group>"; };
+		F5A2C9E52049228400F38448 /* TabataCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabataCollectionViewCell.m; sourceTree = "<group>"; };
+		F5A2C9E62049228400F38448 /* TabataCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabataCollectionViewCell.xib; sourceTree = "<group>"; };
 		F5C9E6F420284A4100DB1652 /* b12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b12.gif; sourceTree = "<group>"; };
 		F5C9E6F520284A4200DB1652 /* b10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b10.gif; sourceTree = "<group>"; };
 		F5C9E6F620284A4200DB1652 /* b18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b18.gif; sourceTree = "<group>"; };
@@ -563,6 +568,9 @@
 				F56AAAA1201B2C1800FD7207 /* FullStretchTableViewCell.h */,
 				F56AAAA2201B2C1800FD7207 /* FullStretchTableViewCell.m */,
 				F56AAAA3201B2C1800FD7207 /* FullStretchTableViewCell.xib */,
+				F5A2C9E42049228400F38448 /* TabataCollectionViewCell.h */,
+				F5A2C9E52049228400F38448 /* TabataCollectionViewCell.m */,
+				F5A2C9E62049228400F38448 /* TabataCollectionViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -759,6 +767,7 @@
 				F5C9E70620284A4300DB1652 /* b15.gif in Resources */,
 				F5C9E71420284D1400DB1652 /* t15.gif in Resources */,
 				F5C9E73E202D78DD00DB1652 /* QiuTuZiZhongViewController.xib in Resources */,
+				F5A2C9E82049228400F38448 /* TabataCollectionViewCell.xib in Resources */,
 				F51D47451FBD6FC000718399 /* NameTableViewCell.xib in Resources */,
 				F5A15A901FFCC03B00E22C88 /* ActionShowTableViewCell.xib in Resources */,
 				F5C9E70320284A4300DB1652 /* b13.gif in Resources */,
@@ -870,6 +879,7 @@
 				48276ED91F3628AB000817F1 /* NSString+FBMD5.m in Sources */,
 				48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */,
 				F56AAAA4201B2C1800FD7207 /* FullStretchTableViewCell.m in Sources */,
+				F5A2C9E72049228400F38448 /* TabataCollectionViewCell.m in Sources */,
 				F56AAA682010765D00FD7207 /* ZiZhongViewController.m in Sources */,
 				48276EE31F3628AB000817F1 /* UILable+Frame.m in Sources */,
 				48276EBD1F362868000817F1 /* BaseTarBar.m in Sources */,
