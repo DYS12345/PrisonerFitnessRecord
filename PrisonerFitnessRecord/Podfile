@@ -12,4 +12,5 @@ target "PrisonerFitnessRecord" do
  pod 'JKDBModel-JDBR', '~> 0.0.1'
  pod 'IQKeyboardManager'
  pod ‘pop’
+ pod 'PKRevealController'
 end
