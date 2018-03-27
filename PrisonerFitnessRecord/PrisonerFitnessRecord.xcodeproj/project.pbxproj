@@ -60,6 +60,12 @@
 		F53956F2200EEF9D00E1E1FF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F53956F1200EEF9D00E1E1FF /* libz.tbd */; };
 		F53956F4200EEFAE00E1E1FF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F53956F3200EEFAE00E1E1FF /* libsqlite3.tbd */; };
 		F5395717200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5395716200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd */; };
+		F5680216206A447B009F4BB5 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5680214206A447B009F4BB5 /* InstructionsViewController.m */; };
+		F5680217206A447B009F4BB5 /* InstructionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5680215206A447B009F4BB5 /* InstructionsViewController.xib */; };
+		F568021C206A5119009F4BB5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F568021A206A5119009F4BB5 /* MainViewController.m */; };
+		F568021D206A5119009F4BB5 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F568021B206A5119009F4BB5 /* MainViewController.xib */; };
+		F5680222206A553E009F4BB5 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5680220206A553E009F4BB5 /* MainTableViewCell.m */; };
+		F5680223206A553E009F4BB5 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5680221206A553E009F4BB5 /* MainTableViewCell.xib */; };
 		F56AAA682010765D00FD7207 /* ZiZhongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA662010765D00FD7207 /* ZiZhongViewController.m */; };
 		F56AAA692010765D00FD7207 /* ZiZhongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA672010765D00FD7207 /* ZiZhongViewController.xib */; };
 		F56AAA6D201078A400FD7207 /* ZiZhongTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA6B201078A400FD7207 /* ZiZhongTableViewCell.m */; };
@@ -208,6 +214,15 @@
 		F53956F1200EEF9D00E1E1FF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F53956F3200EEFAE00E1E1FF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F5395716200EF2EB00E1E1FF /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		F5680213206A447B009F4BB5 /* InstructionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		F5680214206A447B009F4BB5 /* InstructionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		F5680215206A447B009F4BB5 /* InstructionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstructionsViewController.xib; sourceTree = "<group>"; };
+		F5680219206A5119009F4BB5 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F568021A206A5119009F4BB5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F568021B206A5119009F4BB5 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F568021F206A553E009F4BB5 /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		F5680220206A553E009F4BB5 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		F5680221206A553E009F4BB5 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		F56AAA652010765D00FD7207 /* ZiZhongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiZhongViewController.h; sourceTree = "<group>"; };
 		F56AAA662010765D00FD7207 /* ZiZhongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiZhongViewController.m; sourceTree = "<group>"; };
 		F56AAA672010765D00FD7207 /* ZiZhongViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZiZhongViewController.xib; sourceTree = "<group>"; };
@@ -388,6 +403,8 @@
 		48276EAA1F36276D000817F1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F5680218206A5104009F4BB5 /* main */,
+				F5680212206A4429009F4BB5 /* instructions */,
 				48276EE71F36D511000817F1 /* Finished */,
 				48276EE81F36D511000817F1 /* Unfinished */,
 			);
@@ -488,6 +505,7 @@
 		48276EE91F36D511000817F1 /* C */ = {
 			isa = PBXGroup;
 			children = (
+				F5680211206A4348009F4BB5 /* warmUp */,
 				48276F021F36E215000817F1 /* UnfinishiedViewController.h */,
 				48276F031F36E215000817F1 /* UnfinishiedViewController.m */,
 				48276F041F36E215000817F1 /* UnfinishiedViewController.xib */,
@@ -608,6 +626,44 @@
 			children = (
 			);
 			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		F5680211206A4348009F4BB5 /* warmUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = warmUp;
+			sourceTree = "<group>";
+		};
+		F5680212206A4429009F4BB5 /* instructions */ = {
+			isa = PBXGroup;
+			children = (
+				F5680213206A447B009F4BB5 /* InstructionsViewController.h */,
+				F5680214206A447B009F4BB5 /* InstructionsViewController.m */,
+				F5680215206A447B009F4BB5 /* InstructionsViewController.xib */,
+			);
+			path = instructions;
+			sourceTree = "<group>";
+		};
+		F5680218206A5104009F4BB5 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				F568021E206A551E009F4BB5 /* v */,
+				F5680219206A5119009F4BB5 /* MainViewController.h */,
+				F568021A206A5119009F4BB5 /* MainViewController.m */,
+				F568021B206A5119009F4BB5 /* MainViewController.xib */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		F568021E206A551E009F4BB5 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				F568021F206A553E009F4BB5 /* MainTableViewCell.h */,
+				F5680220206A553E009F4BB5 /* MainTableViewCell.m */,
+				F5680221206A553E009F4BB5 /* MainTableViewCell.xib */,
+			);
+			path = v;
 			sourceTree = "<group>";
 		};
 		F5A15AAA1FFE275200E22C88 /* M */ = {
@@ -764,6 +820,7 @@
 				F56AAAA5201B2C1800FD7207 /* FullStretchTableViewCell.xib in Resources */,
 				F5C9E71320284D1400DB1652 /* t16.gif in Resources */,
 				F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */,
+				F5680217206A447B009F4BB5 /* InstructionsViewController.xib in Resources */,
 				F5C9E70620284A4300DB1652 /* b15.gif in Resources */,
 				F5C9E71420284D1400DB1652 /* t15.gif in Resources */,
 				F5C9E73E202D78DD00DB1652 /* QiuTuZiZhongViewController.xib in Resources */,
@@ -772,8 +829,10 @@
 				F5A15A901FFCC03B00E22C88 /* ActionShowTableViewCell.xib in Resources */,
 				F5C9E70320284A4300DB1652 /* b13.gif in Resources */,
 				F56AAA692010765D00FD7207 /* ZiZhongViewController.xib in Resources */,
+				F568021D206A5119009F4BB5 /* MainViewController.xib in Resources */,
 				F5C9E6FE20284A4300DB1652 /* b12.gif in Resources */,
 				F51D47501FBD7F7600718399 /* CategorySelectViewController.xib in Resources */,
+				F5680223206A553E009F4BB5 /* MainTableViewCell.xib in Resources */,
 				F51D47551FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib in Resources */,
 				F51D475A1FBE817500718399 /* DifficultyCoefficienViewController.xib in Resources */,
 			);
@@ -864,11 +923,14 @@
 				F5A15A8F1FFCC03B00E22C88 /* ActionShowTableViewCell.m in Sources */,
 				F53956D9200CBCEF00E1E1FF /* XiuXiView.m in Sources */,
 				48276EDE1F3628AB000817F1 /* UIBarButtonItem+Helper.m in Sources */,
+				F5680222206A553E009F4BB5 /* MainTableViewCell.m in Sources */,
 				F56AAA6D201078A400FD7207 /* ZiZhongTableViewCell.m in Sources */,
 				F51D47541FBE7B7100718399 /* DifficultyCoefficienTableViewCell.m in Sources */,
 				F5A15ABE1FFF6F0000E22C88 /* JiHuaModel.m in Sources */,
+				F568021C206A5119009F4BB5 /* MainViewController.m in Sources */,
 				48276EDC1F3628AB000817F1 /* NSString+TimeDate.m in Sources */,
 				F5A15A971FFDC35000E22C88 /* QiXieXunLianJiRouViewController.m in Sources */,
+				F5680216206A447B009F4BB5 /* InstructionsViewController.m in Sources */,
 				48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */,
 				48276EDD1F3628AB000817F1 /* NSTimer+Addition.m in Sources */,
 				48276EDB1F3628AB000817F1 /* NSString+JSON.m in Sources */,

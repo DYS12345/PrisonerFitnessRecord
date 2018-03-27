@@ -144,8 +144,8 @@
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    self.n = indexPath.row;
-    [self showAlert];
+//    self.n = indexPath.row;
+//    [self showAlert];
 }
 
 @end

@@ -8,6 +8,7 @@
 
 #import "AppDelegate+Guide.h"
 #import "BaseTarBarViewController.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate (Guide)
 
@@ -32,7 +33,8 @@
     //        [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:key];
     //        [[NSUserDefaults standardUserDefaults] synchronize];
     //    }else{
-    self.window.rootViewController = [BaseTarBarViewController sharedManager];
+//    self.window.rootViewController = [BaseTarBarViewController sharedManager];
+    self.window.rootViewController = [MainViewController new];
     //    }
     [self.window makeKeyAndVisible];
 }

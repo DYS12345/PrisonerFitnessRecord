@@ -29,10 +29,10 @@
     [super viewDidLoad];
     
     NSArray *oneAry = @[@"胸", @"背", @"肩", @"腿", @"胸", @"背", @"手臂", @"腿"];
-    NSArray *twoAry = @[@"胸", @"背", @"肩", @"腿", @"胸", @"背", @"手臂", @"腿"];
+    NSArray *twoAry = @[@"热身", @"俯卧撑4组", @"引体向上4组", @"深蹲4组", @"卷腹2组"];
     
     self.modelAry = @[oneAry, twoAry];
-    self.modelTitleAry = @[@"第一周", @"第二周"];
+    self.modelTitleAry = @[@"器械力量训练计划", @"自重力量训练计划"];
     
     [self.tableView registerNib:[UINib nibWithNibName:@"FinishiedTableViewCell" bundle:nil] forCellReuseIdentifier:@"FinishiedTableViewCell"];
     

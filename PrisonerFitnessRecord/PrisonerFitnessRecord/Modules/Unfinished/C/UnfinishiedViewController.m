@@ -17,6 +17,7 @@
 #import "TabataJiShiViewController.h"
 #import "ZiZhongViewController.h"
 #import "QiuTuZiZhongViewController.h"
+#import "FullStretchViewController.h"
 
 @interface UnfinishiedViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -42,7 +43,7 @@
     UIBarButtonItem *menuBtnItem = [[UIBarButtonItem alloc] initWithCustomView:menuBtn];
     self.navigationItem.leftBarButtonItem = menuBtnItem;
     
-    self.modelAry = @[@"器械训练肌肉训练", @"囚徒自重训练", @"自重训练动作", @"肌肉拉伸", @"泡沫轴放松肌肉", @"对照食物查看热量", @"tabata"];
+    self.modelAry = @[@"1、热身", @"2、器械力量训练", @"2、自重可以在家做的力量训练", @"3、tabata",@"4、肌肉拉伸", @"5、泡沫轴放松肌肉", @"对照食物查看热量"];
     
     [self.tableview registerClass:[TargetMuscleTableViewCell class] forCellReuseIdentifier:@"TargetMuscleTableViewCell"];
 }
@@ -73,19 +74,26 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.row == 5) {
+    if (indexPath.row == 6) {
         ReLiangDuiZhaoViewController *vc = [ReLiangDuiZhaoViewController new];
         [self.navigationController pushViewController:vc animated:YES];
-    } else if (indexPath.row == 6) {
+    } else if (indexPath.row == 3) {
         TabataJiShiViewController *vc = [TabataJiShiViewController new];
         [self.navigationController pushViewController:vc animated:YES];
-    } else if (indexPath.row == 1) {
+    } else if (indexPath.row == 2) {
         QiuTuZiZhongViewController *vc = [QiuTuZiZhongViewController new];
         [self.navigationController pushViewController:vc animated:YES];
-    } else {
+    } else if (indexPath.row == 1) {
         QiXieXunLianJiRouViewController *vc = [QiXieXunLianJiRouViewController new];
-        vc.numFlag = indexPath.item;
+        vc.numFlag = 0;
         [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 0) {
+
+    } else if (indexPath.row == 4) {
+        FullStretchViewController *vc = [FullStretchViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else {
+        
     }
 }
 

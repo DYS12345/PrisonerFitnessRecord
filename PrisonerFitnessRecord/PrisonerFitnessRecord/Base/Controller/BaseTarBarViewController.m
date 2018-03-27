@@ -14,6 +14,7 @@
 #import "BaseNavController.h"
 #import "UserModel.h"
 #import "OtherMacro.h"
+#import "InstructionsViewController.h"
 
 @interface BaseTarBarViewController () <UITabBarControllerDelegate>
 
@@ -52,6 +53,8 @@
     [super viewDidLoad];
     // 添加子控制器
     [self setupChildVc:[[UnfinishiedViewController alloc] init] title:@"目标集" image:@"home" selectedImage:@"homeSelected"];
+    
+    [self setupChildVc:[[InstructionsViewController alloc] init] title:@"说明" image:@"finished" selectedImage:@"finishedSelected"];
     
     [self setupChildVc:[[FinishiedViewController alloc] init] title:@"档案" image:@"finished" selectedImage:@"finishedSelected"];
     
