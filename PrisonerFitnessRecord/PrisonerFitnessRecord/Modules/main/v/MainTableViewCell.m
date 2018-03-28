@@ -7,7 +7,6 @@
 //
 
 #import "MainTableViewCell.h"
-#import "ItemCollectionViewCell.h"
 #import "Masonry.h"
 
 @implementation MainTableViewCell

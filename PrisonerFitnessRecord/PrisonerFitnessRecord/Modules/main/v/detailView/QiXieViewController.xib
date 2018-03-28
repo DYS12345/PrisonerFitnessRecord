@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QiXieViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJ6-Km-uUw">
+                    <rect key="frame" x="295" y="40" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="66q-nA-dJH"/>
+                        <constraint firstAttribute="width" constant="60" id="L1H-UF-yoe"/>
+                    </constraints>
+                    <state key="normal" title="取消"/>
+                    <connections>
+                        <action selector="cancel:" destination="-1" eventType="touchUpInside" id="Ets-1c-87q"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GJ-Em-yVj">
+                    <rect key="frame" x="157" y="252" width="62" height="30"/>
+                    <state key="normal" title="第二天背"/>
+                    <connections>
+                        <action selector="bei:" destination="-1" eventType="touchUpInside" id="DHH-X7-lOY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMa-m0-jlU">
+                    <rect key="frame" x="157" y="318" width="62" height="30"/>
+                    <state key="normal" title="第三天肩"/>
+                    <connections>
+                        <action selector="jian:" destination="-1" eventType="touchUpInside" id="Jx7-gS-CrB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qR-aq-onl">
+                    <rect key="frame" x="142" y="387" width="92" height="30"/>
+                    <state key="normal" title="或第三天手臂"/>
+                    <connections>
+                        <action selector="shoubi:" destination="-1" eventType="touchUpInside" id="iYd-gV-Nmn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbf-XE-VCn">
+                    <rect key="frame" x="149" y="449" width="77" height="30"/>
+                    <state key="normal" title="第四天腿臀"/>
+                    <connections>
+                        <action selector="tui:" destination="-1" eventType="touchUpInside" id="flv-g7-75c"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一天选择一项来练，每项选择4到5个动作，每个动作8到12次" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9E-V8-AlA">
+                    <rect key="frame" x="20" y="551" width="335" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWv-bz-PoV">
+                    <rect key="frame" x="156.5" y="181" width="62" height="30"/>
+                    <state key="normal" title="第一天胸"/>
+                    <connections>
+                        <action selector="xiong:" destination="-1" eventType="touchUpInside" id="24e-PE-wBb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EMa-m0-jlU" firstAttribute="top" secondItem="0GJ-Em-yVj" secondAttribute="bottom" constant="36" id="18w-2u-oqZ"/>
+                <constraint firstItem="0GJ-Em-yVj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8Wv-bB-cB7"/>
+                <constraint firstItem="tbf-XE-VCn" firstAttribute="top" secondItem="8qR-aq-onl" secondAttribute="bottom" constant="32" id="CPl-Dr-ei4"/>
+                <constraint firstItem="G9E-V8-AlA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="FHv-zI-TOf"/>
+                <constraint firstAttribute="trailing" secondItem="G9E-V8-AlA" secondAttribute="trailing" constant="20" id="PNp-cp-Z55"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="lJ6-Km-uUw" secondAttribute="trailing" constant="20" id="Ryl-Yf-WfV"/>
+                <constraint firstItem="tbf-XE-VCn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Sfl-xQ-paO"/>
+                <constraint firstItem="8qR-aq-onl" firstAttribute="top" secondItem="EMa-m0-jlU" secondAttribute="bottom" constant="39" id="YVz-mp-tWp"/>
+                <constraint firstItem="0GJ-Em-yVj" firstAttribute="top" secondItem="bWv-bz-PoV" secondAttribute="bottom" constant="41" id="Yl0-DW-qIV"/>
+                <constraint firstItem="8qR-aq-onl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bmq-cL-Yak"/>
+                <constraint firstItem="0GJ-Em-yVj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="252" id="eHI-P2-1gj"/>
+                <constraint firstItem="lJ6-Km-uUw" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="iHE-s4-6H6"/>
+                <constraint firstItem="EMa-m0-jlU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="itG-Nv-Ax1"/>
+                <constraint firstItem="bWv-bz-PoV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lqe-l9-t4q"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="G9E-V8-AlA" secondAttribute="bottom" constant="80" id="rAV-Iy-6F6"/>
+                <constraint firstItem="G9E-V8-AlA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ucB-bg-reA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="88.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

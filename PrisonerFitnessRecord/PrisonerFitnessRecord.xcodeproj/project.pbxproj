@@ -48,6 +48,12 @@
 		F51D47551FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47531FBE7B7100718399 /* DifficultyCoefficienTableViewCell.xib */; };
 		F51D47591FBE817500718399 /* DifficultyCoefficienViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D47571FBE817500718399 /* DifficultyCoefficienViewController.m */; };
 		F51D475A1FBE817500718399 /* DifficultyCoefficienViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51D47581FBE817500718399 /* DifficultyCoefficienViewController.xib */; };
+		F530432D206B331C0084E2EC /* EquipmentTrainingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F530432C206B331C0084E2EC /* EquipmentTrainingView.m */; };
+		F530432F206B332D0084E2EC /* EquipmentTrainingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F530432E206B332D0084E2EC /* EquipmentTrainingView.xib */; };
+		F5304332206B39EC0084E2EC /* SelfTrainingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5304331206B39EC0084E2EC /* SelfTrainingView.m */; };
+		F5304334206B39FA0084E2EC /* SelfTrainingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5304333206B39FA0084E2EC /* SelfTrainingView.xib */; };
+		F5304339206B42420084E2EC /* ReShenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5304337206B42420084E2EC /* ReShenViewController.m */; };
+		F530433A206B42420084E2EC /* ReShenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5304338206B42420084E2EC /* ReShenViewController.xib */; };
 		F53956C6200C5B9700E1E1FF /* TabataJiShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53956C4200C5B9700E1E1FF /* TabataJiShiViewController.m */; };
 		F53956C7200C5B9700E1E1FF /* TabataJiShiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53956C5200C5B9700E1E1FF /* TabataJiShiViewController.xib */; };
 		F53956CA200C802500E1E1FF /* ZRMultipleWaveLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53956C8200C802500E1E1FF /* ZRMultipleWaveLoadingView.m */; };
@@ -66,6 +72,33 @@
 		F568021D206A5119009F4BB5 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F568021B206A5119009F4BB5 /* MainViewController.xib */; };
 		F5680222206A553E009F4BB5 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5680220206A553E009F4BB5 /* MainTableViewCell.m */; };
 		F5680223206A553E009F4BB5 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5680221206A553E009F4BB5 /* MainTableViewCell.xib */; };
+		F56A23DB206BBAF400B54AD5 /* QiXieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A23D9206BBAF400B54AD5 /* QiXieViewController.m */; };
+		F56A23DC206BBAF400B54AD5 /* QiXieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56A23DA206BBAF400B54AD5 /* QiXieViewController.xib */; };
+		F56A23E0206BC16A00B54AD5 /* TabataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A23DE206BC16A00B54AD5 /* TabataViewController.m */; };
+		F56A23E1206BC16A00B54AD5 /* TabataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56A23DF206BC16A00B54AD5 /* TabataViewController.xib */; };
+		F56A23E3206BC65000B54AD5 /* g.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A23E2206BC65000B54AD5 /* g.gif */; };
+		F56A23E7206BC71000B54AD5 /* j.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A23E6206BC71000B54AD5 /* j.gif */; };
+		F56A23E9206BC74300B54AD5 /* d.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A23E8206BC74300B54AD5 /* d.gif */; };
+		F56A23F1206BCE4300B54AD5 /* UIView+WCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A23EC206BCE4300B54AD5 /* UIView+WCExtension.m */; };
+		F56A23F2206BCE4300B54AD5 /* WCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A23EE206BCE4300B54AD5 /* WCCollectionViewCell.m */; };
+		F56A23F3206BCE4300B54AD5 /* WCCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A23F0206BCE4300B54AD5 /* WCCycleScrollView.m */; };
+		F56A23F7206BD17300B54AD5 /* FuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A23F5206BD17300B54AD5 /* FuViewController.m */; };
+		F56A23F8206BD17300B54AD5 /* FuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56A23F6206BD17300B54AD5 /* FuViewController.xib */; };
+		F56A23FA206BD35300B54AD5 /* b.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A23F9206BD35300B54AD5 /* b.gif */; };
+		F56A23FC206BD36A00B54AD5 /* f1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A23FB206BD36900B54AD5 /* f1.gif */; };
+		F56A23FE206BD3DD00B54AD5 /* f2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A23FD206BD3DD00B54AD5 /* f2.gif */; };
+		F56A2400206BD3E700B54AD5 /* f3.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A23FF206BD3E700B54AD5 /* f3.gif */; };
+		F56A2404206BD6FA00B54AD5 /* PaoMoZhouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A2402206BD6FA00B54AD5 /* PaoMoZhouViewController.m */; };
+		F56A2405206BD6FA00B54AD5 /* PaoMoZhouViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56A2403206BD6FA00B54AD5 /* PaoMoZhouViewController.xib */; };
+		F56A240C206BD87C00B54AD5 /* p5.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A2406206BD87B00B54AD5 /* p5.gif */; };
+		F56A240D206BD87C00B54AD5 /* p1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A2407206BD87B00B54AD5 /* p1.gif */; };
+		F56A240E206BD87C00B54AD5 /* p4.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A2408206BD87B00B54AD5 /* p4.gif */; };
+		F56A240F206BD87C00B54AD5 /* p7.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A2409206BD87C00B54AD5 /* p7.gif */; };
+		F56A2410206BD87C00B54AD5 /* p2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A240A206BD87C00B54AD5 /* p2.gif */; };
+		F56A2411206BD87C00B54AD5 /* p6.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A240B206BD87C00B54AD5 /* p6.gif */; };
+		F56A2413206BD95100B54AD5 /* p3.gif in Resources */ = {isa = PBXBuildFile; fileRef = F56A2412206BD95100B54AD5 /* p3.gif */; };
+		F56A2418206BD9C700B54AD5 /* ZReShenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A2416206BD9C700B54AD5 /* ZReShenViewController.m */; };
+		F56A2419206BD9C800B54AD5 /* ZReShenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56A2417206BD9C700B54AD5 /* ZReShenViewController.xib */; };
 		F56AAA682010765D00FD7207 /* ZiZhongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA662010765D00FD7207 /* ZiZhongViewController.m */; };
 		F56AAA692010765D00FD7207 /* ZiZhongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56AAA672010765D00FD7207 /* ZiZhongViewController.xib */; };
 		F56AAA6D201078A400FD7207 /* ZiZhongTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AAA6B201078A400FD7207 /* ZiZhongTableViewCell.m */; };
@@ -196,6 +229,15 @@
 		F51D47561FBE817500718399 /* DifficultyCoefficienViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifficultyCoefficienViewController.h; sourceTree = "<group>"; };
 		F51D47571FBE817500718399 /* DifficultyCoefficienViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifficultyCoefficienViewController.m; sourceTree = "<group>"; };
 		F51D47581FBE817500718399 /* DifficultyCoefficienViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DifficultyCoefficienViewController.xib; sourceTree = "<group>"; };
+		F530432B206B331C0084E2EC /* EquipmentTrainingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipmentTrainingView.h; sourceTree = "<group>"; };
+		F530432C206B331C0084E2EC /* EquipmentTrainingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipmentTrainingView.m; sourceTree = "<group>"; };
+		F530432E206B332D0084E2EC /* EquipmentTrainingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EquipmentTrainingView.xib; sourceTree = "<group>"; };
+		F5304330206B39EC0084E2EC /* SelfTrainingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfTrainingView.h; sourceTree = "<group>"; };
+		F5304331206B39EC0084E2EC /* SelfTrainingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfTrainingView.m; sourceTree = "<group>"; };
+		F5304333206B39FA0084E2EC /* SelfTrainingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelfTrainingView.xib; sourceTree = "<group>"; };
+		F5304336206B42420084E2EC /* ReShenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReShenViewController.h; sourceTree = "<group>"; };
+		F5304337206B42420084E2EC /* ReShenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReShenViewController.m; sourceTree = "<group>"; };
+		F5304338206B42420084E2EC /* ReShenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReShenViewController.xib; sourceTree = "<group>"; };
 		F53956C3200C5B9700E1E1FF /* TabataJiShiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabataJiShiViewController.h; sourceTree = "<group>"; };
 		F53956C4200C5B9700E1E1FF /* TabataJiShiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabataJiShiViewController.m; sourceTree = "<group>"; };
 		F53956C5200C5B9700E1E1FF /* TabataJiShiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabataJiShiViewController.xib; sourceTree = "<group>"; };
@@ -223,6 +265,41 @@
 		F568021F206A553E009F4BB5 /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
 		F5680220206A553E009F4BB5 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 		F5680221206A553E009F4BB5 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		F56A23D8206BBAF400B54AD5 /* QiXieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiXieViewController.h; sourceTree = "<group>"; };
+		F56A23D9206BBAF400B54AD5 /* QiXieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiXieViewController.m; sourceTree = "<group>"; };
+		F56A23DA206BBAF400B54AD5 /* QiXieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QiXieViewController.xib; sourceTree = "<group>"; };
+		F56A23DD206BC16A00B54AD5 /* TabataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabataViewController.h; sourceTree = "<group>"; };
+		F56A23DE206BC16A00B54AD5 /* TabataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabataViewController.m; sourceTree = "<group>"; };
+		F56A23DF206BC16A00B54AD5 /* TabataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabataViewController.xib; sourceTree = "<group>"; };
+		F56A23E2206BC65000B54AD5 /* g.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = g.gif; sourceTree = "<group>"; };
+		F56A23E6206BC71000B54AD5 /* j.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = j.gif; sourceTree = "<group>"; };
+		F56A23E8206BC74300B54AD5 /* d.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = d.gif; sourceTree = "<group>"; };
+		F56A23EB206BCE4300B54AD5 /* UIView+WCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WCExtension.h"; sourceTree = "<group>"; };
+		F56A23EC206BCE4300B54AD5 /* UIView+WCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WCExtension.m"; sourceTree = "<group>"; };
+		F56A23ED206BCE4300B54AD5 /* WCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCollectionViewCell.h; sourceTree = "<group>"; };
+		F56A23EE206BCE4300B54AD5 /* WCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCollectionViewCell.m; sourceTree = "<group>"; };
+		F56A23EF206BCE4300B54AD5 /* WCCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCycleScrollView.h; sourceTree = "<group>"; };
+		F56A23F0206BCE4300B54AD5 /* WCCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCycleScrollView.m; sourceTree = "<group>"; };
+		F56A23F4206BD17300B54AD5 /* FuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuViewController.h; sourceTree = "<group>"; };
+		F56A23F5206BD17300B54AD5 /* FuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuViewController.m; sourceTree = "<group>"; };
+		F56A23F6206BD17300B54AD5 /* FuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FuViewController.xib; sourceTree = "<group>"; };
+		F56A23F9206BD35300B54AD5 /* b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b.gif; sourceTree = "<group>"; };
+		F56A23FB206BD36900B54AD5 /* f1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = f1.gif; sourceTree = "<group>"; };
+		F56A23FD206BD3DD00B54AD5 /* f2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = f2.gif; sourceTree = "<group>"; };
+		F56A23FF206BD3E700B54AD5 /* f3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = f3.gif; sourceTree = "<group>"; };
+		F56A2401206BD6FA00B54AD5 /* PaoMoZhouViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaoMoZhouViewController.h; sourceTree = "<group>"; };
+		F56A2402206BD6FA00B54AD5 /* PaoMoZhouViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaoMoZhouViewController.m; sourceTree = "<group>"; };
+		F56A2403206BD6FA00B54AD5 /* PaoMoZhouViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaoMoZhouViewController.xib; sourceTree = "<group>"; };
+		F56A2406206BD87B00B54AD5 /* p5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = p5.gif; sourceTree = "<group>"; };
+		F56A2407206BD87B00B54AD5 /* p1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = p1.gif; sourceTree = "<group>"; };
+		F56A2408206BD87B00B54AD5 /* p4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = p4.gif; sourceTree = "<group>"; };
+		F56A2409206BD87C00B54AD5 /* p7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = p7.gif; sourceTree = "<group>"; };
+		F56A240A206BD87C00B54AD5 /* p2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = p2.gif; sourceTree = "<group>"; };
+		F56A240B206BD87C00B54AD5 /* p6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = p6.gif; sourceTree = "<group>"; };
+		F56A2412206BD95100B54AD5 /* p3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = p3.gif; sourceTree = "<group>"; };
+		F56A2415206BD9C700B54AD5 /* ZReShenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZReShenViewController.h; sourceTree = "<group>"; };
+		F56A2416206BD9C700B54AD5 /* ZReShenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZReShenViewController.m; sourceTree = "<group>"; };
+		F56A2417206BD9C700B54AD5 /* ZReShenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZReShenViewController.xib; sourceTree = "<group>"; };
 		F56AAA652010765D00FD7207 /* ZiZhongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiZhongViewController.h; sourceTree = "<group>"; };
 		F56AAA662010765D00FD7207 /* ZiZhongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiZhongViewController.m; sourceTree = "<group>"; };
 		F56AAA672010765D00FD7207 /* ZiZhongViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZiZhongViewController.xib; sourceTree = "<group>"; };
@@ -612,6 +689,28 @@
 			path = M;
 			sourceTree = "<group>";
 		};
+		F5304335206B421D0084E2EC /* detailView */ = {
+			isa = PBXGroup;
+			children = (
+				F5304336206B42420084E2EC /* ReShenViewController.h */,
+				F5304337206B42420084E2EC /* ReShenViewController.m */,
+				F5304338206B42420084E2EC /* ReShenViewController.xib */,
+				F56A23D8206BBAF400B54AD5 /* QiXieViewController.h */,
+				F56A23D9206BBAF400B54AD5 /* QiXieViewController.m */,
+				F56A23DA206BBAF400B54AD5 /* QiXieViewController.xib */,
+				F56A23DD206BC16A00B54AD5 /* TabataViewController.h */,
+				F56A23DE206BC16A00B54AD5 /* TabataViewController.m */,
+				F56A23DF206BC16A00B54AD5 /* TabataViewController.xib */,
+				F56A23F4206BD17300B54AD5 /* FuViewController.h */,
+				F56A23F5206BD17300B54AD5 /* FuViewController.m */,
+				F56A23F6206BD17300B54AD5 /* FuViewController.xib */,
+				F56A2401206BD6FA00B54AD5 /* PaoMoZhouViewController.h */,
+				F56A2402206BD6FA00B54AD5 /* PaoMoZhouViewController.m */,
+				F56A2403206BD6FA00B54AD5 /* PaoMoZhouViewController.xib */,
+			);
+			path = detailView;
+			sourceTree = "<group>";
+		};
 		F53956CB200C807D00E1E1FF /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -624,6 +723,7 @@
 		F53956DE200EEE4E00E1E1FF /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				F56A23EA206BCE4300B54AD5 /* WCCycleScrollView */,
 			);
 			path = ThirdPart;
 			sourceTree = "<group>";
@@ -659,11 +759,42 @@
 		F568021E206A551E009F4BB5 /* v */ = {
 			isa = PBXGroup;
 			children = (
+				F56A2414206BD9A800B54AD5 /* ziZhongDetailView */,
+				F5304335206B421D0084E2EC /* detailView */,
 				F568021F206A553E009F4BB5 /* MainTableViewCell.h */,
 				F5680220206A553E009F4BB5 /* MainTableViewCell.m */,
 				F5680221206A553E009F4BB5 /* MainTableViewCell.xib */,
+				F530432B206B331C0084E2EC /* EquipmentTrainingView.h */,
+				F530432C206B331C0084E2EC /* EquipmentTrainingView.m */,
+				F530432E206B332D0084E2EC /* EquipmentTrainingView.xib */,
+				F5304330206B39EC0084E2EC /* SelfTrainingView.h */,
+				F5304331206B39EC0084E2EC /* SelfTrainingView.m */,
+				F5304333206B39FA0084E2EC /* SelfTrainingView.xib */,
 			);
 			path = v;
+			sourceTree = "<group>";
+		};
+		F56A23EA206BCE4300B54AD5 /* WCCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F56A23EB206BCE4300B54AD5 /* UIView+WCExtension.h */,
+				F56A23EC206BCE4300B54AD5 /* UIView+WCExtension.m */,
+				F56A23ED206BCE4300B54AD5 /* WCCollectionViewCell.h */,
+				F56A23EE206BCE4300B54AD5 /* WCCollectionViewCell.m */,
+				F56A23EF206BCE4300B54AD5 /* WCCycleScrollView.h */,
+				F56A23F0206BCE4300B54AD5 /* WCCycleScrollView.m */,
+			);
+			path = WCCycleScrollView;
+			sourceTree = "<group>";
+		};
+		F56A2414206BD9A800B54AD5 /* ziZhongDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				F56A2415206BD9C700B54AD5 /* ZReShenViewController.h */,
+				F56A2416206BD9C700B54AD5 /* ZReShenViewController.m */,
+				F56A2417206BD9C700B54AD5 /* ZReShenViewController.xib */,
+			);
+			path = ziZhongDetailView;
 			sourceTree = "<group>";
 		};
 		F5A15AAA1FFE275200E22C88 /* M */ = {
@@ -693,6 +824,20 @@
 		F5C9E6F320284A3800DB1652 /* showImageG */ = {
 			isa = PBXGroup;
 			children = (
+				F56A2412206BD95100B54AD5 /* p3.gif */,
+				F56A2407206BD87B00B54AD5 /* p1.gif */,
+				F56A240A206BD87C00B54AD5 /* p2.gif */,
+				F56A2408206BD87B00B54AD5 /* p4.gif */,
+				F56A2406206BD87B00B54AD5 /* p5.gif */,
+				F56A240B206BD87C00B54AD5 /* p6.gif */,
+				F56A2409206BD87C00B54AD5 /* p7.gif */,
+				F56A23FF206BD3E700B54AD5 /* f3.gif */,
+				F56A23FD206BD3DD00B54AD5 /* f2.gif */,
+				F56A23FB206BD36900B54AD5 /* f1.gif */,
+				F56A23F9206BD35300B54AD5 /* b.gif */,
+				F56A23E8206BC74300B54AD5 /* d.gif */,
+				F56A23E6206BC71000B54AD5 /* j.gif */,
+				F56A23E2206BC65000B54AD5 /* g.gif */,
 				F5C9E70F20284D1400DB1652 /* t14.gif */,
 				F5C9E70C20284D1400DB1652 /* t15.gif */,
 				F5C9E70B20284D1400DB1652 /* t16.gif */,
@@ -786,31 +931,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56A240D206BD87C00B54AD5 /* p1.gif in Resources */,
+				F56A23FE206BD3DD00B54AD5 /* f2.gif in Resources */,
+				F56A23E3206BC65000B54AD5 /* g.gif in Resources */,
 				F5C9E71520284D1400DB1652 /* t17.gif in Resources */,
+				F56A23FA206BD35300B54AD5 /* b.gif in Resources */,
+				F530433A206B42420084E2EC /* ReShenViewController.xib in Resources */,
 				F5A15AB81FFF260E00E22C88 /* JiHuaCollectionViewCell.xib in Resources */,
+				F56A23FC206BD36A00B54AD5 /* f1.gif in Resources */,
 				F5C9E71220284D1400DB1652 /* t20.gif in Resources */,
 				F5C9E70520284A4300DB1652 /* b14.gif in Resources */,
+				F5304334206B39FA0084E2EC /* SelfTrainingView.xib in Resources */,
 				48276F061F36E215000817F1 /* UnfinishiedViewController.xib in Resources */,
+				F56A2405206BD6FA00B54AD5 /* PaoMoZhouViewController.xib in Resources */,
+				F530432F206B332D0084E2EC /* EquipmentTrainingView.xib in Resources */,
 				F5C9E6FF20284A4300DB1652 /* b10.gif in Resources */,
+				F56A2413206BD95100B54AD5 /* p3.gif in Resources */,
+				F56A2419206BD9C800B54AD5 /* ZReShenViewController.xib in Resources */,
 				F5A15A8B1FFCBC9200E22C88 /* ActionShowViewController.xib in Resources */,
+				F56A240C206BD87C00B54AD5 /* p5.gif in Resources */,
 				F5C9E71120284D1400DB1652 /* t18.gif in Resources */,
 				F56AAA6E201078A400FD7207 /* ZiZhongTableViewCell.xib in Resources */,
 				F56AAA962019E3C700FD7207 /* ZiZhongJiShuTableViewCell.xib in Resources */,
 				F5C9E70720284A4300DB1652 /* b17.gif in Resources */,
 				F5C9E70420284A4300DB1652 /* b9.gif in Resources */,
+				F56A2411206BD87C00B54AD5 /* p6.gif in Resources */,
 				48276EFC1F36D6DF000817F1 /* Podfile in Resources */,
 				F5A15A981FFDC35000E22C88 /* QiXieXunLianJiRouViewController.xib in Resources */,
 				48276E9F1F362613000817F1 /* LaunchScreen.storyboard in Resources */,
 				F5C9E741202D7D9400DB1652 /* 1.xls in Resources */,
 				F5F280C61FBEB8470098B3B7 /* DateSelectViewController.xib in Resources */,
+				F56A240F206BD87C00B54AD5 /* p7.gif in Resources */,
 				F5C9E71020284D1400DB1652 /* t21.gif in Resources */,
 				F5C9E70120284A4300DB1652 /* b11.gif in Resources */,
 				F51D474B1FBD75C400718399 /* CategoryTableViewCell.xib in Resources */,
 				F5C9E70020284A4300DB1652 /* b18.gif in Resources */,
 				F5C9E71620284D1400DB1652 /* t19.gif in Resources */,
+				F56A2400206BD3E700B54AD5 /* f3.gif in Resources */,
 				F5A15AA91FFE106800E22C88 /* ReLiangDuiZhaoViewController.xib in Resources */,
 				48276F011F36E1A8000817F1 /* FinishiedViewController.xib in Resources */,
+				F56A2410206BD87C00B54AD5 /* p2.gif in Resources */,
+				F56A23E1206BC16A00B54AD5 /* TabataViewController.xib in Resources */,
 				F5C9E71720284D1400DB1652 /* t14.gif in Resources */,
+				F56A23F8206BD17300B54AD5 /* FuViewController.xib in Resources */,
 				F5A15AB31FFE373800E22C88 /* FinishiedTableViewCell.xib in Resources */,
 				F53956C7200C5B9700E1E1FF /* TabataJiShiViewController.xib in Resources */,
 				48276E9C1F362613000817F1 /* Assets.xcassets in Resources */,
@@ -819,9 +982,11 @@
 				F51D47401FBD6C5000718399 /* CreatItemViewController.xib in Resources */,
 				F56AAAA5201B2C1800FD7207 /* FullStretchTableViewCell.xib in Resources */,
 				F5C9E71320284D1400DB1652 /* t16.gif in Resources */,
+				F56A23E9206BC74300B54AD5 /* d.gif in Resources */,
 				F5F280C11FBEB6CF0098B3B7 /* DateTableViewCell.xib in Resources */,
 				F5680217206A447B009F4BB5 /* InstructionsViewController.xib in Resources */,
 				F5C9E70620284A4300DB1652 /* b15.gif in Resources */,
+				F56A23DC206BBAF400B54AD5 /* QiXieViewController.xib in Resources */,
 				F5C9E71420284D1400DB1652 /* t15.gif in Resources */,
 				F5C9E73E202D78DD00DB1652 /* QiuTuZiZhongViewController.xib in Resources */,
 				F5A2C9E82049228400F38448 /* TabataCollectionViewCell.xib in Resources */,
@@ -830,6 +995,8 @@
 				F5C9E70320284A4300DB1652 /* b13.gif in Resources */,
 				F56AAA692010765D00FD7207 /* ZiZhongViewController.xib in Resources */,
 				F568021D206A5119009F4BB5 /* MainViewController.xib in Resources */,
+				F56A23E7206BC71000B54AD5 /* j.gif in Resources */,
+				F56A240E206BD87C00B54AD5 /* p4.gif in Resources */,
 				F5C9E6FE20284A4300DB1652 /* b12.gif in Resources */,
 				F51D47501FBD7F7600718399 /* CategorySelectViewController.xib in Resources */,
 				F5680223206A553E009F4BB5 /* MainTableViewCell.xib in Resources */,
@@ -895,20 +1062,25 @@
 			files = (
 				48276F051F36E215000817F1 /* UnfinishiedViewController.m in Sources */,
 				F5F280C01FBEB6CF0098B3B7 /* DateTableViewCell.m in Sources */,
+				F56A23F3206BCE4300B54AD5 /* WCCycleScrollView.m in Sources */,
 				48276EAF1F3627EF000817F1 /* AppDelegate+Guide.m in Sources */,
 				48276EBC1F362868000817F1 /* BaseViewController.m in Sources */,
 				F5C9E73D202D78DD00DB1652 /* QiuTuZiZhongViewController.m in Sources */,
 				F5A15AAE1FFE27E400E22C88 /* JiHuaHeaderView.m in Sources */,
 				F53956C6200C5B9700E1E1FF /* TabataJiShiViewController.m in Sources */,
+				F56A23DB206BBAF400B54AD5 /* QiXieViewController.m in Sources */,
 				48276EDA1F3628AB000817F1 /* NSString+Helper.m in Sources */,
 				48276EE01F3628AB000817F1 /* UIImage+Helper.m in Sources */,
 				48276EDF1F3628AB000817F1 /* UIColor+Extension.m in Sources */,
 				F5A15A8A1FFCBC9200E22C88 /* ActionShowViewController.m in Sources */,
 				F5A15AB21FFE373800E22C88 /* FinishiedTableViewCell.m in Sources */,
 				48276EE21F3628AB000817F1 /* UIImageView+SDWedImage.m in Sources */,
+				F530432D206B331C0084E2EC /* EquipmentTrainingView.m in Sources */,
 				F51D47591FBE817500718399 /* DifficultyCoefficienViewController.m in Sources */,
 				F53956CA200C802500E1E1FF /* ZRMultipleWaveLoadingView.m in Sources */,
 				F5A15A861FFCAFD400E22C88 /* TargetMuscleTableViewCell.m in Sources */,
+				F5304339206B42420084E2EC /* ReShenViewController.m in Sources */,
+				F56A2418206BD9C700B54AD5 /* ZReShenViewController.m in Sources */,
 				48276EE11F3628AB000817F1 /* UIImage+QRCode.m in Sources */,
 				F5A15A9F1FFE0DEC00E22C88 /* MobileNet.mlmodel in Sources */,
 				48276E941F362613000817F1 /* AppDelegate.mm in Sources */,
@@ -934,11 +1106,17 @@
 				48276EE51F3628AB000817F1 /* UIView+Size.m in Sources */,
 				48276EDD1F3628AB000817F1 /* NSTimer+Addition.m in Sources */,
 				48276EDB1F3628AB000817F1 /* NSString+JSON.m in Sources */,
+				F5304332206B39EC0084E2EC /* SelfTrainingView.m in Sources */,
+				F56A23F2206BCE4300B54AD5 /* WCCollectionViewCell.m in Sources */,
 				F51D473F1FBD6C5000718399 /* CreatItemViewController.m in Sources */,
+				F56A23F1206BCE4300B54AD5 /* UIView+WCExtension.m in Sources */,
 				F5F280C51FBEB8470098B3B7 /* DateSelectViewController.m in Sources */,
 				F5A15AA81FFE106800E22C88 /* ReLiangDuiZhaoViewController.m in Sources */,
 				F51D474A1FBD75C400718399 /* CategoryTableViewCell.m in Sources */,
 				48276ED91F3628AB000817F1 /* NSString+FBMD5.m in Sources */,
+				F56A2404206BD6FA00B54AD5 /* PaoMoZhouViewController.m in Sources */,
+				F56A23F7206BD17300B54AD5 /* FuViewController.m in Sources */,
+				F56A23E0206BC16A00B54AD5 /* TabataViewController.m in Sources */,
 				48276EE41F3628AB000817F1 /* UIView+FSExtension.m in Sources */,
 				F56AAAA4201B2C1800FD7207 /* FullStretchTableViewCell.m in Sources */,
 				F5A2C9E72049228400F38448 /* TabataCollectionViewCell.m in Sources */,
