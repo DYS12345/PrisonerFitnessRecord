@@ -22,6 +22,7 @@
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
     WCCycleScrollView *cycleView = [WCCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 100, width, 200) delegate:self placeholderImage:[UIImage imageNamed:@""]];
     cycleView.delegate = self;
+    cycleView.isGif = YES;
     cycleView.imageURLStringGroup = @[@"f1",@"f2",@"f3"];
     cycleView.titleGroup = @[@"卷腹",@"跑步式仰卧起坐",@"仰卧屈膝举腿"];
     [self.view addSubview:cycleView];

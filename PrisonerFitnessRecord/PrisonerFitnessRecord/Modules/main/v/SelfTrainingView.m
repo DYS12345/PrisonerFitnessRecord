@@ -17,6 +17,12 @@
     }
     return self;
 }
+- (IBAction)tabata:(id)sender {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"selftrain" object: nil userInfo:[NSDictionary dictionaryWithObject:@"tabata" forKey:@"key"]];
+}
+- (IBAction)zuihou:(id)sender {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"selftrain" object: nil userInfo:[NSDictionary dictionaryWithObject:@"zuihou" forKey:@"key"]];
+}
 
 - (IBAction)reshen:(id)sender {
     [[NSNotificationCenter defaultCenter] postNotificationName:@"selftrain" object: nil userInfo:[NSDictionary dictionaryWithObject:@"reshen" forKey:@"key"]];

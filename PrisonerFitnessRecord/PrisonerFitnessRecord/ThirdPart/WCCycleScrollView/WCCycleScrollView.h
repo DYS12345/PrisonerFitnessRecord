@@ -66,6 +66,7 @@
 @property(nonatomic, strong) UIColor            *titleLabelBackgroundColor;
 @property(nonatomic, assign) NSTextAlignment    titleLabelTextAlignment;
 @property(nonatomic, assign) CGFloat            titleLabelHeight;
+@property(nonatomic, assign) BOOL            isGif;
 /**
  当前分页指示器颜色
  */

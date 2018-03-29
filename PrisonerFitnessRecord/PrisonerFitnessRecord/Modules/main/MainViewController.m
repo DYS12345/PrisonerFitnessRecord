@@ -17,6 +17,11 @@
 #import "FuViewController.h"
 #import "FullStretchViewController.h"
 #import "PaoMoZhouViewController.h"
+#import "ZReShenViewController.h"
+#import "FuWochengViewController.h"
+#import "YintixiangshangViewController.h"
+#import "ShendunViewController.h"
+#import "InsaView.h"
 
 @interface MainViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -74,27 +79,33 @@
 -(void) selftrain:(NSNotification*)notification{
     NSDictionary *dictionary = [notification userInfo];
     if ([dictionary[@"key"] isEqualToString:@"reshen"]) {
-        ReShenViewController *vc = [ReShenViewController new];
+        ZReShenViewController *vc = [ZReShenViewController new];
         [self presentViewController:vc animated:YES completion:nil];
     } else if ([dictionary[@"key"] isEqualToString:@"fuwocheng"]) {
-        QiXieViewController *vc = [QiXieViewController new];
-        UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:vc];
-        [self presentViewController:navc animated:YES completion:nil];
+        FuWochengViewController *vc = [FuWochengViewController new];
+//        UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:vc];
+        [self presentViewController:vc animated:YES completion:nil];
     } else if ([dictionary[@"key"] isEqualToString:@"yintixiangshang"]) {
-        TabataViewController *vc = [TabataViewController new];
+        YintixiangshangViewController *vc = [YintixiangshangViewController new];
         [self presentViewController:vc animated:YES completion:nil];
     } else if ([dictionary[@"key"] isEqualToString:@"shendun"]) {
-        FuViewController *vc = [FuViewController new];
+        ShendunViewController *vc = [ShendunViewController new];
         [self presentViewController:vc animated:YES completion:nil];
     } else if ([dictionary[@"key"] isEqualToString:@"fu"]) {
-        FullStretchViewController *vc = [FullStretchViewController new];
+        FuViewController *vc = [FuViewController new];
         [self presentViewController:vc animated:YES completion:nil];
     } else if ([dictionary[@"key"] isEqualToString:@"lashen"]) {
-        PaoMoZhouViewController *vc = [PaoMoZhouViewController new];
+        FullStretchViewController *vc = [FullStretchViewController new];
         [self presentViewController:vc animated:YES completion:nil];
     } else if ([dictionary[@"key"] isEqualToString:@"paomozhou"]) {
         PaoMoZhouViewController *vc = [PaoMoZhouViewController new];
         [self presentViewController:vc animated:YES completion:nil];
+    } else if ([dictionary[@"key"] isEqualToString:@"tabata"]) {
+        TabataViewController *vc = [TabataViewController new];
+        [self presentViewController:vc animated:YES completion:nil];
+    } else if ([dictionary[@"key"] isEqualToString:@"zuihou"]) {
+        InsaView *view = [[InsaView alloc] init];
+//        self.view modal
     }
 }
 

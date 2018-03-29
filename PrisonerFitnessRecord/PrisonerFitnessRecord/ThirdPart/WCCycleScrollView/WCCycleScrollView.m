@@ -201,7 +201,11 @@
     WCCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"WCCollectionViewCell" forIndexPath:indexPath];
     NSInteger index = [self pageControlIndexWithCurrentCellIndex:indexPath.item];
     NSString *imagePath = self.imageURLStringGroup[index];
-    [cell.imageView setImage:[UIImage sd_animatedGIFNamed:imagePath]];
+    if (!self.isGif) {
+        [cell.imageView setImage:[UIImage imageNamed:imagePath]];
+    } else {
+        [cell.imageView setImage:[UIImage sd_animatedGIFNamed:imagePath]];
+    }
     if (self.titleGroup.count && index < self.titleGroup.count) {
         cell.title = self.titleGroup[index];
     }

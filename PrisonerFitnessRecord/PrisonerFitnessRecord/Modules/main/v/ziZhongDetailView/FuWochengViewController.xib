@@ -10,8 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZReShenViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FuWochengViewController">
             <connections>
+                <outlet property="label" destination="354-Wj-Wpy" id="ENs-7P-bsg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,19 +21,19 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjA-Vr-Lfs">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qib-Qx-LVQ">
                     <rect key="frame" x="295" y="40" width="60" height="60"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="60" id="4KP-gt-7yd"/>
-                        <constraint firstAttribute="width" constant="60" id="HE6-dp-ikE"/>
+                        <constraint firstAttribute="width" constant="60" id="XAa-mS-TxX"/>
+                        <constraint firstAttribute="height" constant="60" id="qAq-Un-1Gy"/>
                     </constraints>
                     <state key="normal" title="取消"/>
                     <connections>
-                        <action selector="cancel:" destination="-1" eventType="touchUpInside" id="H5X-pd-MaB"/>
+                        <action selector="cancel:" destination="-1" eventType="touchUpInside" id="Tmg-Ba-r5T"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开合跳50次，一组轻重量的目标肌肉动作" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vge-vv-MWh">
-                    <rect key="frame" x="20" y="519" width="335" height="18"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="挑选了三个动作，根据自己的能力选择合适的一个动作，4组，每组15次。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="354-Wj-Wpy">
+                    <rect key="frame" x="20" y="630" width="335" height="36"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -40,11 +41,11 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="vge-vv-MWh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="4MI-f6-b8m"/>
-                <constraint firstItem="DjA-Vr-Lfs" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="C8Q-IQ-Iyg"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="vge-vv-MWh" secondAttribute="bottom" constant="130" id="Egn-4J-nYO"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="DjA-Vr-Lfs" secondAttribute="trailing" constant="20" id="sxP-Le-sgx"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="vge-vv-MWh" secondAttribute="trailing" constant="20" id="y69-aD-bmt"/>
+                <constraint firstItem="354-Wj-Wpy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="3kS-16-e1s"/>
+                <constraint firstItem="354-Wj-Wpy" firstAttribute="top" secondItem="qib-Qx-LVQ" secondAttribute="bottom" constant="530" id="ICB-6G-lhu"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="qib-Qx-LVQ" secondAttribute="trailing" constant="20" id="Phh-Un-uPW"/>
+                <constraint firstItem="qib-Qx-LVQ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="THb-nc-mfE"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="354-Wj-Wpy" secondAttribute="trailing" constant="20" id="fWj-ah-yFq"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
         </view>
