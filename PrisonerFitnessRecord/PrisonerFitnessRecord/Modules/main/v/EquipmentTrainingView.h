@@ -10,6 +10,4 @@
 
 @interface EquipmentTrainingView : UIView
 
-
-
 @end

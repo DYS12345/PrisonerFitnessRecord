@@ -22,7 +22,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="SXr-9m-WeQ">
-                    <rect key="frame" x="0.0" y="90" width="375" height="577"/>
+                    <rect key="frame" x="0.0" y="60" width="375" height="607"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="lFo-XG-nX3"/>
@@ -30,7 +30,7 @@
                     </connections>
                 </tableView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHP-BK-3zD">
-                    <rect key="frame" x="295" y="40" width="60" height="60"/>
+                    <rect key="frame" x="299" y="13" width="60" height="60"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="XOT-kk-aAD"/>
                         <constraint firstAttribute="width" constant="60" id="klJ-l7-nuX"/>
@@ -44,10 +44,10 @@
             <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="SXr-9m-WeQ" secondAttribute="bottom" id="8eq-Mu-1hw"/>
-                <constraint firstItem="AHP-BK-3zD" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="Bpc-oQ-loz"/>
+                <constraint firstItem="AHP-BK-3zD" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="-7" id="Bpc-oQ-loz"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="SXr-9m-WeQ" secondAttribute="trailing" id="LPl-Nf-2E0"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="AHP-BK-3zD" secondAttribute="trailing" constant="20" id="MyD-gQ-jrd"/>
-                <constraint firstItem="SXr-9m-WeQ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="70" id="aoh-SA-tGx"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="AHP-BK-3zD" secondAttribute="trailing" constant="16" id="MyD-gQ-jrd"/>
+                <constraint firstItem="SXr-9m-WeQ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="aoh-SA-tGx"/>
                 <constraint firstItem="SXr-9m-WeQ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="peS-a9-O3x"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>

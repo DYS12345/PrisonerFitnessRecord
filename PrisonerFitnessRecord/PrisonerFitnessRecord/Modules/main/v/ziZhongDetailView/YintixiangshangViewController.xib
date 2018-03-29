@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZ6-SS-Axc">
-                    <rect key="frame" x="295" y="40" width="60" height="60"/>
+                    <rect key="frame" x="295" y="30" width="60" height="60"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="htl-fw-v1g"/>
                         <constraint firstAttribute="width" constant="60" id="jv1-ob-rh1"/>
@@ -32,7 +32,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="挑选了三个动作，根据自己的能力选择合适的一个动作，4组，每组8次。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngf-GB-MGl">
-                    <rect key="frame" x="20" y="630" width="335" height="36"/>
+                    <rect key="frame" x="20" y="595" width="335" height="36"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -40,10 +40,10 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="kZ6-SS-Axc" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="1cc-kO-03e"/>
+                <constraint firstItem="kZ6-SS-Axc" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="10" id="1cc-kO-03e"/>
                 <constraint firstItem="ngf-GB-MGl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="2YJ-jk-lDP"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="kZ6-SS-Axc" secondAttribute="trailing" constant="20" id="6Hh-EA-1Jg"/>
-                <constraint firstItem="ngf-GB-MGl" firstAttribute="top" secondItem="kZ6-SS-Axc" secondAttribute="bottom" constant="530" id="bfF-47-luo"/>
+                <constraint firstItem="ngf-GB-MGl" firstAttribute="top" secondItem="kZ6-SS-Axc" secondAttribute="bottom" constant="505" id="bfF-47-luo"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="ngf-GB-MGl" secondAttribute="trailing" constant="20" id="gJ1-u7-eGC"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>

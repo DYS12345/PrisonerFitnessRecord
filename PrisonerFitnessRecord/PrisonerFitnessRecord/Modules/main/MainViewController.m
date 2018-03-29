@@ -26,6 +26,8 @@
 @interface MainViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) InsaView *insView;
+@property (assign, nonatomic) BOOL is_first;
 
 @end
 
@@ -33,6 +35,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -43,6 +46,7 @@
     self.tableView.rowHeight = SCREEN_HEIGHT;
     
     self.tableView.pagingEnabled = YES;
+    self.is_first = YES;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(isLogOutSuccess:)  name:@"isLogOutSuccess" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(selftrain:)  name:@"selftrain" object:nil];
@@ -104,9 +108,26 @@
         TabataViewController *vc = [TabataViewController new];
         [self presentViewController:vc animated:YES completion:nil];
     } else if ([dictionary[@"key"] isEqualToString:@"zuihou"]) {
-        InsaView *view = [[InsaView alloc] init];
-//        self.view modal
+        self.is_first = !self.is_first;
+        if (!self.is_first) {
+            [UIView animateWithDuration:0.4 animations:^{
+                self.insView.frame = CGRectMake(0, SCREEN_HEIGHT/2-(SCREEN_WIDTH+300)/2, SCREEN_WIDTH, SCREEN_HEIGHT-100);
+            }];
+        } else {
+            [UIView animateWithDuration:0.4 animations:^{
+                self.insView.frame = CGRectMake(SCREEN_WIDTH/2-100, -500, 200, 200);
+            }];
+        }
     }
+}
+
+-(InsaView *)insView{
+    if (!_insView) {
+        _insView = [[InsaView alloc] init];
+        [self.view addSubview:_insView];
+        _insView.frame = CGRectMake(0, -500, 200, 200);
+    }
+    return _insView;
 }
 
 -(void)dealloc {
