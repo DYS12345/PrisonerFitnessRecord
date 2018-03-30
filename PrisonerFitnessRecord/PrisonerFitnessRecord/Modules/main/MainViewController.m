@@ -28,6 +28,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) InsaView *insView;
 @property (assign, nonatomic) BOOL is_first;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *toplayOut;
 
 @end
 
@@ -35,6 +36,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString *version = [UIDevice currentDevice].systemVersion;
+    if (version.doubleValue >= 11.0) {
+        self.toplayOut.constant = -20;
+    } else{
+        self.toplayOut.constant = 0;
+    }
+    
     self.automaticallyAdjustsScrollViewInsets = NO;
     
     self.tableView.delegate = self;

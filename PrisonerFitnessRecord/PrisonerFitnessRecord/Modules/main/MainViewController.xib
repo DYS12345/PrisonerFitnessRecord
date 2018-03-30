@@ -13,6 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
                 <outlet property="tableView" destination="D7N-dX-6rF" id="ajA-1F-hIL"/>
+                <outlet property="toplayOut" destination="w6P-55-mPY" id="MSl-bX-eZq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
