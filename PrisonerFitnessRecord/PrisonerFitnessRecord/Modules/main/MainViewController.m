@@ -121,10 +121,12 @@
         if (!self.is_first) {
             [UIView animateWithDuration:0.4 animations:^{
                 self.insView.frame = CGRectMake(0, SCREEN_HEIGHT/2-(SCREEN_WIDTH+300)/2, SCREEN_WIDTH, SCREEN_HEIGHT-100);
+                self.insView.hidden = NO;
             }];
         } else {
             [UIView animateWithDuration:0.4 animations:^{
-                self.insView.frame = CGRectMake(SCREEN_WIDTH/2-100, -500, 200, 200);
+                self.insView.frame = CGRectMake(0, SCREEN_HEIGHT/2-(SCREEN_WIDTH+300)/2, 50*SCREEN_WIDTH, 50*SCREEN_HEIGHT);
+                self.insView.hidden = YES;
             }];
         }
     }
@@ -134,7 +136,8 @@
     if (!_insView) {
         _insView = [[InsaView alloc] init];
         [self.view addSubview:_insView];
-        _insView.frame = CGRectMake(0, -500, 200, 200);
+        self.insView.hidden = YES;
+        _insView.frame = CGRectMake(SCREEN_WIDTH/2-100, -500, 200, 200);
     }
     return _insView;
 }
